@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Conversion-Focused Web Design — CRO &amp; UX | Vora</title>
+  <meta name="description" content="Vora designs websites and landing pages engineered to convert paid traffic into revenue. CRO-first design process, A/B testing, and measurable CVR improvements. New York." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://vora.agency/services/web-design.html" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://vora.agency/services/web-design.html" />
+  <meta property="og:title" content="Conversion-Focused Web Design — CRO &amp; UX | Vora" />
+  <meta property="og:description" content="Web design built around conversion rate optimization. Vora designs sites and landing pages that maximize ROAS from your paid traffic. CRO-first, data-backed design." />
+  <meta property="og:image" content="https://vora.agency/og-image.jpg" />
+  <meta property="og:locale" content="en_US" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="CRO Web Design | Vora Agency NYC" />
+  <meta name="twitter:description" content="Websites designed to convert paid traffic into revenue. CRO-first design from Vora Agency." />
+  <meta name="twitter:image" content="https://vora.agency/og-image.jpg" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Service",
+        "name": "CRO-Focused Web Design",
+        "provider": {"@type": "MarketingAgency", "name": "Vora", "url": "https://vora.agency", "address": {"@type": "PostalAddress", "addressLocality": "New York", "addressRegion": "NY", "addressCountry": "US"}},
+        "description": "Conversion rate optimization-first web design. Every page is engineered to maximize revenue from paid traffic through data-backed UX, A/B testing, and performance-focused development.",
+        "areaServed": {"@type": "Country", "name": "US"}
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://vora.agency/"},
+          {"@type": "ListItem", "position": 2, "name": "Services", "item": "https://vora.agency/services.html"},
+          {"@type": "ListItem", "position": 3, "name": "Web Design & CRO", "item": "https://vora.agency/services/web-design.html"}
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {"@type": "Question", "name": "What makes Vora's web design different from typical agencies?", "acceptedAnswer": {"@type": "Answer", "text": "We design with conversion rate as the primary metric, not aesthetics. Every design decision — headline placement, CTA color, form length, page structure — is made based on CRO data and A/B test results. We don't design beautiful websites that don't convert; we design websites that are both effective and visually compelling."}},
+          {"@type": "Question", "name": "Do you build landing pages specifically for paid traffic?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. This is a core service. We build dedicated landing pages for Google Ads, Meta Ads, and other paid channels — separate from your main website. These pages have no navigation distractions, message-match to the ad creative, and are A/B tested from day one to continuously improve CVR."}},
+          {"@type": "Question", "name": "How do you measure CRO success?", "acceptedAnswer": {"@type": "Answer", "text": "We measure conversion rate by page, revenue per visitor, form completion rate, checkout abandonment rate, and the resulting impact on ROAS for paid traffic channels. We connect design changes to downstream revenue outcomes — not just engagement metrics like bounce rate."}},
+          {"@type": "Question", "name": "What CMS or platform do you build on?", "acceptedAnswer": {"@type": "Answer", "text": "We build on WordPress, Webflow, Shopify, and custom HTML/CSS/JS depending on your requirements. For landing pages, we often use Webflow or custom builds for maximum load speed and A/B testing flexibility. We recommend platforms based on your team's ability to manage content post-launch."}},
+          {"@type": "Question", "name": "How long does a web design project take?", "acceptedAnswer": {"@type": "Answer", "text": "A single high-performance landing page takes 2–3 weeks from brief to launch. A full website with 5–10 core pages takes 6–10 weeks. Larger eCommerce builds with custom features typically take 12–16 weeks. All timelines include A/B testing setup and conversion tracking integration."}}
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    :root { --primary: #6C47FF; --dark: #0F0F1A; --bg: #FFFFFF; --bg-soft: #F5F3FF; --text: #1A1A2E; --accent: #FF4081; --font-heading: 'Space Grotesk', sans-serif; --font-body: 'Inter', sans-serif; --radius: 8px; --max-w: 1160px; --transition: 0.3s cubic-bezier(0.4,0,0.2,1); }
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; font-size: 16px; -webkit-font-smoothing: antialiased; }
+    body { font-family: var(--font-body); background: var(--bg); color: var(--text); overflow-x: hidden; }
+    a { color: inherit; text-decoration: none; }
+    .navbar { position: fixed; top: 0; left: 0; right: 0; z-index: 500; display: flex; align-items: center; justify-content: space-between; padding: 1.25rem 3rem; transition: background var(--transition), padding var(--transition); }
+    .navbar.scrolled { background: rgba(255,255,255,0.97); backdrop-filter: blur(12px); padding: 0.85rem 3rem; box-shadow: 0 1px 0 rgba(108,71,255,0.1); }
+    .navbar__logo { font-family: var(--font-heading); font-size: 1.6rem; font-weight: 700; color: var(--dark); letter-spacing: -0.02em; }
+    .navbar__logo span { color: var(--primary); }
+    .navbar__links { display: flex; gap: 2rem; list-style: none; }
+    .navbar__links a { font-size: 0.875rem; font-weight: 500; color: var(--text); transition: color var(--transition); }
+    .navbar__links a:hover { color: var(--primary); }
+    .navbar__cta { font-size: 0.875rem; font-weight: 600; color: #fff; background: var(--primary); padding: 0.6rem 1.4rem; border-radius: var(--radius); transition: background var(--transition); }
+    .navbar__cta:hover { background: #5535e0; }
+    .navbar__menu-btn { display: none; background: none; border: none; cursor: pointer; flex-direction: column; gap: 5px; }
+    .navbar__menu-btn span { display: block; width: 24px; height: 2px; background: var(--dark); border-radius: 2px; }
+    .page-hero { padding: 9rem 3rem 5rem; background: var(--dark); position: relative; overflow: hidden; }
+    .page-hero::before { content: ''; position: absolute; top: -300px; right: -200px; width: 800px; height: 800px; border-radius: 50%; background: radial-gradient(circle, rgba(108,71,255,0.2) 0%, transparent 70%); pointer-events: none; }
+    .page-hero__inner { max-width: var(--max-w); margin: 0 auto; position: relative; z-index: 1; }
+    .breadcrumb { display: flex; gap: 0.5rem; align-items: center; margin-bottom: 2rem; flex-wrap: wrap; }
+    .breadcrumb a, .breadcrumb span { font-size: 0.8rem; color: rgba(255,255,255,0.5); }
+    .breadcrumb a:hover { color: var(--primary); }
+    .breadcrumb .sep { color: rgba(255,255,255,0.3); }
+    .breadcrumb .current { color: rgba(255,255,255,0.8); }
+    .hero-tag { display: inline-block; background: rgba(108,71,255,0.3); color: #a78bff; font-size: 0.75rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; padding: 0.35rem 0.9rem; border-radius: 20px; margin-bottom: 1.25rem; }
+    .page-hero h1 { font-family: var(--font-heading); font-size: clamp(2.2rem, 4vw, 3.5rem); font-weight: 700; color: #fff; letter-spacing: -0.03em; line-height: 1.1; margin-bottom: 1.2rem; }
+    .page-hero h1 em { color: var(--primary); font-style: normal; }
+    .page-hero__sub { font-size: 1.1rem; color: rgba(255,255,255,0.65); max-width: 650px; line-height: 1.7; margin-bottom: 2rem; }
+    .hero-stats { display: flex; gap: 2.5rem; flex-wrap: wrap; }
+    .hero-stat strong { display: block; font-family: var(--font-heading); font-size: 1.8rem; font-weight: 700; color: #fff; }
+    .hero-stat span { font-size: 0.8rem; color: rgba(255,255,255,0.5); }
+    main { max-width: var(--max-w); margin: 0 auto; padding: 5rem 3rem; }
+    .section-label { font-size: 0.75rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: var(--primary); margin-bottom: 0.75rem; }
+    .section-heading { font-family: var(--font-heading); font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 700; letter-spacing: -0.03em; color: var(--dark); margin-bottom: 1rem; }
+    .section-body { font-size: 1rem; color: #555; line-height: 1.75; margin-bottom: 2.5rem; max-width: 700px; }
+    .services-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1.5rem; margin-bottom: 5rem; }
+    .service-card { padding: 2rem; border: 1.5px solid rgba(108,71,255,0.12); border-radius: 12px; transition: box-shadow var(--transition), transform var(--transition); }
+    .service-card:hover { box-shadow: 0 12px 40px rgba(108,71,255,0.12); transform: translateY(-3px); }
+    .service-icon { font-size: 1.75rem; margin-bottom: 1rem; }
+    .service-card h3 { font-family: var(--font-heading); font-weight: 600; font-size: 1.1rem; margin-bottom: 0.5rem; }
+    .service-card p { font-size: 0.875rem; color: #666; line-height: 1.6; }
+    .process-steps { display: flex; flex-direction: column; gap: 0; margin-bottom: 5rem; }
+    .process-step { display: grid; grid-template-columns: 60px 1fr; gap: 1.5rem; padding: 2rem 0; border-bottom: 1px solid rgba(108,71,255,0.08); align-items: start; }
+    .step-num { font-family: var(--font-heading); font-size: 2rem; font-weight: 700; color: var(--primary); opacity: 0.4; }
+    .step-content h3 { font-family: var(--font-heading); font-weight: 600; font-size: 1.15rem; margin-bottom: 0.5rem; }
+    .step-content p { font-size: 0.9rem; color: #555; line-height: 1.7; }
+    .faq-list { display: flex; flex-direction: column; gap: 0; margin-bottom: 5rem; }
+    .faq-item { border-bottom: 1px solid rgba(108,71,255,0.1); }
+    .faq-question { font-family: var(--font-heading); font-weight: 600; font-size: 1rem; padding: 1.25rem 0; cursor: pointer; display: flex; justify-content: space-between; align-items: center; gap: 1rem; }
+    .faq-question::after { content: '+'; font-size: 1.3rem; color: var(--primary); flex-shrink: 0; font-weight: 400; transition: transform var(--transition); }
+    .faq-item.open .faq-question::after { transform: rotate(45deg); }
+    .faq-answer { font-size: 0.95rem; line-height: 1.7; color: #555; max-height: 0; overflow: hidden; transition: max-height 0.4s ease, padding 0.3s ease; }
+    .faq-item.open .faq-answer { max-height: 400px; padding-bottom: 1.25rem; }
+    .cta-band { background: var(--primary); border-radius: 16px; padding: 4rem 3rem; text-align: center; margin-bottom: 4rem; }
+    .cta-band h2 { font-family: var(--font-heading); font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 700; color: #fff; letter-spacing: -0.02em; margin-bottom: 1rem; }
+    .cta-band p { color: rgba(255,255,255,0.75); font-size: 1rem; margin-bottom: 2rem; }
+    .btn-white { display: inline-block; background: #fff; color: var(--primary); font-weight: 700; font-size: 0.95rem; padding: 0.9rem 2rem; border-radius: var(--radius); transition: var(--transition); }
+    .btn-white:hover { background: var(--bg-soft); transform: translateY(-2px); }
+    footer { background: var(--dark); color: rgba(255,255,255,0.55); padding: 3rem; }
+    .footer-inner { max-width: var(--max-w); margin: 0 auto; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1.5rem; }
+    .footer-logo { font-family: var(--font-heading); font-size: 1.3rem; font-weight: 700; color: #fff; }
+    .footer-logo span { color: var(--primary); }
+    .footer-links { display: flex; gap: 1.5rem; flex-wrap: wrap; }
+    .footer-links a { font-size: 0.85rem; color: rgba(255,255,255,0.5); transition: color var(--transition); }
+    .footer-links a:hover { color: var(--primary); }
+    .footer-copy { font-size: 0.8rem; width: 100%; text-align: center; margin-top: 1.5rem; border-top: 1px solid rgba(255,255,255,0.08); padding-top: 1.5rem; }
+    @media (max-width: 768px) {
+      .navbar { padding: 1rem 1.5rem; } .navbar__links, .navbar__cta { display: none; } .navbar__menu-btn { display: flex; }
+      .page-hero { padding: 7rem 1.5rem 3rem; } main { padding: 3rem 1.5rem; }
+      .process-step { grid-template-columns: 40px 1fr; } .cta-band { padding: 2.5rem 1.5rem; } footer { padding: 2rem 1.5rem; }
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar" id="navbar">
+    <a href="https://vora.agency/" class="navbar__logo">Vor<span>a</span></a>
+    <ul class="navbar__links">
+      <li><a href="https://vora.agency/services.html">Services</a></li>
+      <li><a href="https://vora.agency/pricing.html">Pricing</a></li>
+      <li><a href="https://vora.agency/about.html">About</a></li>
+      <li><a href="https://vora.agency/contact.html">Contact</a></li>
+    </ul>
+    <a href="https://vora.agency/contact.html" class="navbar__cta">Get a Proposal</a>
+    <button class="navbar__menu-btn" aria-label="Menu"><span></span><span></span><span></span></button>
+  </nav>
+
+  <header class="page-hero">
+    <div class="page-hero__inner">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="https://vora.agency/">Home</a><span class="sep">›</span>
+        <a href="https://vora.agency/services.html">Services</a><span class="sep">›</span>
+        <span class="current">Web Design &amp; CRO</span>
+      </nav>
+      <span class="hero-tag">Conversion-Focused Design</span>
+      <h1>Web Design Engineered for <em>Conversion</em></h1>
+      <p class="page-hero__sub">A beautiful website that doesn't convert your paid traffic is an expensive piece of digital art. Vora designs websites and landing pages where every element — headline, CTA placement, form length, load speed — is optimized to maximize revenue from the traffic your ads are paying for.</p>
+      <div class="hero-stats">
+        <div class="hero-stat"><strong>47%</strong><span>Average CVR improvement on redesigned pages</span></div>
+        <div class="hero-stat"><strong>2–3 wks</strong><span>Landing page from brief to A/B test live</span></div>
+        <div class="hero-stat"><strong>CRO-first</strong><span>Every design decision is data-backed</span></div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <section style="margin-bottom:5rem;">
+      <p class="section-label">What We Design</p>
+      <h2 class="section-heading">Every Page Type Optimized to Convert</h2>
+      <p class="section-body">Vora doesn't design general websites. We design conversion infrastructure — the pages your ad traffic lands on, the checkout flows your customers move through, and the brand experience that builds trust while removing friction from the path to purchase.</p>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon">🎯</div>
+          <h3>PPC Landing Pages</h3>
+          <p>Dedicated landing pages for Google Ads and Meta Ads campaigns. Message-matched to your ad creative, stripped of navigation distractions, and A/B tested continuously for CVR. Average improvement: 47% higher conversion rate vs. homepage traffic.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">🏠</div>
+          <h3>Full Website Design</h3>
+          <p>End-to-end website design with CRO baked in from the information architecture stage. We map visitor intent across every page and design conversion pathways that guide different audience segments to their next action without friction.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">🛒</div>
+          <h3>eCommerce CRO</h3>
+          <p>Product page optimization, cart and checkout redesign, and post-purchase upsell architecture. We focus on reducing cart abandonment (industry avg: 70%) and increasing average order value through data-backed UX improvements.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">📋</div>
+          <h3>Lead Generation Pages</h3>
+          <p>Multi-step forms, lead magnet landing pages, demo request pages, and webinar registration flows. Every element tested to maximize form completion rate while maintaining lead quality for your sales team.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">🔬</div>
+          <h3>A/B Testing Program</h3>
+          <p>Systematic A/B testing of headlines, CTAs, social proof placement, page structure, and form design. We run at minimum 2–3 tests per month, with statistical significance requirements before declaring winners.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">⚡</div>
+          <h3>Core Web Vitals Optimization</h3>
+          <p>Page speed optimization targeting Core Web Vitals scores above 90 across mobile and desktop. A 1-second improvement in page load time increases conversion rates by 7% on average — we make every millisecond count.</p>
+        </div>
+      </div>
+    </section>
+
+    <section style="margin-bottom:5rem;">
+      <p class="section-label">CRO Design Process</p>
+      <h2 class="section-heading">Design Decisions Backed by Conversion Data</h2>
+      <p class="section-body">We don't make design decisions based on aesthetics or trends. Every layout choice, color decision, and CTA placement is made based on conversion research, heatmap data, and A/B test results from our portfolio.</p>
+      <div class="process-steps">
+        <div class="process-step">
+          <div class="step-num">01</div>
+          <div class="step-content">
+            <h3>Conversion Audit & Heatmap Analysis</h3>
+            <p>We start by auditing your existing pages — analyzing heatmaps, session recordings, form abandonment data, and conversion funnel drop-off points. This tells us exactly where visitors lose interest or abandon, which informs every design decision before we sketch a single wireframe.</p>
+          </div>
+        </div>
+        <div class="process-step">
+          <div class="step-num">02</div>
+          <div class="step-content">
+            <h3>CRO-Informed Wireframing</h3>
+            <p>Wireframes that map the psychological journey from first impression to conversion action. We establish hierarchy based on conversion priority, not brand aesthetics — the most important CTA gets the most prominent placement, above the fold, every time.</p>
+          </div>
+        </div>
+        <div class="process-step">
+          <div class="step-num">03</div>
+          <div class="step-content">
+            <h3>Design & Copy Development</h3>
+            <p>Visual design that reinforces conversion signals: trust indicators (testimonials, logos, guarantees) placed at friction points, CTA copy tested for action-orientation, and form design minimized to only the fields that are genuinely necessary for your sales process.</p>
+          </div>
+        </div>
+        <div class="process-step">
+          <div class="step-num">04</div>
+          <div class="step-content">
+            <h3>Development with Speed as a Metric</h3>
+            <p>We develop with Core Web Vitals as a hard requirement. Clean HTML/CSS, image optimization, lazy loading, and minimal third-party script loading. Target: LCP under 2.5 seconds, CLS under 0.1, FID under 100ms across all devices.</p>
+          </div>
+        </div>
+        <div class="process-step">
+          <div class="step-num">05</div>
+          <div class="step-content">
+            <h3>Live A/B Testing & CVR Improvement</h3>
+            <p>Post-launch, we immediately begin A/B testing the highest-impact page elements. Tests run until statistical significance (minimum 95% confidence, minimum 100 conversions per variant). Monthly CVR improvement reports tied directly to ROAS impact across your paid channels.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section style="margin-bottom:5rem;">
+      <p class="section-label">FAQ</p>
+      <h2 class="section-heading">Web Design &amp; CRO Questions Answered</h2>
+      <div class="faq-list">
+        <div class="faq-item"><div class="faq-question">What makes Vora's web design different from typical agencies?</div><div class="faq-answer">We design with conversion rate as the primary metric, not aesthetics. Every design decision — headline placement, CTA color, form length, page structure, trust signal positioning — is made based on CRO research and A/B test results from our portfolio. We don't produce beautiful websites that don't convert; we produce pages that are both visually compelling and measurably effective at turning traffic into revenue.</div></div>
+        <div class="faq-item"><div class="faq-question">Do you build landing pages specifically for paid traffic?</div><div class="faq-answer">Yes — this is a core service and one of our most direct paths to ROAS improvement. We build dedicated landing pages for Google Ads, Meta Ads, and other paid channels — completely separate from your main website navigation. These pages have message-match to the specific ad creative, zero navigation distractions, and are A/B tested from launch day to continuously improve CVR. Average improvement vs. sending paid traffic to a homepage: 47% higher conversion rate.</div></div>
+        <div class="faq-item"><div class="faq-question">How do you measure CRO success?</div><div class="faq-answer">We measure conversion rate by page, revenue per visitor, form completion rate, checkout abandonment rate, and the resulting downstream impact on ROAS for all paid traffic channels. We connect every design change to revenue outcomes, not just engagement metrics like time-on-page or bounce rate, which are poor proxies for conversion performance.</div></div>
+        <div class="faq-item"><div class="faq-question">What CMS or platform do you build on?</div><div class="faq-answer">We build on WordPress, Webflow, Shopify, and custom HTML/CSS/JS depending on your requirements. For dedicated paid traffic landing pages, we often recommend Webflow or custom builds for maximum load speed and A/B testing flexibility. For eCommerce, Shopify with custom theme development is our standard. We recommend platforms based on your team's ability to manage content post-launch without ongoing developer dependency.</div></div>
+        <div class="faq-item"><div class="faq-question">How long does a web design project take?</div><div class="faq-answer">A single high-performance landing page takes 2–3 weeks from brief to live with A/B testing configured. A full website with 5–10 core pages takes 6–10 weeks. Larger eCommerce builds with custom functionality typically take 12–16 weeks. All timelines include conversion tracking setup, Core Web Vitals optimization, and initial A/B test configuration — not just design delivery.</div></div>
+      </div>
+    </section>
+
+    <div class="cta-band">
+      <h2>Your Landing Pages Are Costing You ROAS</h2>
+      <p>Get a free CRO audit of your current pages. We'll identify the top 5 conversion killers and estimate the ROAS impact of fixing them before you spend another dollar on paid traffic.</p>
+      <a href="https://vora.agency/contact.html" class="btn-white">Get Free CRO Audit</a>
+    </div>
+
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-logo">Vor<span>a</span></div>
+      <nav class="footer-links">
+        <a href="https://vora.agency/services.html">Services</a>
+        <a href="https://vora.agency/pricing.html">Pricing</a>
+        <a href="https://vora.agency/about.html">About</a>
+        <a href="https://vora.agency/contact.html">Contact</a>
+        <a href="https://vora.agency/services/google-ads.html">Google Ads</a>
+        <a href="https://vora.agency/services/ppc.html">PPC</a>
+      </nav>
+      <div class="footer-copy">&copy; 2026 Vora Agency. All rights reserved. New York, NY</div>
+    </div>
+  </footer>
+
+  <script>
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', () => navbar.classList.toggle('scrolled', window.scrollY > 40));
+    document.querySelectorAll('.faq-question').forEach(q => {
+      q.addEventListener('click', () => {
+        const item = q.parentElement;
+        const wasOpen = item.classList.contains('open');
+        document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'));
+        if (!wasOpen) item.classList.add('open');
+      });
+    });
+  </script>
+</body>
+</html>

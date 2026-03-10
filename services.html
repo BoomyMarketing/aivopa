@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Performance Marketing Services | Vora Agency NYC</title>
+  <meta name="description" content="Vora offers 14 performance marketing services — Google Ads, Meta Ads, PPC, SEO, AI automations, and more. Average 4.2x ROAS. 300+ brands scaled. New York." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://vora.agency/services.html" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://vora.agency/services.html" />
+  <meta property="og:title" content="Performance Marketing Services | Vora Agency NYC" />
+  <meta property="og:description" content="14 performance marketing services built for measurable ROI. Google Ads, Meta Ads, PPC, SEO, AI, and more. Average 4.2x ROAS across client portfolio." />
+  <meta property="og:image" content="https://vora.agency/og-image.jpg" />
+  <meta property="og:locale" content="en_US" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Services | Vora NYC Performance Marketing" />
+  <meta name="twitter:description" content="14 performance services. 4.2x avg ROAS. Google Ads, Meta, PPC, SEO, AI." />
+  <meta name="twitter:image" content="https://vora.agency/og-image.jpg" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "MarketingAgency",
+        "name": "Vora",
+        "url": "https://vora.agency",
+        "address": {"@type": "PostalAddress", "addressLocality": "New York", "addressRegion": "NY", "addressCountry": "US"},
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Performance Marketing Services",
+          "itemListElement": [
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Google Ads Management"}},
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Meta Ads Management"}},
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "PPC Advertising"}},
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "SEO"}},
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "GEO / AI Search Optimization"}},
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "AI Automations"}},
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "AI Development"}},
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Web Design"}},
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "SaaS Products"}},
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Voice AI"}},
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Email Marketing"}},
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "AI Outbound"}},
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Social Media Management"}},
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Content Marketing"}}
+          ]
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://vora.agency/"},
+          {"@type": "ListItem", "position": 2, "name": "Services", "item": "https://vora.agency/services.html"}
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Inter:wght@300;400;500;600;700;900&display=swap" rel="stylesheet" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+
+  <style>
+    :root { --primary: #D2085C; --navy: #13023E; --text: #13023E; --bg: #FFFFFF; --accent: #F5F0FF; --font-heading: 'Berkshire Swash', serif; --font-body: 'Inter', sans-serif; --transition: 0.3s cubic-bezier(0.4,0,0.2,1); --row-transition: 0.55s cubic-bezier(0.76,0,0.24,1); }
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; font-size: 16px; -webkit-font-smoothing: antialiased; cursor: none; }
+    body { font-family: var(--font-body); background: var(--bg); color: var(--text); overflow-x: hidden; cursor: none; }
+    a { color: inherit; text-decoration: none; cursor: none; }
+    img, svg { display: block; max-width: 100%; }
+    #cursor { position: fixed; top: 0; left: 0; width: 20px; height: 20px; pointer-events: none; z-index: 9999; transform: translate(-50%,-50%); }
+    #cursor::before, #cursor::after { content: ''; position: absolute; background: var(--navy); transition: all 0.2s ease; }
+    #cursor::before { width: 20px; height: 2px; top: 50%; left: 0; transform: translateY(-50%); }
+    #cursor::after { width: 2px; height: 20px; left: 50%; top: 0; transform: translateX(-50%); }
+    #cursor.cursor-hover::before { width: 32px; height: 2.5px; left: -6px; background: var(--primary); }
+    #cursor.cursor-hover::after { height: 32px; width: 2.5px; top: -6px; background: var(--primary); }
+    #cursor-dot { position: fixed; top: 0; left: 0; width: 6px; height: 6px; background: var(--primary); border-radius: 50%; pointer-events: none; z-index: 10000; transform: translate(-50%,-50%); }
+    #scroll-progress { position: fixed; left: 0; top: 0; width: 3px; height: 0%; background: linear-gradient(to bottom, var(--primary), var(--navy)); z-index: 1000; }
+    .navbar { position: fixed; top: 0; left: 0; right: 0; z-index: 500; display: flex; align-items: center; justify-content: space-between; padding: 1.5rem 3rem; transition: background var(--transition), padding var(--transition); }
+    .navbar.scrolled { background: rgba(255,255,255,0.95); backdrop-filter: blur(12px); padding: 1rem 3rem; box-shadow: 0 1px 0 rgba(19,2,62,0.08); }
+    .navbar__logo { font-family: var(--font-heading); font-size: 1.5rem; color: var(--navy); }
+    .navbar__logo span { color: var(--primary); }
+    .navbar__links { display: flex; gap: 2.5rem; list-style: none; }
+    .navbar__links a { font-size: 0.85rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: var(--navy); position: relative; padding-bottom: 3px; }
+    .navbar__links a::after { content: ''; position: absolute; bottom: 0; left: 0; width: 0; height: 1.5px; background: var(--primary); transition: width 0.3s ease; }
+    .navbar__links a:hover::after { width: 100%; }
+    .navbar__cta { font-size: 0.8rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: #fff; background: var(--navy); padding: 0.65rem 1.4rem; border-radius: 2px; transition: background var(--transition); }
+    .navbar__cta:hover { background: var(--primary); }
+    .page-hero { padding: 10rem 3rem 5rem; background: var(--navy); position: relative; overflow: hidden; }
+    .page-hero::before { content: ''; position: absolute; top: -200px; right: -200px; width: 700px; height: 700px; border-radius: 50%; background: radial-gradient(circle, rgba(210,8,92,0.15) 0%, transparent 70%); pointer-events: none; }
+    .page-hero__inner { max-width: 1200px; margin: 0 auto; position: relative; z-index: 1; }
+    .page-hero__label { font-size: 0.7rem; font-weight: 700; letter-spacing: 0.25em; text-transform: uppercase; color: var(--primary); display: block; margin-bottom: 1.5rem; }
+    .page-hero__title { font-family: var(--font-heading); font-size: clamp(2.5rem, 6vw, 5rem); color: #fff; line-height: 1.05; margin-bottom: 1.5rem; }
+    .page-hero__sub { font-size: 1.1rem; color: rgba(255,255,255,0.6); max-width: 560px; line-height: 1.7; }
+    .services-section { padding: 6rem 0; }
+    .section-header { padding: 0 3rem; margin-bottom: 3rem; display: flex; align-items: baseline; gap: 1.5rem; }
+    .section-label { font-size: 0.7rem; font-weight: 700; letter-spacing: 0.25em; text-transform: uppercase; color: var(--primary); }
+    .section-title { font-family: var(--font-heading); font-size: clamp(1.8rem, 4vw, 3rem); color: var(--navy); line-height: 1.1; }
+    .service-row { display: flex; align-items: center; gap: 2rem; padding: 2.2rem 3rem; border-top: 1px solid rgba(19,2,62,0.08); position: relative; overflow: hidden; }
+    .service-row:last-child { border-bottom: 1px solid rgba(19,2,62,0.08); }
+    .service-row::before { content: ''; position: absolute; inset: 0; background: var(--primary); clip-path: inset(0 100% 0 0); transition: clip-path var(--row-transition); z-index: 0; }
+    .service-row:hover::before { clip-path: inset(0 0% 0 0); }
+    .service-row:hover .service-num, .service-row:hover .service-name, .service-row:hover .service-desc, .service-row:hover .service-tag { color: #fff; }
+    .service-row:hover .service-icon { transform: scale(1.3) rotate(8deg); color: rgba(255,255,255,0.9); }
+    .service-row:hover .service-arrow { transform: translateX(8px) rotate(-45deg); color: rgba(255,255,255,0.8); }
+    .service-row--right { flex-direction: row-reverse; text-align: right; }
+    .service-row--right .service-content { align-items: flex-end; }
+    .service-row > * { position: relative; z-index: 1; }
+    .service-num { font-family: var(--font-heading); font-size: 2.8rem; color: rgba(19,2,62,0.12); line-height: 1; min-width: 80px; transition: color var(--row-transition); flex-shrink: 0; }
+    .service-content { flex: 1; display: flex; flex-direction: column; gap: 0.4rem; }
+    .service-name { font-family: var(--font-heading); font-size: clamp(1.3rem, 3vw, 2.2rem); color: var(--navy); line-height: 1; transition: color var(--row-transition); }
+    .service-desc { font-size: 0.88rem; line-height: 1.6; color: rgba(19,2,62,0.55); max-width: 480px; transition: color var(--row-transition); }
+    .service-tag { display: inline-block; font-size: 0.65rem; font-weight: 700; letter-spacing: 0.18em; text-transform: uppercase; color: var(--primary); background: rgba(210,8,92,0.08); padding: 0.25rem 0.6rem; border-radius: 2px; margin-top: 0.3rem; width: fit-content; transition: color var(--row-transition), background var(--row-transition); }
+    .service-row:hover .service-tag { background: rgba(255,255,255,0.2); }
+    .service-icon { font-size: 2.2rem; transition: transform 0.35s cubic-bezier(0.34,1.56,0.64,1), color var(--row-transition); color: rgba(19,2,62,0.2); flex-shrink: 0; width: 60px; text-align: center; }
+    .service-arrow { font-size: 1.2rem; color: rgba(19,2,62,0.2); flex-shrink: 0; transition: transform 0.3s ease, color var(--row-transition); }
+    .svc-icon-svg { width: 2.2rem; height: 2.2rem; display: inline-block; }
+    .cta-band { padding: 6rem 3rem; background: var(--navy); text-align: center; position: relative; overflow: hidden; }
+    .cta-band::before { content: ''; position: absolute; top: -150px; left: 50%; transform: translateX(-50%); width: 600px; height: 600px; border-radius: 50%; background: radial-gradient(circle, rgba(210,8,92,0.1) 0%, transparent 70%); pointer-events: none; }
+    .cta-band__inner { position: relative; z-index: 1; max-width: 700px; margin: 0 auto; }
+    .cta-band__label { font-size: 0.7rem; font-weight: 700; letter-spacing: 0.25em; text-transform: uppercase; color: var(--primary); display: block; margin-bottom: 1.5rem; }
+    .cta-band__title { font-family: var(--font-heading); font-size: clamp(1.8rem, 4vw, 3rem); color: #fff; margin-bottom: 2rem; line-height: 1.2; }
+    .btn-primary { display: inline-flex; align-items: center; gap: 0.6rem; font-size: 0.85rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: #fff; background: var(--primary); padding: 1rem 2rem; border-radius: 2px; position: relative; overflow: hidden; transition: transform 0.2s; }
+    .btn-primary::before { content: ''; position: absolute; inset: 0; background: var(--navy); transform: translateX(-101%); transition: transform 0.35s cubic-bezier(0.76,0,0.24,1); }
+    .btn-primary:hover::before { transform: translateX(0); }
+    .btn-primary:hover { transform: translateY(-2px); }
+    .btn-primary span { position: relative; z-index: 1; }
+    .footer { background: #080016; padding: 2.5rem 3rem; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem; }
+    .footer__logo { font-family: var(--font-heading); font-size: 1.2rem; color: rgba(255,255,255,0.6); }
+    .footer__logo span { color: var(--primary); }
+    .footer__copy { font-size: 0.75rem; color: rgba(255,255,255,0.25); }
+    .footer__links { display: flex; gap: 1.5rem; list-style: none; }
+    .footer__links a { font-size: 0.75rem; color: rgba(255,255,255,0.35); transition: color 0.2s; }
+    .footer__links a:hover { color: var(--primary); }
+    @media (max-width: 768px) {
+      .navbar { padding: 1.2rem 1.5rem; } .navbar.scrolled { padding: 0.8rem 1.5rem; } .navbar__links { display: none; }
+      .page-hero { padding: 8rem 1.5rem 4rem; } .section-header { padding: 0 1.5rem; }
+      .service-row { padding: 1.8rem 1.5rem; flex-wrap: wrap; } .service-row--right { flex-direction: row; text-align: left; } .service-row--right .service-content { align-items: flex-start; }
+      .cta-band { padding: 4rem 1.5rem; } .footer { padding: 2rem 1.5rem; flex-direction: column; text-align: center; }
+    }
+  </style>
+</head>
+<body>
+  <div id="cursor" aria-hidden="true"></div>
+  <div id="cursor-dot" aria-hidden="true"></div>
+  <div id="scroll-progress" role="progressbar" aria-label="Page scroll progress"></div>
+
+  <header role="banner">
+    <nav class="navbar" id="navbar" aria-label="Main navigation">
+      <a href="/vora/" class="navbar__logo">Vora<span>.</span></a>
+      <ul class="navbar__links" role="list">
+        <li><a href="/vora/services.html">Services</a></li>
+        <li><a href="/vora/about.html">About</a></li>
+        <li><a href="/vora/pricing.html">Pricing</a></li>
+        <li><a href="/vora/contact.html">Contact</a></li>
+      </ul>
+      <a href="/vora/contact.html" class="navbar__cta">Get a Proposal</a>
+    </nav>
+  </header>
+
+  <main role="main">
+    <section class="page-hero" aria-label="Services hero">
+      <div class="page-hero__inner">
+        <span class="page-hero__label">What We Do</span>
+        <h1 class="page-hero__title">14 Services.<br />One Goal: Your ROAS.</h1>
+        <p class="page-hero__sub">Every service Vora offers is built around a single principle — measurable return. From Google Ads to AI automation, we only build systems that generate revenue you can track.</p>
+      </div>
+    </section>
+
+    <section class="services-section" id="services" aria-labelledby="services-heading">
+      <div class="section-header">
+        <span class="section-label">Performance First</span>
+        <h2 class="section-title" id="services-heading">All Services</h2>
+      </div>
+
+      <div class="services-list" role="list">
+        <article class="service-row" role="listitem">
+          <div class="service-num" aria-hidden="true">01</div>
+          <div class="service-content">
+            <a href="/vora/services/google-ads.html"><h3 class="service-name">Google Ads Management</h3></a>
+            <p class="service-desc">Search, Shopping, Performance Max, and Display campaigns architected for maximum ROAS. Average 4.2x return across our client portfolio. 38% lower CPCs through advanced bidding and quality score optimization.</p>
+            <span class="service-tag">Core Performance Service</span>
+          </div>
+          <div class="service-icon" aria-hidden="true">
+            <svg class="svc-icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+          </div>
+          <div class="service-arrow" aria-hidden="true">&#8599;</div>
+        </article>
+
+        <article class="service-row service-row--right" role="listitem">
+          <div class="service-num" aria-hidden="true">02</div>
+          <div class="service-content">
+            <a href="/vora/services/meta-ads.html"><h3 class="service-name">Meta Ads Management</h3></a>
+            <p class="service-desc">Facebook and Instagram ad campaigns built on audience intelligence, creative testing, and pixel-perfect attribution. We scale winning creatives and kill losers fast — no wasted budget.</p>
+            <span class="service-tag">Core Performance Service</span>
+          </div>
+          <div class="service-icon" aria-hidden="true">
+            <svg class="svc-icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="4"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          </div>
+          <div class="service-arrow" aria-hidden="true">&#8599;</div>
+        </article>
+
+        <article class="service-row" role="listitem">
+          <div class="service-num" aria-hidden="true">03</div>
+          <div class="service-content">
+            <a href="/vora/services/ppc.html"><h3 class="service-name">PPC Advertising</h3></a>
+            <p class="service-desc">Full-funnel pay-per-click strategy across Google, Bing, YouTube, and programmatic networks. We manage every dollar with aggressive bid optimization and conversion tracking that captures every touchpoint.</p>
+            <span class="service-tag">Core Performance Service</span>
+          </div>
+          <div class="service-icon" aria-hidden="true">
+            <svg class="svc-icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="16"/><line x1="8" y1="12" x2="16" y2="12"/></svg>
+          </div>
+          <div class="service-arrow" aria-hidden="true">&#8599;</div>
+        </article>
+
+        <article class="service-row service-row--right" role="listitem">
+          <div class="service-num" aria-hidden="true">04</div>
+          <div class="service-content">
+            <a href="/vora/services/seo.html"><h3 class="service-name">Search Engine Optimization</h3></a>
+            <p class="service-desc">Technical SEO, content strategy, and authority link building that drives compounding organic traffic. We treat SEO as a performance channel — every page optimized for conversion, not just rankings.</p>
+            <span class="service-tag">Organic Growth</span>
+          </div>
+          <div class="service-icon" aria-hidden="true">
+            <svg class="svc-icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+          </div>
+          <div class="service-arrow" aria-hidden="true">&#8599;</div>
+        </article>
+
+        <article class="service-row" role="listitem">
+          <div class="service-num" aria-hidden="true">05</div>
+          <div class="service-content">
+            <a href="/vora/services/geo.html"><h3 class="service-name">GEO / AI Search Optimization</h3></a>
+            <p class="service-desc">Optimize for AI-powered search experiences including Google SGE, ChatGPT, and Perplexity. We engineer your brand's presence in the next generation of search — where AI answers replace traditional blue links.</p>
+            <span class="service-tag">Next-Gen SEO</span>
+          </div>
+          <div class="service-icon" aria-hidden="true">
+            <svg class="svc-icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a10 10 0 0 1 10 10c0 5.52-4.48 10-10 10S2 17.52 2 12 6.48 2 12 2z"/><path d="M12 6v6l4 2"/></svg>
+          </div>
+          <div class="service-arrow" aria-hidden="true">&#8599;</div>
+        </article>
+
+        <article class="service-row service-row--right" role="listitem">
+          <div class="service-num" aria-hidden="true">06</div>
+          <div class="service-content">
+            <a href="/vora/services/email-marketing.html"><h3 class="service-name">Email Marketing</h3></a>
+            <p class="service-desc">Revenue-generating email programs with segmented flows, behavioral triggers, and split-tested subject lines. Our clients average $42 revenue per email subscriber annually through our retention-focused frameworks.</p>
+            <span class="service-tag">Retention &amp; Revenue</span>
+          </div>
+          <div class="service-icon" aria-hidden="true">
+            <svg class="svc-icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          </div>
+          <div class="service-arrow" aria-hidden="true">&#8599;</div>
+        </article>
+
+        <article class="service-row" role="listitem">
+          <div class="service-num" aria-hidden="true">07</div>
+          <div class="service-content">
+            <a href="/vora/services/ai-automations.html"><h3 class="service-name">AI Automations</h3></a>
+            <p class="service-desc">Custom AI workflows that automate lead qualification, bid management, reporting, and content production. Clients reduce manual marketing operations by 60%+ while improving campaign response times to near-real-time.</p>
+            <span class="service-tag">Marketing AI</span>
+          </div>
+          <div class="service-icon" aria-hidden="true">
+            <svg class="svc-icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+          </div>
+          <div class="service-arrow" aria-hidden="true">&#8599;</div>
+        </article>
+
+        <article class="service-row service-row--right" role="listitem">
+          <div class="service-num" aria-hidden="true">08</div>
+          <div class="service-content">
+            <a href="/vora/services/ai-outbound.html"><h3 class="service-name">AI Outbound</h3></a>
+            <p class="service-desc">AI-powered outbound sales systems with personalized email sequences, LinkedIn automation, and lead scoring. We build outbound engines that generate qualified pipeline at a fraction of traditional SDR costs.</p>
+            <span class="service-tag">Pipeline Generation</span>
+          </div>
+          <div class="service-icon" aria-hidden="true">
+            <svg class="svc-icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+          </div>
+          <div class="service-arrow" aria-hidden="true">&#8599;</div>
+        </article>
+
+        <article class="service-row" role="listitem">
+          <div class="service-num" aria-hidden="true">09</div>
+          <div class="service-content">
+            <a href="/vora/services/ai-development.html"><h3 class="service-name">AI Development</h3></a>
+            <p class="service-desc">Custom AI tools, chatbots, and internal applications built for marketing and sales teams. From dynamic ad copy generators to real-time bid recommendation engines — we build the AI layer your growth stack is missing.</p>
+            <span class="service-tag">Custom AI Builds</span>
+          </div>
+          <div class="service-icon" aria-hidden="true">
+            <svg class="svc-icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+          </div>
+          <div class="service-arrow" aria-hidden="true">&#8599;</div>
+        </article>
+
+        <article class="service-row service-row--right" role="listitem">
+          <div class="service-num" aria-hidden="true">10</div>
+          <div class="service-content">
+            <a href="/vora/services/voice-ai.html"><h3 class="service-name">Voice AI</h3></a>
+            <p class="service-desc">AI-powered voice agents for inbound lead qualification, appointment setting, and customer follow-up. Replace manual phone outreach with intelligent voice AI that converts at 3x the rate of email alone.</p>
+            <span class="service-tag">Conversational AI</span>
+          </div>
+          <div class="service-icon" aria-hidden="true">
+            <svg class="svc-icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="23"/><line x1="8" y1="23" x2="16" y2="23"/></svg>
+          </div>
+          <div class="service-arrow" aria-hidden="true">&#8599;</div>
+        </article>
+
+        <article class="service-row" role="listitem">
+          <div class="service-num" aria-hidden="true">11</div>
+          <div class="service-content">
+            <a href="/vora/services/web-design.html"><h3 class="service-name">Web Design &amp; CRO</h3></a>
+            <p class="service-desc">Conversion-engineered landing pages and websites that turn your paid traffic into revenue. We A/B test every element — headlines, CTAs, layouts — to maximize the value of every click you pay for.</p>
+            <span class="service-tag">Conversion Optimization</span>
+          </div>
+          <div class="service-icon" aria-hidden="true">
+            <svg class="svc-icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+          </div>
+          <div class="service-arrow" aria-hidden="true">&#8599;</div>
+        </article>
+
+        <article class="service-row service-row--right" role="listitem">
+          <div class="service-num" aria-hidden="true">12</div>
+          <div class="service-content">
+            <a href="/vora/services/saas-products.html"><h3 class="service-name">SaaS Products</h3></a>
+            <p class="service-desc">Growth marketing for SaaS companies — trial-to-paid conversion optimization, activation email sequences, churn reduction campaigns, and paid acquisition funnels built for high-LTV software businesses.</p>
+            <span class="service-tag">SaaS Growth</span>
+          </div>
+          <div class="service-icon" aria-hidden="true">
+            <svg class="svc-icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"/></svg>
+          </div>
+          <div class="service-arrow" aria-hidden="true">&#8599;</div>
+        </article>
+
+        <article class="service-row" role="listitem">
+          <div class="service-num" aria-hidden="true">13</div>
+          <div class="service-content">
+            <a href="/vora/services/social-media.html"><h3 class="service-name">Social Media Management</h3></a>
+            <p class="service-desc">Organic social strategy designed to amplify your paid campaigns and build retargeting audiences. We create scroll-stopping content that seeds the funnel your ads can harvest.</p>
+            <span class="service-tag">Organic Social</span>
+          </div>
+          <div class="service-icon" aria-hidden="true">
+            <svg class="svc-icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+          </div>
+          <div class="service-arrow" aria-hidden="true">&#8599;</div>
+        </article>
+
+        <article class="service-row service-row--right" role="listitem">
+          <div class="service-num" aria-hidden="true">14</div>
+          <div class="service-content">
+            <a href="/vora/services/content-marketing.html"><h3 class="service-name">Content Marketing</h3></a>
+            <p class="service-desc">High-intent content that attracts buyers at every stage of the funnel. Blog strategy, landing page copy, video scripts, and sales enablement content — all optimized for SEO and conversion simultaneously.</p>
+            <span class="service-tag">Content &amp; Conversion</span>
+          </div>
+          <div class="service-icon" aria-hidden="true">
+            <svg class="svc-icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14,2 14,8 20,8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+          </div>
+          <div class="service-arrow" aria-hidden="true">&#8599;</div>
+        </article>
+      </div>
+    </section>
+
+    <section class="cta-band" aria-labelledby="cta-heading">
+      <div class="cta-band__inner">
+        <span class="cta-band__label">Start Today</span>
+        <h2 class="cta-band__title" id="cta-heading">Let's Build Your Growth Engine</h2>
+        <a href="/vora/contact.html" class="btn-primary"><span>Get a Free Proposal</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" role="contentinfo">
+    <div class="footer__logo">Vora<span>.</span></div>
+    <p class="footer__copy">&copy; 2026 Vora Agency. New York, NY. All rights reserved.</p>
+    <ul class="footer__links" role="list">
+      <li><a href="/vora/">Home</a></li>
+      <li><a href="/vora/about.html">About</a></li>
+      <li><a href="/vora/contact.html">Contact</a></li>
+      <li><a href="#" aria-label="Privacy Policy">Privacy</a></li>
+    </ul>
+  </footer>
+
+  <script>
+  (function () {
+    'use strict';
+    var cursor = document.querySelector('#cursor'), cursorDot = document.querySelector('#cursor-dot');
+    var cursorX = -100, cursorY = -100, dotX = -100, dotY = -100;
+    document.addEventListener('mousemove', function (e) { cursorX = e.clientX; cursorY = e.clientY; });
+    function animateCursor() {
+      dotX += (cursorX - dotX) * 0.92; dotY += (cursorY - dotY) * 0.92;
+      cursor.style.left = cursorX + 'px'; cursor.style.top = cursorY + 'px';
+      cursorDot.style.left = dotX + 'px'; cursorDot.style.top = dotY + 'px';
+      requestAnimationFrame(animateCursor);
+    }
+    animateCursor();
+    var hoverSel = 'a, button, .service-row';
+    document.addEventListener('mouseover', function (e) { if (e.target.closest && e.target.closest(hoverSel)) cursor.classList.add('cursor-hover'); });
+    document.addEventListener('mouseout', function (e) { if (e.target.closest && e.target.closest(hoverSel)) cursor.classList.remove('cursor-hover'); });
+    var progressBar = document.querySelector('#scroll-progress');
+    window.addEventListener('scroll', function () {
+      var s = document.documentElement.scrollTop || document.body.scrollTop;
+      var h = document.documentElement.scrollHeight - window.innerHeight;
+      progressBar.style.height = (h > 0 ? (s / h) * 100 : 0) + '%';
+    }, { passive: true });
+    var navbar = document.querySelector('#navbar');
+    window.addEventListener('scroll', function () { navbar.classList.toggle('scrolled', window.scrollY > 80); }, { passive: true });
+    gsap.registerPlugin(ScrollTrigger);
+    gsap.utils.toArray('.service-row').forEach(function (row) {
+      gsap.from(row, { opacity: 0, x: -30, duration: 0.6, ease: 'power3.out', scrollTrigger: { trigger: row, start: 'top 85%' } });
+    });
+  })();
+  </script>
+</body>
+</html>

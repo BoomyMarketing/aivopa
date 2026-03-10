@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Vora — Performance Marketing Agency New York</title>
+  <meta name="description" content="Vora is a New York performance marketing agency obsessed with ROAS and measurable results. Meet the team managing $100M+ in ad spend for 300+ brands." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://vora.agency/about.html" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://vora.agency/about.html" />
+  <meta property="og:title" content="About Vora — Performance Marketing Agency New York" />
+  <meta property="og:description" content="Meet the team behind $100M+ in managed ad spend. ROAS-obsessed, data-first, results-only performance marketing from New York." />
+  <meta property="og:image" content="https://vora.agency/og-image.jpg" />
+  <meta property="og:locale" content="en_US" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="About Vora — NYC Performance Marketing" />
+  <meta name="twitter:description" content="ROAS-obsessed team. $100M+ ad spend managed. 300+ brands scaled." />
+  <meta name="twitter:image" content="https://vora.agency/og-image.jpg" />
+
+  <!-- JSON-LD Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "MarketingAgency",
+        "name": "Vora",
+        "url": "https://vora.agency",
+        "logo": "https://vora.agency/logo.png",
+        "description": "New York performance marketing agency specializing in Google Ads, Meta Ads, PPC, and data-driven growth campaigns.",
+        "foundingDate": "2020",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "New York",
+          "addressRegion": "NY",
+          "addressCountry": "US"
+        },
+        "areaServed": ["New York", "United States"],
+        "employee": [
+          {"@type": "Person", "name": "Alex V.", "jobTitle": "CEO"},
+          {"@type": "Person", "name": "Chris D.", "jobTitle": "Head of Paid Media"},
+          {"@type": "Person", "name": "Taylor S.", "jobTitle": "Google Ads Lead"},
+          {"@type": "Person", "name": "Morgan K.", "jobTitle": "Analytics Lead"}
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://vora.agency/"},
+          {"@type": "ListItem", "position": 2, "name": "About", "item": "https://vora.agency/about.html"}
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Inter:wght@300;400;500;600;700;900&display=swap" rel="stylesheet" />
+
+  <!-- GSAP CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+
+  <style>
+    :root {
+      --primary: #D2085C;
+      --navy: #13023E;
+      --text: #13023E;
+      --bg: #FFFFFF;
+      --accent: #F5F0FF;
+      --gray-light: #f0eef8;
+      --gray-mid: #9b97aa;
+      --font-heading: 'Berkshire Swash', serif;
+      --font-body: 'Inter', sans-serif;
+      --transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      --row-transition: 0.55s cubic-bezier(0.76, 0, 0.24, 1);
+    }
+
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; font-size: 16px; -webkit-font-smoothing: antialiased; cursor: none; }
+    body { font-family: var(--font-body); background: var(--bg); color: var(--text); overflow-x: hidden; cursor: none; }
+    a { color: inherit; text-decoration: none; cursor: none; }
+    img, svg { display: block; max-width: 100%; }
+
+    /* CURSOR */
+    #cursor { position: fixed; top: 0; left: 0; width: 20px; height: 20px; pointer-events: none; z-index: 9999; transform: translate(-50%, -50%); }
+    #cursor::before, #cursor::after { content: ''; position: absolute; background: var(--navy); transition: all 0.2s ease; }
+    #cursor::before { width: 20px; height: 2px; top: 50%; left: 0; transform: translateY(-50%); }
+    #cursor::after { width: 2px; height: 20px; left: 50%; top: 0; transform: translateX(-50%); }
+    #cursor.cursor-hover::before { width: 32px; height: 2.5px; left: -6px; background: var(--primary); }
+    #cursor.cursor-hover::after { height: 32px; width: 2.5px; top: -6px; background: var(--primary); }
+    #cursor-dot { position: fixed; top: 0; left: 0; width: 6px; height: 6px; background: var(--primary); border-radius: 50%; pointer-events: none; z-index: 10000; transform: translate(-50%, -50%); }
+
+    /* SCROLL PROGRESS */
+    #scroll-progress { position: fixed; left: 0; top: 0; width: 3px; height: 0%; background: linear-gradient(to bottom, var(--primary), var(--navy)); z-index: 1000; }
+
+    /* NAVBAR */
+    .navbar { position: fixed; top: 0; left: 0; right: 0; z-index: 500; display: flex; align-items: center; justify-content: space-between; padding: 1.5rem 3rem; transition: background var(--transition), padding var(--transition); }
+    .navbar.scrolled { background: rgba(255,255,255,0.95); backdrop-filter: blur(12px); padding: 1rem 3rem; box-shadow: 0 1px 0 rgba(19,2,62,0.08); }
+    .navbar__logo { font-family: var(--font-heading); font-size: 1.5rem; color: var(--navy); letter-spacing: -0.02em; }
+    .navbar__logo span { color: var(--primary); }
+    .navbar__links { display: flex; gap: 2.5rem; list-style: none; }
+    .navbar__links a { font-size: 0.85rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: var(--navy); position: relative; padding-bottom: 3px; }
+    .navbar__links a::after { content: ''; position: absolute; bottom: 0; left: 0; width: 0; height: 1.5px; background: var(--primary); transition: width 0.3s ease; }
+    .navbar__links a:hover::after { width: 100%; }
+    .navbar__cta { font-size: 0.8rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: var(--bg); background: var(--navy); padding: 0.65rem 1.4rem; border-radius: 2px; transition: background var(--transition); }
+    .navbar__cta:hover { background: var(--primary); }
+
+    /* PAGE HERO */
+    .page-hero { padding: 10rem 3rem 6rem; background: var(--navy); position: relative; overflow: hidden; }
+    .page-hero::before { content: ''; position: absolute; top: -200px; right: -200px; width: 700px; height: 700px; border-radius: 50%; background: radial-gradient(circle, rgba(210,8,92,0.15) 0%, transparent 70%); pointer-events: none; }
+    .page-hero__inner { max-width: 1200px; margin: 0 auto; position: relative; z-index: 1; }
+    .page-hero__label { font-size: 0.7rem; font-weight: 700; letter-spacing: 0.25em; text-transform: uppercase; color: var(--primary); display: block; margin-bottom: 1.5rem; }
+    .page-hero__title { font-family: var(--font-heading); font-size: clamp(2.5rem, 6vw, 5rem); color: #fff; line-height: 1.05; margin-bottom: 1.5rem; }
+    .page-hero__sub { font-size: 1.1rem; color: rgba(255,255,255,0.6); max-width: 560px; line-height: 1.7; }
+
+    /* SECTIONS */
+    .section { padding: 6rem 3rem; }
+    .section--accent { background: var(--accent); }
+    .section__inner { max-width: 1200px; margin: 0 auto; }
+    .section-label { font-size: 0.7rem; font-weight: 700; letter-spacing: 0.25em; text-transform: uppercase; color: var(--primary); display: block; margin-bottom: 1rem; }
+    .section-title { font-family: var(--font-heading); font-size: clamp(1.8rem, 4vw, 3rem); color: var(--navy); line-height: 1.1; margin-bottom: 2rem; }
+
+    /* STORY */
+    .story-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 5rem; align-items: center; }
+    .story-text p { font-size: 1rem; line-height: 1.8; color: rgba(19,2,62,0.7); margin-bottom: 1.2rem; }
+    .story-text p strong { color: var(--navy); }
+    .story-stat-block { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; }
+    .stat-card { padding: 2rem; border: 1px solid rgba(19,2,62,0.08); border-radius: 4px; text-align: center; position: relative; overflow: hidden; transition: border-color 0.3s; }
+    .stat-card::before { content: ''; position: absolute; bottom: 0; left: 0; width: 100%; height: 3px; background: var(--primary); transform: scaleX(0); transform-origin: left; transition: transform 0.4s ease; }
+    .stat-card:hover::before { transform: scaleX(1); }
+    .stat-card:hover { border-color: var(--primary); }
+    .stat-card__num { font-family: var(--font-heading); font-size: 2.8rem; color: var(--navy); line-height: 1; display: block; }
+    .stat-card__num span { color: var(--primary); }
+    .stat-card__label { font-size: 0.75rem; font-weight: 600; letter-spacing: 0.15em; text-transform: uppercase; color: rgba(19,2,62,0.45); margin-top: 0.5rem; display: block; }
+
+    /* TEAM */
+    .team-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 2rem; }
+    .team-card { padding: 2.5rem 2rem; border: 1px solid rgba(19,2,62,0.08); position: relative; overflow: hidden; transition: border-color var(--transition); }
+    .team-card::before { content: ''; position: absolute; inset: 0; background: var(--primary); clip-path: inset(0 100% 0 0); transition: clip-path var(--row-transition); z-index: 0; }
+    .team-card:hover::before { clip-path: inset(0 0% 0 0); }
+    .team-card:hover .team-card__name, .team-card:hover .team-card__role, .team-card:hover .team-card__bio { color: #fff; }
+    .team-card > * { position: relative; z-index: 1; }
+    .team-card__avatar { width: 56px; height: 56px; border-radius: 50%; background: var(--accent); display: flex; align-items: center; justify-content: center; font-family: var(--font-heading); font-size: 1.4rem; color: var(--navy); margin-bottom: 1.5rem; transition: background var(--row-transition), color var(--row-transition); }
+    .team-card:hover .team-card__avatar { background: rgba(255,255,255,0.2); color: #fff; }
+    .team-card__name { font-family: var(--font-heading); font-size: 1.4rem; color: var(--navy); margin-bottom: 0.3rem; transition: color var(--row-transition); }
+    .team-card__role { font-size: 0.75rem; font-weight: 700; letter-spacing: 0.15em; text-transform: uppercase; color: var(--primary); margin-bottom: 1rem; transition: color var(--row-transition); }
+    .team-card:hover .team-card__role { color: rgba(255,255,255,0.7); }
+    .team-card__bio { font-size: 0.88rem; line-height: 1.6; color: rgba(19,2,62,0.6); transition: color var(--row-transition); }
+
+    /* VALUES */
+    .values-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 2rem; }
+    .value-item { padding: 2.5rem 2rem; background: #fff; border-top: 3px solid var(--primary); }
+    .value-item__icon { font-size: 2rem; margin-bottom: 1rem; }
+    .value-item__title { font-family: var(--font-heading); font-size: 1.3rem; color: var(--navy); margin-bottom: 0.8rem; }
+    .value-item__desc { font-size: 0.88rem; line-height: 1.7; color: rgba(19,2,62,0.6); }
+
+    /* CTA BAND */
+    .cta-band { padding: 6rem 3rem; background: var(--navy); text-align: center; position: relative; overflow: hidden; }
+    .cta-band::before { content: ''; position: absolute; top: -150px; left: 50%; transform: translateX(-50%); width: 600px; height: 600px; border-radius: 50%; background: radial-gradient(circle, rgba(210,8,92,0.1) 0%, transparent 70%); pointer-events: none; }
+    .cta-band__inner { position: relative; z-index: 1; max-width: 700px; margin: 0 auto; }
+    .cta-band__label { font-size: 0.7rem; font-weight: 700; letter-spacing: 0.25em; text-transform: uppercase; color: var(--primary); display: block; margin-bottom: 1.5rem; }
+    .cta-band__title { font-family: var(--font-heading); font-size: clamp(1.8rem, 4vw, 3rem); color: #fff; margin-bottom: 2rem; line-height: 1.2; }
+    .btn-primary { display: inline-flex; align-items: center; gap: 0.6rem; font-family: var(--font-body); font-size: 0.85rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: #fff; background: var(--primary); padding: 1rem 2rem; border-radius: 2px; position: relative; overflow: hidden; transition: transform 0.2s ease; }
+    .btn-primary::before { content: ''; position: absolute; inset: 0; background: var(--navy); transform: translateX(-101%); transition: transform 0.35s cubic-bezier(0.76,0,0.24,1); }
+    .btn-primary:hover::before { transform: translateX(0); }
+    .btn-primary:hover { transform: translateY(-2px); }
+    .btn-primary span { position: relative; z-index: 1; }
+
+    /* FOOTER */
+    .footer { background: #080016; padding: 2.5rem 3rem; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem; }
+    .footer__logo { font-family: var(--font-heading); font-size: 1.2rem; color: rgba(255,255,255,0.6); }
+    .footer__logo span { color: var(--primary); }
+    .footer__copy { font-size: 0.75rem; color: rgba(255,255,255,0.25); letter-spacing: 0.05em; }
+    .footer__links { display: flex; gap: 1.5rem; list-style: none; }
+    .footer__links a { font-size: 0.75rem; color: rgba(255,255,255,0.35); letter-spacing: 0.08em; transition: color 0.2s; }
+    .footer__links a:hover { color: var(--primary); }
+
+    /* MARQUEE */
+    .marquee-band { background: var(--navy); padding: 1.1rem 0; overflow: hidden; border-top: 3px solid var(--primary); border-bottom: 3px solid var(--primary); }
+    .marquee-track { display: flex; width: max-content; animation: marqueeScroll 14s linear infinite; }
+    @keyframes marqueeScroll { 0% { transform: translateX(0); } 100% { transform: translateX(-50%); } }
+    .marquee-item { display: flex; align-items: center; gap: 1.2rem; padding: 0 2rem; white-space: nowrap; }
+    .marquee-item__text { font-family: var(--font-heading); font-size: 1.05rem; color: #fff; letter-spacing: 0.05em; }
+    .marquee-item__dot { width: 6px; height: 6px; border-radius: 50%; background: var(--primary); flex-shrink: 0; }
+
+    @media (max-width: 768px) {
+      .navbar { padding: 1.2rem 1.5rem; }
+      .navbar.scrolled { padding: 0.8rem 1.5rem; }
+      .navbar__links { display: none; }
+      .page-hero { padding: 8rem 1.5rem 4rem; }
+      .section { padding: 4rem 1.5rem; }
+      .story-grid { grid-template-columns: 1fr; gap: 3rem; }
+      .footer { padding: 2rem 1.5rem; flex-direction: column; text-align: center; }
+      .cta-band { padding: 4rem 1.5rem; }
+    }
+  </style>
+</head>
+<body>
+  <div id="cursor" aria-hidden="true"></div>
+  <div id="cursor-dot" aria-hidden="true"></div>
+  <div id="scroll-progress" role="progressbar" aria-label="Page scroll progress"></div>
+
+  <header role="banner">
+    <nav class="navbar" id="navbar" aria-label="Main navigation">
+      <a href="/vora/" class="navbar__logo" aria-label="Vora homepage">Vora<span>.</span></a>
+      <ul class="navbar__links" role="list">
+        <li><a href="/vora/services.html">Services</a></li>
+        <li><a href="/vora/about.html">About</a></li>
+        <li><a href="/vora/pricing.html">Pricing</a></li>
+        <li><a href="/vora/contact.html">Contact</a></li>
+      </ul>
+      <a href="/vora/contact.html" class="navbar__cta">Get a Proposal</a>
+    </nav>
+  </header>
+
+  <main role="main">
+    <!-- PAGE HERO -->
+    <section class="page-hero" aria-label="About page hero">
+      <div class="page-hero__inner">
+        <span class="page-hero__label">Who We Are</span>
+        <h1 class="page-hero__title">Performance Marketing<br />That Moves the Needle</h1>
+        <p class="page-hero__sub">A New York performance marketing team obsessed with ROAS and measurable results. We don't guess — we optimize, iterate, and scale what works.</p>
+      </div>
+    </section>
+
+    <!-- MARQUEE -->
+    <div class="marquee-band" aria-hidden="true" role="presentation">
+      <div class="marquee-track">
+        <div class="marquee-item"><span class="marquee-item__text">4.2x Average ROAS</span><span class="marquee-item__dot"></span></div>
+        <div class="marquee-item"><span class="marquee-item__text">$100M+ Ad Spend Managed</span><span class="marquee-item__dot"></span></div>
+        <div class="marquee-item"><span class="marquee-item__text">300+ Brands Scaled</span><span class="marquee-item__dot"></span></div>
+        <div class="marquee-item"><span class="marquee-item__text">38% Avg CPC Reduction</span><span class="marquee-item__dot"></span></div>
+        <div class="marquee-item"><span class="marquee-item__text">New York Performance Agency</span><span class="marquee-item__dot"></span></div>
+        <div class="marquee-item"><span class="marquee-item__text">Google Ads &bull; Meta Ads &bull; PPC</span><span class="marquee-item__dot"></span></div>
+        <div class="marquee-item"><span class="marquee-item__text">4.2x Average ROAS</span><span class="marquee-item__dot"></span></div>
+        <div class="marquee-item"><span class="marquee-item__text">$100M+ Ad Spend Managed</span><span class="marquee-item__dot"></span></div>
+        <div class="marquee-item"><span class="marquee-item__text">300+ Brands Scaled</span><span class="marquee-item__dot"></span></div>
+        <div class="marquee-item"><span class="marquee-item__text">38% Avg CPC Reduction</span><span class="marquee-item__dot"></span></div>
+        <div class="marquee-item"><span class="marquee-item__text">New York Performance Agency</span><span class="marquee-item__dot"></span></div>
+        <div class="marquee-item"><span class="marquee-item__text">Google Ads &bull; Meta Ads &bull; PPC</span><span class="marquee-item__dot"></span></div>
+      </div>
+    </div>
+
+    <!-- STORY -->
+    <section class="section" aria-labelledby="story-heading">
+      <div class="section__inner">
+        <div class="story-grid">
+          <div class="story-text">
+            <span class="section-label">Our Story</span>
+            <h2 class="section-title" id="story-heading">Built for One Metric: Your Return</h2>
+            <p>Vora was built in New York by performance marketers who were tired of agencies that talked about brand awareness and sent vanity metrics in slide decks. We launched to do one thing: <strong>make every dollar you spend in ads return more than it cost.</strong></p>
+            <p>From day one, we've been ROAS-first. Every campaign, every creative decision, every bid strategy is evaluated against a single question: does this generate measurable revenue for our clients?</p>
+            <p>Today we manage <strong>$100M+ in annual ad spend</strong> across Google, Meta, and programmatic channels for 300+ brands — from DTC startups scaling past $10M ARR to enterprise brands defending market share in competitive categories.</p>
+            <p>We're based in New York, obsessed with data, and allergic to excuses.</p>
+          </div>
+          <div class="story-stat-block">
+            <div class="stat-card">
+              <span class="stat-card__num">$100<span>M+</span></span>
+              <span class="stat-card__label">Ad Spend Managed</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-card__num">300<span>+</span></span>
+              <span class="stat-card__label">Brands Scaled</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-card__num">4.2<span>x</span></span>
+              <span class="stat-card__label">Average ROAS</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-card__num">38<span>%</span></span>
+              <span class="stat-card__label">Avg CPC Reduction</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TEAM -->
+    <section class="section section--accent" aria-labelledby="team-heading">
+      <div class="section__inner">
+        <span class="section-label">The Team</span>
+        <h2 class="section-title" id="team-heading">The People Behind the Performance</h2>
+        <div class="team-grid">
+          <div class="team-card">
+            <div class="team-card__avatar">A</div>
+            <div class="team-card__name">Alex V.</div>
+            <div class="team-card__role">CEO</div>
+            <p class="team-card__bio">Former head of growth at two Series B DTC brands. Alex built Vora to prove that performance marketing doesn't require a megabudget — it requires the right system. He oversees strategy and client outcomes for all accounts.</p>
+          </div>
+          <div class="team-card">
+            <div class="team-card__avatar">C</div>
+            <div class="team-card__name">Chris D.</div>
+            <div class="team-card__role">Head of Paid Media</div>
+            <p class="team-card__bio">8 years running paid media at agencies and in-house. Chris has managed over $60M in Google and Meta spend and built the proprietary bidding frameworks Vora uses to consistently outperform platform benchmarks by 40%+.</p>
+          </div>
+          <div class="team-card">
+            <div class="team-card__avatar">T</div>
+            <div class="team-card__name">Taylor S.</div>
+            <div class="team-card__role">Google Ads Lead</div>
+            <p class="team-card__bio">Google Ads certified specialist with deep expertise in Performance Max, Shopping campaigns, and advanced audience layering. Taylor architects search and shopping strategies that average 4.2x ROAS across the client portfolio.</p>
+          </div>
+          <div class="team-card">
+            <div class="team-card__avatar">M</div>
+            <div class="team-card__name">Morgan K.</div>
+            <div class="team-card__role">Analytics Lead</div>
+            <p class="team-card__bio">Data engineer turned marketing analyst. Morgan builds the attribution models, custom dashboards, and reporting pipelines that give Vora clients full visibility into what's working — down to the keyword and creative level.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- VALUES -->
+    <section class="section" aria-labelledby="values-heading">
+      <div class="section__inner">
+        <span class="section-label">What We Stand For</span>
+        <h2 class="section-title" id="values-heading">Four Principles. No Exceptions.</h2>
+        <div class="values-grid">
+          <div class="value-item">
+            <div class="value-item__icon">&#128200;</div>
+            <div class="value-item__title">ROAS-Obsessed</div>
+            <p class="value-item__desc">Return on ad spend is the only metric that matters. Every decision we make — from bid strategy to creative testing — is measured by what it returns. Brand vanity metrics don't pay your payroll. ROAS does.</p>
+          </div>
+          <div class="value-item">
+            <div class="value-item__icon">&#128202;</div>
+            <div class="value-item__title">Data-First</div>
+            <p class="value-item__desc">We don't run on gut feelings. We run on signal. Every campaign starts with audience intelligence, every optimization is hypothesis-driven, and every recommendation is backed by statistical evidence before it becomes a strategy.</p>
+          </div>
+          <div class="value-item">
+            <div class="value-item__icon">&#128270;</div>
+            <div class="value-item__title">Transparent</div>
+            <p class="value-item__desc">You see everything. Real-time dashboards. Weekly performance reports. Monthly strategy calls. No black boxes. No agency smoke-and-mirrors. If a campaign underperforms, we tell you why and show you exactly how we're fixing it.</p>
+          </div>
+          <div class="value-item">
+            <div class="value-item__icon">&#127942;</div>
+            <div class="value-item__title">Results-Only</div>
+            <p class="value-item__desc">We don't celebrate activity — we celebrate outcomes. Impressions don't count. Clicks don't count. Revenue counts. We structure our reporting and our retainers to ensure we're always accountable to what actually moves your business forward.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-band" aria-labelledby="cta-heading">
+      <div class="cta-band__inner">
+        <span class="cta-band__label">Ready to Scale?</span>
+        <h2 class="cta-band__title" id="cta-heading">Let's Build Your Growth Engine</h2>
+        <a href="/vora/contact.html" class="btn-primary"><span>Get a Free Proposal</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" role="contentinfo">
+    <div class="footer__logo">Vora<span>.</span></div>
+    <p class="footer__copy">&copy; 2026 Vora Agency. New York, NY. All rights reserved.</p>
+    <ul class="footer__links" role="list">
+      <li><a href="/vora/">Home</a></li>
+      <li><a href="/vora/services.html">Services</a></li>
+      <li><a href="/vora/contact.html">Contact</a></li>
+      <li><a href="#" aria-label="Privacy Policy">Privacy</a></li>
+    </ul>
+  </footer>
+
+  <script>
+  (function () {
+    'use strict';
+    var cursor = document.querySelector('#cursor');
+    var cursorDot = document.querySelector('#cursor-dot');
+    var cursorX = -100, cursorY = -100, dotX = -100, dotY = -100;
+    document.addEventListener('mousemove', function (e) { cursorX = e.clientX; cursorY = e.clientY; });
+    function animateCursor() {
+      dotX += (cursorX - dotX) * 0.92; dotY += (cursorY - dotY) * 0.92;
+      cursor.style.left = cursorX + 'px'; cursor.style.top = cursorY + 'px';
+      cursorDot.style.left = dotX + 'px'; cursorDot.style.top = dotY + 'px';
+      requestAnimationFrame(animateCursor);
+    }
+    animateCursor();
+    var hoverSel = 'a, button, .team-card, .stat-card, .value-item';
+    document.addEventListener('mouseover', function (e) { if (e.target.closest && e.target.closest(hoverSel)) cursor.classList.add('cursor-hover'); });
+    document.addEventListener('mouseout', function (e) { if (e.target.closest && e.target.closest(hoverSel)) cursor.classList.remove('cursor-hover'); });
+    var progressBar = document.querySelector('#scroll-progress');
+    window.addEventListener('scroll', function () {
+      var s = document.documentElement.scrollTop || document.body.scrollTop;
+      var h = document.documentElement.scrollHeight - window.innerHeight;
+      progressBar.style.height = (h > 0 ? (s / h) * 100 : 0) + '%';
+    }, { passive: true });
+    var navbar = document.querySelector('#navbar');
+    window.addEventListener('scroll', function () {
+      navbar.classList.toggle('scrolled', window.scrollY > 80);
+    }, { passive: true });
+  })();
+  </script>
+</body>
+</html>
