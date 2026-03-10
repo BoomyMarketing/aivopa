@@ -145,25 +145,33 @@
   </style>
 </head>
 <body>
-  <nav class="navbar" id="navbar">
-    <a href="https://vora.agency/" class="navbar__logo">Vor<span>a</span></a>
-    <ul class="navbar__links">
-      <li><a href="https://vora.agency/services.html">Services</a></li>
-      <li><a href="https://vora.agency/pricing.html">Pricing</a></li>
-      <li><a href="https://vora.agency/about.html">About</a></li>
-      <li><a href="https://vora.agency/contact.html">Contact</a></li>
+<nav class="navbar" id="navbar" role="navigation" aria-label="Main navigation">
+  <div class="nav-inner">
+    <a href="../index.html" class="nav-logo" aria-label="Vora — Home">Vora<span>.</span></a>
+    <ul class="nav-links" role="menubar">
+      <li role="none"><a href="../services.html" role="menuitem">Services</a></li>
+      <li role="none"><a href="../about.html" role="menuitem">About</a></li>
+      <li role="none"><a href="../pricing.html" role="menuitem">Pricing</a></li>
+      <li role="none"><a href="../contact.html" role="menuitem">Contact</a></li>
+      <li role="none"><a href="../contact.html" class="nav-cta" role="menuitem">Get Started</a></li>
     </ul>
-    <a href="https://vora.agency/contact.html" class="navbar__cta">Get a Proposal</a>
-    <button class="navbar__menu-btn" aria-label="Menu"><span></span><span></span><span></span></button>
-  </nav>
+    <button class="nav-hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div class="mobile-menu" id="mobile-menu" role="menu" aria-hidden="true">
+    <a href="../services.html" role="menuitem">Services</a>
+    <a href="../about.html" role="menuitem">About</a>
+    <a href="../pricing.html" role="menuitem">Pricing</a>
+    <a href="../contact.html" role="menuitem">Contact</a>
+    <a href="../contact.html" role="menuitem">Get Started &rarr;</a>
+  </div>
+</nav>
+  
 
   <header class="page-hero">
     <div class="page-hero__inner">
-      <nav class="breadcrumb" aria-label="Breadcrumb">
-        <a href="https://vora.agency/">Home</a><span class="sep">›</span>
-        <a href="https://vora.agency/services.html">Services</a><span class="sep">›</span>
-        <span class="current">Google Ads Management</span>
-      </nav>
+      
       <span class="hero-tag">Vora's Core Competency</span>
       <h1>Google Ads That <em>Pay For Themselves</em></h1>
       <p class="page-hero__sub">We've managed $100M+ in Google Ads spend across 300+ brands. Our average client achieves 4.2x ROAS within 90 days — and we back that with data-driven campaign architecture, relentless bid optimization, and conversion tracking that actually works. This is what we do better than anyone.</p>
@@ -324,21 +332,66 @@
 
   </main>
 
-  <footer>
-    <div class="footer-inner">
-      <div class="footer-logo">Vor<span>a</span></div>
-      <nav class="footer-links">
-        <a href="https://vora.agency/services.html">Services</a>
-        <a href="https://vora.agency/pricing.html">Pricing</a>
-        <a href="https://vora.agency/about.html">About</a>
-        <a href="https://vora.agency/contact.html">Contact</a>
-        <a href="https://vora.agency/services/meta-ads.html">Meta Ads</a>
-        <a href="https://vora.agency/services/ppc.html">PPC</a>
-        <a href="https://vora.agency/services/seo.html">SEO</a>
-      </nav>
-      <div class="footer-copy">&copy; 2026 Vora Agency. All rights reserved. New York, NY</div>
+  <footer class="footer" role="contentinfo">
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="../index.html" class="footer-logo" aria-label="Vora home">Vora<span>.</span></a>
+        <p class="footer-tagline">New York's performance marketing agency. Google Ads, Meta Ads &amp; programmatic advertising engineered for ROAS.</p>
+        <div class="footer-socials">
+          <a href="https://instagram.com/aivopa" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Vora on Instagram">&#9679;</a>
+          <a href="https://linkedin.com/company/aivopa" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Vora on LinkedIn">in</a>
+          <a href="https://twitter.com/aivopa" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Vora on X">&#120143;</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="../services/google-ads.html">Google Ads</a></li>
+          <li><a href="../services/meta-ads.html">Meta Ads</a></li>
+          <li><a href="../services/ppc.html">PPC Management</a></li>
+          <li><a href="../services/seo.html">SEO &amp; Content</a></li>
+          <li><a href="../services/social-media.html">Social Media</a></li>
+          <li><a href="../services/web-design.html">Web Design</a></li>
+          <li><a href="../services/email-marketing.html">Email Marketing</a></li>
+          <li><a href="../services/ai-development.html">AI Development</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Top Locations</h4>
+        <ul>
+          <li><a href="../local/new-york/google-ads-agency/index.html">Google Ads New York</a></li>
+          <li><a href="../local/new-york/ppc-agency/index.html">PPC Agency New York</a></li>
+          <li><a href="../local/new-york/performance-marketing-agency/index.html">Performance Marketing New York</a></li>
+          <li><a href="../local/los-angeles/google-ads-agency/index.html">Google Ads Los Angeles</a></li>
+          <li><a href="../local/chicago/google-ads-agency/index.html">Google Ads Chicago</a></li>
+          <li><a href="../local/miami/google-ads-agency/index.html">Google Ads Miami</a></li>
+          <li><a href="../local/houston/google-ads-agency/index.html">Google Ads Houston</a></li>
+          <li><a href="../local/dallas/google-ads-agency/index.html">Google Ads Dallas</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="../about.html">About Us</a></li>
+          <li><a href="../services.html">All Services</a></li>
+          <li><a href="../pricing.html">Pricing</a></li>
+          <li><a href="../contact.html">Contact</a></li>
+        </ul>
+        <h4 style="margin-top:24px">Contact</h4>
+        <div class="footer-contact-item"><span class="fc-text"><a href="tel:+12125551234">(212) 555-1234</a></span></div>
+        <div class="footer-contact-item"><span class="fc-text"><a href="mailto:hello@aivopa.com">hello@aivopa.com</a></span></div>
+      </div>
     </div>
-  </footer>
+    <div class="footer-bottom">
+      <span class="footer-copy">&copy; 2026 Vora. All rights reserved.</span>
+      <div class="footer-bl">
+        <a href="../contact.html">Privacy Policy</a>
+        <a href="../contact.html">Terms of Service</a>
+      </div>
+    </div>
+  </div>
+</footer>
 
   <script>
     const navbar = document.getElementById('navbar');
