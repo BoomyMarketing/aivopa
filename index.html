@@ -1,62 +1,76 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Boomy Marketing Agency — Toronto's Bold Digital Partner</title>
-  <meta name="description" content="Boomy Marketing Agency is Toronto's premier digital marketing agency. We craft data-driven campaigns, bold brand identities, and scalable growth strategies since 2020." />
-  <meta name="keywords" content="digital marketing agency Toronto, SEO Toronto, social media marketing, brand strategy, content marketing, PPC advertising, web design Toronto" />
-  <meta name="author" content="Boomy Marketing Agency" />
+  <title>Vora | New York's #1 Performance Marketing Agency</title>
+  <meta name="description" content="New York performance marketing agency. Google Ads, Meta Ads, ROAS optimization, CRO & AI-powered paid media. 400+ brands. Free account audit." />
   <meta name="robots" content="index, follow" />
-  <link rel="canonical" href="https://boomymarketing.ca/" />
+  <link rel="canonical" href="https://aivopa.com/" />
 
   <!-- Open Graph -->
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://boomymarketing.ca/" />
-  <meta property="og:title" content="Boomy Marketing Agency — Toronto's Bold Digital Partner" />
-  <meta property="og:description" content="We craft data-driven campaigns, bold brand identities, and scalable growth strategies. Toronto-based, globally minded." />
-  <meta property="og:image" content="https://boomymarketing.ca/og-image.jpg" />
-  <meta property="og:locale" content="en_CA" />
+  <meta property="og:url" content="https://aivopa.com/" />
+  <meta property="og:title" content="Vora | New York's #1 Performance Marketing Agency" />
+  <meta property="og:description" content="New York performance marketing agency. Google Ads, Meta Ads, ROAS optimization, CRO & AI-powered paid media. 400+ brands. Free account audit." />
+  <meta property="og:image" content="https://aivopa.com/og-image.jpg" />
+  <meta property="og:locale" content="en_US" />
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:site" content="@boomymarketing" />
-  <meta name="twitter:title" content="Boomy Marketing Agency — Toronto" />
-  <meta name="twitter:description" content="Bold digital marketing from Toronto. Strategy, content, growth." />
-  <meta name="twitter:image" content="https://boomymarketing.ca/og-image.jpg" />
+  <meta name="twitter:title" content="Vora | New York's #1 Performance Marketing Agency" />
+  <meta name="twitter:description" content="ROAS-obsessed performance marketing from New York. 400+ brands scaled. Free ad account audit." />
+  <meta name="twitter:image" content="https://aivopa.com/og-image.jpg" />
 
-  <!-- Schema.org JSON-LD -->
+  <!-- JSON-LD Schema -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "MarketingAgency",
-    "name": "Boomy Marketing Agency",
-    "url": "https://boomymarketing.ca",
-    "logo": "https://boomymarketing.ca/logo.png",
-    "description": "Toronto-based digital marketing agency specializing in brand strategy, SEO, content marketing, social media, PPC, and web design.",
-    "foundingDate": "2020",
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Toronto",
-      "addressRegion": "ON",
-      "addressCountry": "CA"
-    },
-    "areaServed": ["Toronto", "Canada", "United States"],
-    "contactPoint": {
-      "@type": "ContactPoint",
-      "email": "hello@boomymarketing.ca",
-      "contactType": "customer service"
-    },
-    "sameAs": [
-      "https://www.linkedin.com/company/boomymarketing",
-      "https://www.instagram.com/boomymarketing",
-      "https://twitter.com/boomymarketing"
-    ],
-    "numberOfEmployees": {
-      "@type": "QuantitativeValue",
-      "minValue": 10,
-      "maxValue": 50
-    }
+    "@graph": [
+      {
+        "@type": ["Organization", "LocalBusiness", "MarketingAgency"],
+        "name": "Vora",
+        "url": "https://aivopa.com",
+        "logo": "https://aivopa.com/logo.png",
+        "description": "New York performance marketing agency specializing in Google Ads, Meta Ads, ROAS optimization, CRO, and AI-powered paid media for 400+ brands.",
+        "foundingDate": "2020",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "New York",
+          "addressRegion": "NY",
+          "postalCode": "10001",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": "40.7128",
+          "longitude": "-74.0060"
+        },
+        "telephone": "+12125551234",
+        "email": "hello@aivopa.com",
+        "areaServed": "United States",
+        "priceRange": "$$",
+        "sameAs": [
+          "https://instagram.com/aivopa",
+          "https://linkedin.com/company/aivopa",
+          "https://twitter.com/aivopa"
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "url": "https://aivopa.com",
+        "name": "Vora — Performance Marketing Agency",
+        "description": "New York's #1 performance marketing agency. Google Ads, Meta Ads, ROAS optimization, and AI-powered paid media.",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "https://aivopa.com/?s={search_term_string}"
+          },
+          "query-input": "required name=search_term_string"
+        }
+      }
+    ]
   }
   </script>
 
@@ -70,1480 +84,544 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
 
   <style>
-    /* ============================================
-       CSS CUSTOM PROPERTIES / DESIGN TOKENS
-    ============================================ */
     :root {
       --primary: #D2085C;
       --navy: #13023E;
       --text: #13023E;
       --bg: #FFFFFF;
       --accent: #F5F0FF;
+      --purple: #6C47FF;
       --gray-light: #f0eef8;
       --gray-mid: #9b97aa;
       --font-heading: 'Berkshire Swash', serif;
       --font-body: 'Inter', sans-serif;
       --transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
       --row-transition: 0.55s cubic-bezier(0.76, 0, 0.24, 1);
+      --max-w: 1200px;
+    }
+
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; font-size: 16px; -webkit-font-smoothing: antialiased; cursor: none; }
+    body { font-family: var(--font-body); background: var(--bg); color: var(--text); overflow-x: hidden; cursor: none; }
+    a { color: inherit; text-decoration: none; cursor: none; }
+    img, svg { display: block; max-width: 100%; }
+
+    /* ── CURSOR ── */
+    #cursor { position: fixed; top: 0; left: 0; width: 20px; height: 20px; pointer-events: none; z-index: 9999; transform: translate(-50%, -50%); }
+    #cursor::before, #cursor::after { content: ''; position: absolute; background: var(--navy); transition: all 0.2s ease; }
+    #cursor::before { width: 20px; height: 2px; top: 50%; left: 0; transform: translateY(-50%); }
+    #cursor::after { width: 2px; height: 20px; left: 50%; top: 0; transform: translateX(-50%); }
+    #cursor.cursor-hover::before { width: 32px; height: 2.5px; left: -6px; background: var(--primary); }
+    #cursor.cursor-hover::after { height: 32px; width: 2.5px; top: -6px; background: var(--primary); }
+    #cursor-dot { position: fixed; top: 0; left: 0; width: 6px; height: 6px; background: var(--primary); border-radius: 50%; pointer-events: none; z-index: 10000; transform: translate(-50%, -50%); }
+
+    /* ── SCROLL PROGRESS ── */
+    #scroll-progress { position: fixed; left: 0; top: 0; width: 3px; height: 0%; background: linear-gradient(to bottom, var(--primary), var(--navy)); z-index: 1000; }
+
+    /* ── NAVBAR ── */
+    .navbar { position: fixed; top: 0; left: 0; right: 0; z-index: 500; display: flex; align-items: center; justify-content: space-between; padding: 1.5rem 3rem; transition: background var(--transition), padding var(--transition); }
+    .navbar.scrolled { background: rgba(255,255,255,0.95); backdrop-filter: blur(12px); padding: 1rem 3rem; box-shadow: 0 1px 0 rgba(19,2,62,0.08); }
+    .navbar__logo { font-family: var(--font-heading); font-size: 1.5rem; color: var(--navy); letter-spacing: -0.02em; }
+    .navbar__logo span { color: var(--primary); }
+    .navbar__links { display: flex; gap: 2.5rem; list-style: none; }
+    .navbar__links a { font-size: 0.85rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: var(--navy); position: relative; padding-bottom: 3px; }
+    .navbar__links a::after { content: ''; position: absolute; bottom: 0; left: 0; width: 0; height: 1.5px; background: var(--primary); transition: width 0.3s ease; }
+    .navbar__links a:hover::after { width: 100%; }
+    .navbar__cta { font-size: 0.8rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: var(--bg); background: var(--navy); padding: 0.65rem 1.4rem; border-radius: 2px; transition: background var(--transition); }
+    .navbar__cta:hover { background: var(--primary); }
+    /* Mobile hamburger */
+    .nav-hamburger { display: none; background: none; border: none; padding: 0; flex-direction: column; gap: 5px; cursor: none; }
+    .nav-hamburger span { display: block; width: 24px; height: 2px; background: var(--navy); border-radius: 2px; transition: background var(--transition); }
+    .mobile-menu { display: none; position: absolute; top: 100%; left: 0; right: 0; background: #fff; box-shadow: 0 8px 24px rgba(19,2,62,0.12); padding: 1.5rem 3rem; flex-direction: column; gap: 1rem; }
+    .mobile-menu.open { display: flex; }
+    .mobile-menu a { font-size: 0.9rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--navy); padding: 0.5rem 0; border-bottom: 1px solid rgba(19,2,62,0.06); }
+    .mobile-menu a:last-child { color: var(--primary); border-bottom: none; }
+
+    /* ── HERO ── */
+    .hero { min-height: 100vh; background: var(--navy); display: flex; align-items: center; position: relative; overflow: hidden; padding: 0 3rem; }
+    .hero::before { content: ''; position: absolute; top: -200px; right: -250px; width: 800px; height: 800px; border-radius: 50%; background: radial-gradient(circle, rgba(210,8,92,0.18) 0%, transparent 70%); pointer-events: none; }
+    .hero::after { content: ''; position: absolute; bottom: -150px; left: -200px; width: 600px; height: 600px; border-radius: 50%; background: radial-gradient(circle, rgba(108,71,255,0.12) 0%, transparent 70%); pointer-events: none; }
+    .hero__inner { max-width: var(--max-w); margin: 0 auto; width: 100%; position: relative; z-index: 1; padding: 8rem 0 6rem; }
+    .hero__label { font-size: 0.7rem; font-weight: 700; letter-spacing: 0.3em; text-transform: uppercase; color: var(--primary); display: block; margin-bottom: 1.5rem; }
+    .hero__headline { font-family: var(--font-heading); font-size: clamp(3rem, 7vw, 6.5rem); color: #fff; line-height: 1.0; margin-bottom: 1rem; }
+    .hero__headline em { color: var(--primary); font-style: normal; display: block; }
+    .hero__sub { font-size: 1.15rem; color: rgba(255,255,255,0.6); max-width: 520px; line-height: 1.75; margin-bottom: 3rem; }
+    .hero__actions { display: flex; align-items: center; gap: 1.5rem; flex-wrap: wrap; }
+    .btn-primary { display: inline-flex; align-items: center; gap: 0.6rem; font-family: var(--font-body); font-size: 0.85rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: #fff; background: var(--primary); padding: 1rem 2rem; border-radius: 2px; position: relative; overflow: hidden; transition: transform 0.2s ease; }
+    .btn-primary::before { content: ''; position: absolute; inset: 0; background: linear-gradient(135deg, #D2085C 0%, #6C47FF 100%); transform: translateX(-101%); transition: transform 0.35s cubic-bezier(0.76,0,0.24,1); }
+    .btn-primary:hover::before { transform: translateX(0); }
+    .btn-primary:hover { transform: translateY(-2px); }
+    .btn-primary span { position: relative; z-index: 1; }
+    .btn-secondary { display: inline-flex; align-items: center; gap: 0.6rem; font-size: 0.85rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(255,255,255,0.7); border-bottom: 1px solid rgba(255,255,255,0.25); padding-bottom: 2px; transition: color var(--transition), border-color var(--transition); }
+    .btn-secondary:hover { color: #fff; border-color: rgba(255,255,255,0.7); }
+    .hero__scroll-hint { margin-top: 5rem; display: flex; align-items: center; gap: 0.75rem; }
+    .hero__scroll-line { width: 40px; height: 1px; background: rgba(255,255,255,0.25); }
+    .hero__scroll-text { font-size: 0.7rem; font-weight: 600; letter-spacing: 0.2em; text-transform: uppercase; color: rgba(255,255,255,0.3); }
+
+    /* ── MARQUEE ── */
+    .marquee-band { background: var(--navy); padding: 1.1rem 0; overflow: hidden; border-top: 3px solid var(--primary); border-bottom: 3px solid var(--primary); }
+    .marquee-track { display: flex; width: max-content; animation: marqueeScroll 16s linear infinite; }
+    @keyframes marqueeScroll { 0% { transform: translateX(0); } 100% { transform: translateX(-50%); } }
+    .marquee-item { display: flex; align-items: center; gap: 1.2rem; padding: 0 2rem; white-space: nowrap; }
+    .marquee-item__text { font-family: var(--font-heading); font-size: 1.05rem; color: #fff; letter-spacing: 0.05em; }
+    .marquee-item__dot { width: 6px; height: 6px; border-radius: 50%; background: var(--primary); flex-shrink: 0; }
+
+    /* ── SECTIONS ── */
+    .section { padding: 6rem 3rem; }
+    .section--accent { background: var(--accent); }
+    .section--navy { background: var(--navy); }
+    .section__inner { max-width: var(--max-w); margin: 0 auto; }
+    .section-label { font-size: 0.7rem; font-weight: 700; letter-spacing: 0.25em; text-transform: uppercase; color: var(--primary); display: block; margin-bottom: 1rem; }
+    .section-title { font-family: var(--font-heading); font-size: clamp(1.8rem, 4vw, 3rem); color: var(--navy); line-height: 1.1; margin-bottom: 2rem; }
+    .section-title--white { color: #fff; }
+
+    /* ── STATS ── */
+    .stats-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.5rem; }
+    .stat-card { padding: 2.5rem 2rem; border: 1px solid rgba(19,2,62,0.08); border-radius: 4px; text-align: center; position: relative; overflow: hidden; transition: border-color 0.3s; }
+    .stat-card::before { content: ''; position: absolute; bottom: 0; left: 0; width: 100%; height: 3px; background: linear-gradient(90deg, var(--primary), var(--purple)); transform: scaleX(0); transform-origin: left; transition: transform 0.4s ease; }
+    .stat-card:hover::before { transform: scaleX(1); }
+    .stat-card:hover { border-color: rgba(210,8,92,0.25); }
+    .stat-card__num { font-family: var(--font-heading); font-size: 3rem; color: var(--navy); line-height: 1; display: block; }
+    .stat-card__num em { color: var(--primary); font-style: normal; }
+    .stat-card__label { font-size: 0.75rem; font-weight: 600; letter-spacing: 0.15em; text-transform: uppercase; color: var(--gray-mid); margin-top: 0.75rem; display: block; }
+
+    /* ── SERVICES GRID ── */
+    .services-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0; border: 1px solid rgba(19,2,62,0.08); }
+    .service-card { padding: 2.5rem 2rem; border-right: 1px solid rgba(19,2,62,0.08); border-bottom: 1px solid rgba(19,2,62,0.08); position: relative; overflow: hidden; transition: background var(--transition); }
+    .service-card:nth-child(4n) { border-right: none; }
+    .service-card:nth-child(n+5) { border-bottom: none; }
+    .service-card::before { content: ''; position: absolute; inset: 0; background: var(--navy); clip-path: inset(0 100% 0 0); transition: clip-path var(--row-transition); z-index: 0; }
+    .service-card:hover::before { clip-path: inset(0 0% 0 0); }
+    .service-card:hover .service-card__icon,
+    .service-card:hover .service-card__title,
+    .service-card:hover .service-card__desc { color: #fff; }
+    .service-card:hover .service-card__arrow { color: var(--primary); }
+    .service-card > * { position: relative; z-index: 1; }
+    .service-card__icon { font-size: 1.8rem; margin-bottom: 1.2rem; display: block; transition: color var(--row-transition); }
+    .service-card__title { font-family: var(--font-heading); font-size: 1.2rem; color: var(--navy); margin-bottom: 0.75rem; transition: color var(--row-transition); }
+    .service-card__desc { font-size: 0.85rem; line-height: 1.65; color: rgba(19,2,62,0.6); margin-bottom: 1.5rem; transition: color var(--row-transition); }
+    .service-card__arrow { font-size: 0.8rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--primary); transition: color var(--row-transition); }
+
+    /* ── WHY VORA ── */
+    .why-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 5rem; align-items: center; }
+    .why-text p { font-size: 1rem; line-height: 1.8; color: rgba(19,2,62,0.7); margin-bottom: 1.2rem; }
+    .why-text p strong { color: var(--navy); }
+    .why-pillars { display: flex; flex-direction: column; gap: 0; }
+    .why-pillar { display: flex; align-items: flex-start; gap: 1.5rem; padding: 1.75rem 0; border-bottom: 1px solid rgba(19,2,62,0.08); }
+    .why-pillar:first-child { padding-top: 0; }
+    .why-pillar:last-child { border-bottom: none; padding-bottom: 0; }
+    .why-pillar__num { font-family: var(--font-heading); font-size: 2rem; color: rgba(210,8,92,0.2); line-height: 1; flex-shrink: 0; width: 2.5rem; }
+    .why-pillar__title { font-family: var(--font-heading); font-size: 1.1rem; color: var(--navy); margin-bottom: 0.4rem; }
+    .why-pillar__desc { font-size: 0.875rem; line-height: 1.65; color: rgba(19,2,62,0.6); }
+
+    /* ── TESTIMONIALS ── */
+    .testi-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; }
+    .testi-card { padding: 2.5rem 2rem; background: var(--bg); border: 1px solid rgba(19,2,62,0.08); border-top: 3px solid var(--primary); position: relative; }
+    .testi-card__quote { font-size: 3rem; color: var(--primary); line-height: 1; font-family: Georgia, serif; margin-bottom: 1rem; }
+    .testi-card__text { font-size: 0.92rem; line-height: 1.75; color: rgba(19,2,62,0.75); margin-bottom: 1.5rem; }
+    .testi-card__author { display: flex; align-items: center; gap: 1rem; }
+    .testi-card__avatar { width: 44px; height: 44px; border-radius: 50%; background: linear-gradient(135deg, var(--primary), var(--purple)); display: flex; align-items: center; justify-content: center; font-family: var(--font-heading); font-size: 1.1rem; color: #fff; flex-shrink: 0; }
+    .testi-card__name { font-family: var(--font-heading); font-size: 1rem; color: var(--navy); }
+    .testi-card__role { font-size: 0.75rem; color: var(--gray-mid); letter-spacing: 0.05em; }
+    .testi-card__roas { display: inline-block; margin-top: 1rem; font-size: 0.72rem; font-weight: 700; letter-spacing: 0.15em; text-transform: uppercase; color: var(--primary); background: rgba(210,8,92,0.06); padding: 0.3rem 0.7rem; border-radius: 2px; }
+
+    /* ── CTA BAND ── */
+    .cta-band { padding: 7rem 3rem; background: var(--navy); text-align: center; position: relative; overflow: hidden; }
+    .cta-band::before { content: ''; position: absolute; top: -150px; left: 50%; transform: translateX(-50%); width: 700px; height: 700px; border-radius: 50%; background: radial-gradient(circle, rgba(210,8,92,0.12) 0%, transparent 70%); pointer-events: none; }
+    .cta-band::after { content: ''; position: absolute; bottom: -100px; right: -100px; width: 400px; height: 400px; border-radius: 50%; background: radial-gradient(circle, rgba(108,71,255,0.1) 0%, transparent 70%); pointer-events: none; }
+    .cta-band__inner { position: relative; z-index: 1; max-width: 760px; margin: 0 auto; }
+    .cta-band__label { font-size: 0.7rem; font-weight: 700; letter-spacing: 0.25em; text-transform: uppercase; color: var(--primary); display: block; margin-bottom: 1.5rem; }
+    .cta-band__title { font-family: var(--font-heading); font-size: clamp(2rem, 5vw, 3.8rem); color: #fff; margin-bottom: 1.2rem; line-height: 1.1; }
+    .cta-band__sub { font-size: 1rem; color: rgba(255,255,255,0.55); margin-bottom: 2.5rem; line-height: 1.7; }
+    .btn-gradient { display: inline-flex; align-items: center; gap: 0.6rem; font-family: var(--font-body); font-size: 0.9rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: #fff; background: linear-gradient(135deg, var(--primary) 0%, var(--purple) 100%); padding: 1.1rem 2.4rem; border-radius: 2px; transition: transform 0.2s ease, box-shadow 0.2s ease; }
+    .btn-gradient:hover { transform: translateY(-3px); box-shadow: 0 12px 36px rgba(210,8,92,0.35); }
+
+    /* ── FOOTER ── */
+    .footer { background: #080016; }
+    .footer-inner { max-width: var(--max-w); margin: 0 auto; }
+    .footer-top { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 3rem; padding: 4rem 3rem 3rem; border-bottom: 1px solid rgba(255,255,255,0.06); }
+    .footer-brand {}
+    .footer-logo { font-family: var(--font-heading); font-size: 1.6rem; color: #fff; display: inline-block; margin-bottom: 1rem; }
+    .footer-logo span { color: var(--primary); }
+    .footer-tagline { font-size: 0.85rem; color: rgba(255,255,255,0.4); line-height: 1.7; max-width: 280px; margin-bottom: 1.5rem; }
+    .footer-socials { display: flex; gap: 0.75rem; }
+    .social-link { width: 36px; height: 36px; border: 1px solid rgba(255,255,255,0.12); border-radius: 2px; display: flex; align-items: center; justify-content: center; font-size: 0.85rem; color: rgba(255,255,255,0.4); transition: border-color var(--transition), color var(--transition); }
+    .social-link:hover { border-color: var(--primary); color: var(--primary); }
+    .footer-col h4 { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.2em; text-transform: uppercase; color: rgba(255,255,255,0.55); margin-bottom: 1.25rem; }
+    .footer-col ul { list-style: none; display: flex; flex-direction: column; gap: 0.65rem; }
+    .footer-col ul a { font-size: 0.82rem; color: rgba(255,255,255,0.3); transition: color var(--transition); }
+    .footer-col ul a:hover { color: var(--primary); }
+    .footer-contact-item { margin-top: 0.65rem; }
+    .footer-contact-item a { font-size: 0.82rem; color: rgba(255,255,255,0.3); transition: color var(--transition); }
+    .footer-contact-item a:hover { color: var(--primary); }
+    .footer-bottom { display: flex; align-items: center; justify-content: space-between; padding: 1.5rem 3rem; flex-wrap: wrap; gap: 1rem; }
+    .footer-copy { font-size: 0.75rem; color: rgba(255,255,255,0.2); letter-spacing: 0.05em; }
+    .footer-bl { display: flex; gap: 1.5rem; }
+    .footer-bl a { font-size: 0.75rem; color: rgba(255,255,255,0.25); transition: color var(--transition); }
+    .footer-bl a:hover { color: var(--primary); }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 1024px) {
+      .stats-grid { grid-template-columns: repeat(2, 1fr); }
+      .services-grid { grid-template-columns: repeat(2, 1fr); }
+      .service-card:nth-child(4n) { border-right: 1px solid rgba(19,2,62,0.08); }
+      .service-card:nth-child(2n) { border-right: none; }
+      .service-card:nth-child(n+7) { border-bottom: none; }
+      .testi-grid { grid-template-columns: 1fr 1fr; }
+      .testi-grid .testi-card:last-child { grid-column: span 2; max-width: 480px; margin: 0 auto; }
+      .footer-top { grid-template-columns: 1fr 1fr; gap: 2rem; }
+      .why-grid { grid-template-columns: 1fr; gap: 3rem; }
     }
-
-    /* ============================================
-       RESET & BASE
-    ============================================ */
-    *, *::before, *::after {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    html {
-      scroll-behavior: smooth;
-      font-size: 16px;
-      -webkit-font-smoothing: antialiased;
-      -moz-osx-font-smoothing: grayscale;
-      cursor: none;
-    }
-
-    body {
-      font-family: var(--font-body);
-      background: var(--bg);
-      color: var(--text);
-      overflow-x: hidden;
-      cursor: none;
-    }
-
-    a {
-      color: inherit;
-      text-decoration: none;
-      cursor: none;
-    }
-
-    img, svg {
-      display: block;
-      max-width: 100%;
-    }
-
-    /* ============================================
-       CUSTOM CURSOR
-    ============================================ */
-    #cursor {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 20px;
-      height: 20px;
-      pointer-events: none;
-      z-index: 9999;
-      transform: translate(-50%, -50%);
-    }
-
-    #cursor::before,
-    #cursor::after {
-      content: '';
-      position: absolute;
-      background: var(--navy);
-      transition: all 0.2s ease;
-    }
-
-    /* Horizontal bar */
-    #cursor::before {
-      width: 20px;
-      height: 2px;
-      top: 50%;
-      left: 0;
-      transform: translateY(-50%);
-    }
-
-    /* Vertical bar */
-    #cursor::after {
-      width: 2px;
-      height: 20px;
-      left: 50%;
-      top: 0;
-      transform: translateX(-50%);
-    }
-
-    #cursor.cursor-hover::before {
-      width: 32px;
-      height: 2.5px;
-      left: -6px;
-      background: var(--primary);
-    }
-
-    #cursor.cursor-hover::after {
-      height: 32px;
-      width: 2.5px;
-      top: -6px;
-      background: var(--primary);
-    }
-
-    #cursor-dot {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 6px;
-      height: 6px;
-      background: var(--primary);
-      border-radius: 50%;
-      pointer-events: none;
-      z-index: 10000;
-      transform: translate(-50%, -50%);
-    }
-
-    /* ============================================
-       SCROLL PROGRESS BAR (LEFT EDGE)
-    ============================================ */
-    #scroll-progress {
-      position: fixed;
-      left: 0;
-      top: 0;
-      width: 3px;
-      height: 0%;
-      background: linear-gradient(to bottom, var(--primary), var(--navy));
-      z-index: 1000;
-    }
-
-    /* ============================================
-       NAVBAR
-    ============================================ */
-    .navbar {
-      position: fixed;
-      top: 0;
-      left: 0;
-      right: 0;
-      z-index: 500;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding: 1.5rem 3rem;
-      transition: background var(--transition), padding var(--transition);
-    }
-
-    .navbar.scrolled {
-      background: rgba(255, 255, 255, 0.95);
-      backdrop-filter: blur(12px);
-      padding: 1rem 3rem;
-      box-shadow: 0 1px 0 rgba(19, 2, 62, 0.08);
-    }
-
-    .navbar__logo {
-      font-family: var(--font-heading);
-      font-size: 1.5rem;
-      color: var(--navy);
-      letter-spacing: -0.02em;
-    }
-
-    .navbar__logo span {
-      color: var(--primary);
-    }
-
-    .navbar__links {
-      display: flex;
-      gap: 2.5rem;
-      list-style: none;
-    }
-
-    .navbar__links a {
-      font-size: 0.85rem;
-      font-weight: 600;
-      letter-spacing: 0.12em;
-      text-transform: uppercase;
-      color: var(--navy);
-      position: relative;
-      padding-bottom: 3px;
-    }
-
-    .navbar__links a::after {
-      content: '';
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      width: 0;
-      height: 1.5px;
-      background: var(--primary);
-      transition: width 0.3s ease;
-    }
-
-    .navbar__links a:hover::after {
-      width: 100%;
-    }
-
-    .navbar__cta {
-      font-size: 0.8rem;
-      font-weight: 700;
-      letter-spacing: 0.14em;
-      text-transform: uppercase;
-      color: var(--bg);
-      background: var(--navy);
-      padding: 0.65rem 1.4rem;
-      border-radius: 2px;
-      transition: background var(--transition), color var(--transition);
-    }
-
-    .navbar__cta:hover {
-      background: var(--primary);
-      color: #fff;
-    }
-
-    /* ============================================
-       HERO SECTION
-    ============================================ */
-    .hero {
-      min-height: 100vh;
-      display: flex;
-      align-items: center;
-      padding: 9rem 3rem 5rem;
-      position: relative;
-      overflow: hidden;
-    }
-
-    .hero__bg-grid {
-      position: absolute;
-      inset: 0;
-      background-image:
-        linear-gradient(rgba(19, 2, 62, 0.035) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(19, 2, 62, 0.035) 1px, transparent 1px);
-      background-size: 80px 80px;
-      pointer-events: none;
-    }
-
-    .hero__inner {
-      display: flex;
-      width: 100%;
-      max-width: 1400px;
-      margin: 0 auto;
-      align-items: flex-end;
-      gap: 2rem;
-    }
-
-    .hero__typography {
-      flex: 1;
-      min-width: 0;
-    }
-
-    .hero__word-wrap {
-      overflow: hidden;
-      line-height: 1;
-    }
-
-    .hero__line {
-      display: block;
-      font-family: var(--font-heading);
-      font-size: clamp(5rem, 12vw, 11rem);
-      line-height: 0.92;
-      letter-spacing: -0.02em;
-      user-select: none;
-    }
-
-    /* LINE 1: DIGITAL — outlined */
-    .hero__line--digital {
-      -webkit-text-stroke: 2.5px var(--navy);
-      color: transparent;
-      text-align: left;
-      will-change: transform, opacity;
-    }
-
-    /* LINE 2: MARKETING — solid pink, shifted right */
-    .hero__line--marketing {
-      color: var(--primary);
-      margin-left: 15%;
-      text-align: left;
-      will-change: transform, opacity;
-    }
-
-    /* LINE 3: AGENCY — outlined, scramble */
-    .hero__line--agency {
-      -webkit-text-stroke: 2.5px var(--navy);
-      color: transparent;
-      text-align: left;
-      position: relative;
-      will-change: transform, opacity;
-    }
-
-    /* Letter hover wobble */
-    .hero__line .letter {
-      display: inline-block;
-      transition: transform 0.18s cubic-bezier(0.34, 1.56, 0.64, 1);
-    }
-
-    /* Hero sub-content */
-    .hero__sub {
-      margin-top: 2.5rem;
-      display: flex;
-      align-items: flex-start;
-      gap: 3rem;
-      max-width: 680px;
-    }
-
-    .hero__subtitle {
-      font-size: clamp(0.9rem, 1.5vw, 1.1rem);
-      font-weight: 400;
-      line-height: 1.7;
-      color: rgba(19, 2, 62, 0.65);
-      max-width: 340px;
-    }
-
-    .hero__cta-group {
-      display: flex;
-      flex-direction: column;
-      gap: 0.8rem;
-      flex-shrink: 0;
-    }
-
-    .btn-primary {
-      display: inline-flex;
-      align-items: center;
-      gap: 0.6rem;
-      font-family: var(--font-body);
-      font-size: 0.85rem;
-      font-weight: 700;
-      letter-spacing: 0.12em;
-      text-transform: uppercase;
-      color: #fff;
-      background: var(--primary);
-      padding: 1rem 2rem;
-      border: none;
-      border-radius: 2px;
-      position: relative;
-      overflow: hidden;
-      transition: transform 0.2s ease;
-    }
-
-    .btn-primary::before {
-      content: '';
-      position: absolute;
-      inset: 0;
-      background: var(--navy);
-      transform: translateX(-101%);
-      transition: transform 0.35s cubic-bezier(0.76, 0, 0.24, 1);
-    }
-
-    .btn-primary:hover::before {
-      transform: translateX(0);
-    }
-
-    .btn-primary:hover {
-      transform: translateY(-2px);
-    }
-
-    .btn-primary span {
-      position: relative;
-      z-index: 1;
-    }
-
-    .btn-secondary {
-      display: inline-flex;
-      align-items: center;
-      gap: 0.5rem;
-      font-size: 0.8rem;
-      font-weight: 600;
-      letter-spacing: 0.1em;
-      text-transform: uppercase;
-      color: var(--navy);
-      opacity: 0.6;
-      transition: opacity 0.2s;
-    }
-
-    .btn-secondary:hover {
-      opacity: 1;
-    }
-
-    .btn-secondary::after {
-      content: '\2192';
-      transition: transform 0.2s;
-    }
-
-    .btn-secondary:hover::after {
-      transform: translateX(4px);
-    }
-
-    /* Hero right info blocks */
-    .hero__info {
-      display: flex;
-      flex-direction: column;
-      gap: 2rem;
-      align-self: flex-end;
-      padding-bottom: 1rem;
-      flex-shrink: 0;
-    }
-
-    .info-block {
-      text-align: right;
-      opacity: 0;
-    }
-
-    .info-block__label {
-      font-size: 0.65rem;
-      font-weight: 700;
-      letter-spacing: 0.2em;
-      text-transform: uppercase;
-      color: var(--primary);
-      margin-bottom: 0.25rem;
-    }
-
-    .info-block__value {
-      font-family: var(--font-heading);
-      font-size: 1.4rem;
-      color: var(--navy);
-      line-height: 1;
-    }
-
-    /* Hero decorative element */
-    .hero__deco {
-      position: absolute;
-      bottom: 3rem;
-      left: 3rem;
-      display: flex;
-      align-items: center;
-      gap: 1rem;
-    }
-
-    .hero__scroll-hint {
-      font-size: 0.7rem;
-      font-weight: 700;
-      letter-spacing: 0.2em;
-      text-transform: uppercase;
-      color: rgba(19, 2, 62, 0.35);
-      writing-mode: vertical-rl;
-    }
-
-    .hero__scroll-line {
-      width: 1px;
-      height: 60px;
-      background: linear-gradient(to bottom, rgba(210, 8, 92, 0.7), transparent);
-      animation: scrollLineAnim 2s ease-in-out infinite;
-    }
-
-    @keyframes scrollLineAnim {
-      0%, 100% { transform: scaleY(1); opacity: 0.7; }
-      50% { transform: scaleY(0.4); opacity: 0.2; }
-    }
-
-    /* ============================================
-       MARQUEE BAND
-    ============================================ */
-    .marquee-band {
-      background: var(--navy);
-      padding: 1.1rem 0;
-      overflow: hidden;
-      position: relative;
-      border-top: 3px solid var(--primary);
-      border-bottom: 3px solid var(--primary);
-    }
-
-    .marquee-track {
-      display: flex;
-      width: max-content;
-      animation: marqueeScroll 12s linear infinite;
-    }
-
-    .marquee-track:hover {
-      animation-play-state: paused;
-    }
-
-    @keyframes marqueeScroll {
-      0% { transform: translateX(0); }
-      100% { transform: translateX(-50%); }
-    }
-
-    .marquee-item {
-      display: flex;
-      align-items: center;
-      gap: 1.2rem;
-      padding: 0 2rem;
-      white-space: nowrap;
-    }
-
-    .marquee-item__text {
-      font-family: var(--font-heading);
-      font-size: 1.05rem;
-      color: #fff;
-      letter-spacing: 0.05em;
-    }
-
-    .marquee-item__dot {
-      width: 6px;
-      height: 6px;
-      border-radius: 50%;
-      background: var(--primary);
-      flex-shrink: 0;
-    }
-
-    /* ============================================
-       SERVICES SECTION
-    ============================================ */
-    .services {
-      padding: 6rem 0;
-    }
-
-    .section-header {
-      padding: 0 3rem;
-      margin-bottom: 3rem;
-      display: flex;
-      align-items: baseline;
-      gap: 1.5rem;
-    }
-
-    .section-label {
-      font-size: 0.7rem;
-      font-weight: 700;
-      letter-spacing: 0.25em;
-      text-transform: uppercase;
-      color: var(--primary);
-    }
-
-    .section-title {
-      font-family: var(--font-heading);
-      font-size: clamp(1.8rem, 4vw, 3rem);
-      color: var(--navy);
-      line-height: 1.1;
-    }
-
-    /* Service rows */
-    .service-row {
-      display: flex;
-      align-items: center;
-      gap: 2rem;
-      padding: 2.2rem 3rem;
-      border-top: 1px solid rgba(19, 2, 62, 0.08);
-      position: relative;
-      overflow: hidden;
-    }
-
-    .service-row:last-child {
-      border-bottom: 1px solid rgba(19, 2, 62, 0.08);
-    }
-
-    /* Hover fill pseudo-element */
-    .service-row::before {
-      content: '';
-      position: absolute;
-      inset: 0;
-      background: var(--primary);
-      clip-path: inset(0 100% 0 0);
-      transition: clip-path var(--row-transition);
-      z-index: 0;
-    }
-
-    .service-row:hover::before {
-      clip-path: inset(0 0% 0 0);
-    }
-
-    .service-row:hover .service-num,
-    .service-row:hover .service-name,
-    .service-row:hover .service-desc,
-    .service-row:hover .service-tag {
-      color: #fff;
-    }
-
-    .service-row:hover .service-icon {
-      transform: scale(1.3) rotate(8deg);
-      color: rgba(255,255,255,0.9);
-    }
-
-    .service-row:hover .service-arrow {
-      transform: translateX(8px) rotate(-45deg);
-      color: rgba(255,255,255,0.8);
-    }
-
-    .service-row--right {
-      flex-direction: row-reverse;
-      text-align: right;
-    }
-
-    .service-row--right .service-content {
-      align-items: flex-end;
-    }
-
-    .service-row > * {
-      position: relative;
-      z-index: 1;
-    }
-
-    .service-num {
-      font-family: var(--font-heading);
-      font-size: 2.8rem;
-      color: rgba(19, 2, 62, 0.12);
-      line-height: 1;
-      min-width: 80px;
-      transition: color var(--row-transition);
-      flex-shrink: 0;
-    }
-
-    .service-content {
-      flex: 1;
-      display: flex;
-      flex-direction: column;
-      gap: 0.4rem;
-    }
-
-    .service-name {
-      font-family: var(--font-heading);
-      font-size: clamp(1.3rem, 3vw, 2.2rem);
-      color: var(--navy);
-      line-height: 1;
-      transition: color var(--row-transition);
-    }
-
-    .service-desc {
-      font-size: 0.88rem;
-      line-height: 1.6;
-      color: rgba(19, 2, 62, 0.55);
-      max-width: 480px;
-      transition: color var(--row-transition);
-    }
-
-    .service-tag {
-      display: inline-block;
-      font-size: 0.65rem;
-      font-weight: 700;
-      letter-spacing: 0.18em;
-      text-transform: uppercase;
-      color: var(--primary);
-      background: rgba(210, 8, 92, 0.08);
-      padding: 0.25rem 0.6rem;
-      border-radius: 2px;
-      margin-top: 0.3rem;
-      width: fit-content;
-      transition: color var(--row-transition), background var(--row-transition);
-    }
-
-    .service-row:hover .service-tag {
-      background: rgba(255,255,255,0.2);
-    }
-
-    .service-icon {
-      font-size: 2.2rem;
-      transition: transform 0.35s cubic-bezier(0.34, 1.56, 0.64, 1), color var(--row-transition);
-      color: rgba(19, 2, 62, 0.2);
-      flex-shrink: 0;
-      width: 60px;
-      text-align: center;
-    }
-
-    .service-arrow {
-      font-size: 1.2rem;
-      color: rgba(19, 2, 62, 0.2);
-      flex-shrink: 0;
-      transition: transform 0.3s ease, color var(--row-transition);
-    }
-
-    .svc-icon-svg {
-      width: 2.2rem;
-      height: 2.2rem;
-      display: inline-block;
-    }
-
-    /* ============================================
-       ABOUT / QUOTE SECTION
-    ============================================ */
-    .about {
-      padding: 8rem 3rem;
-      background: var(--accent);
-      clip-path: polygon(0 3%, 100% 0, 100% 97%, 0 100%);
-      position: relative;
-      overflow: hidden;
-    }
-
-    .about__inner {
-      max-width: 960px;
-      margin: 0 auto;
-      text-align: center;
-    }
-
-    .about__label {
-      font-size: 0.7rem;
-      font-weight: 700;
-      letter-spacing: 0.25em;
-      text-transform: uppercase;
-      color: var(--primary);
-      margin-bottom: 3rem;
-      display: block;
-    }
-
-    .about__quote {
-      font-family: var(--font-heading);
-      font-size: clamp(1.7rem, 4vw, 3.2rem);
-      line-height: 1.4;
-    }
-
-    /* Words injected via DOM methods */
-    .about__quote .q-word {
-      display: inline;
-      color: #ccc;
-      transition: color 0.3s ease;
-      margin-right: 0.28em;
-    }
-
-    .about__quote .q-word.highlighted {
-      color: var(--navy);
-    }
-
-    .about__quote .q-word.highlighted-pink {
-      color: var(--primary);
-    }
-
-    .about__author {
-      margin-top: 3rem;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 1rem;
-    }
-
-    .about__author-line {
-      width: 40px;
-      height: 1px;
-      background: var(--primary);
-    }
-
-    .about__author-text {
-      font-size: 0.8rem;
-      font-weight: 600;
-      letter-spacing: 0.15em;
-      text-transform: uppercase;
-      color: rgba(19, 2, 62, 0.5);
-    }
-
-    /* ============================================
-       RESULTS / NUMBERS SECTION
-    ============================================ */
-    .results {
-      padding: 8rem 3rem;
-      position: relative;
-    }
-
-    .results__inner {
-      max-width: 1200px;
-      margin: 0 auto;
-    }
-
-    .results__grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-      gap: 0;
-    }
-
-    .result-item {
-      padding: 3rem 2rem;
-      border-right: 1px solid rgba(19, 2, 62, 0.08);
-      position: relative;
-      text-align: center;
-      overflow: hidden;
-    }
-
-    .result-item:last-child {
-      border-right: none;
-    }
-
-    .result-item::before {
-      content: '';
-      position: absolute;
-      bottom: 0;
-      left: 50%;
-      transform: translateX(-50%);
-      width: 0;
-      height: 3px;
-      background: var(--primary);
-      transition: width 0.5s ease;
-    }
-
-    .result-item:hover::before {
-      width: 100%;
-    }
-
-    .result-number {
-      font-family: var(--font-heading);
-      font-size: clamp(3.5rem, 7vw, 6rem);
-      color: var(--navy);
-      line-height: 1;
-      display: block;
-      position: relative;
-    }
-
-    .result-number .suffix {
-      color: var(--primary);
-    }
-
-    .result-label {
-      font-size: 0.8rem;
-      font-weight: 600;
-      letter-spacing: 0.18em;
-      text-transform: uppercase;
-      color: rgba(19, 2, 62, 0.45);
-      margin-top: 0.8rem;
-      display: block;
-    }
-
-    .result-desc {
-      font-size: 0.8rem;
-      color: rgba(19, 2, 62, 0.35);
-      margin-top: 0.4rem;
-      line-height: 1.5;
-    }
-
-    /* ============================================
-       CONTACT SECTION
-    ============================================ */
-    .contact {
-      padding: 8rem 3rem;
-      background: var(--navy);
-      position: relative;
-      overflow: hidden;
-      text-align: center;
-    }
-
-    .contact::before {
-      content: '';
-      position: absolute;
-      top: -200px;
-      right: -200px;
-      width: 600px;
-      height: 600px;
-      border-radius: 50%;
-      background: radial-gradient(circle, rgba(210, 8, 92, 0.12) 0%, transparent 70%);
-      pointer-events: none;
-    }
-
-    .contact__inner {
-      max-width: 900px;
-      margin: 0 auto;
-      position: relative;
-      z-index: 1;
-    }
-
-    .contact__label {
-      font-size: 0.7rem;
-      font-weight: 700;
-      letter-spacing: 0.25em;
-      text-transform: uppercase;
-      color: var(--primary);
-      margin-bottom: 2rem;
-      display: block;
-    }
-
-    .contact__heading {
-      font-family: var(--font-heading);
-      font-size: clamp(1.8rem, 4vw, 3rem);
-      color: rgba(255,255,255,0.9);
-      margin-bottom: 3rem;
-      line-height: 1.2;
-    }
-
-    .contact__email-link {
-      display: inline-block;
-      font-family: var(--font-heading);
-      font-size: clamp(1.4rem, 4.5vw, 4rem);
-      color: #fff;
-      letter-spacing: -0.02em;
-      line-height: 1;
-      position: relative;
-      padding-bottom: 6px;
-      transition: color 0.3s;
-    }
-
-    .contact__email-link::after {
-      content: '';
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      width: 100%;
-      height: 2px;
-      background: var(--primary);
-      transform: scaleX(0.3);
-      transform-origin: left;
-      transition: transform 0.4s cubic-bezier(0.76, 0, 0.24, 1);
-    }
-
-    .contact__email-link:hover {
-      color: var(--primary);
-    }
-
-    .contact__email-link:hover::after {
-      transform: scaleX(1);
-    }
-
-    .contact__or {
-      display: block;
-      font-size: 0.75rem;
-      font-weight: 600;
-      letter-spacing: 0.2em;
-      text-transform: uppercase;
-      color: rgba(255,255,255,0.3);
-      margin: 2.5rem 0;
-    }
-
-    .contact__info-row {
-      display: flex;
-      justify-content: center;
-      gap: 3rem;
-      flex-wrap: wrap;
-    }
-
-    .contact__info-item {
-      text-align: center;
-    }
-
-    .contact__info-label {
-      font-size: 0.65rem;
-      font-weight: 700;
-      letter-spacing: 0.2em;
-      text-transform: uppercase;
-      color: rgba(255,255,255,0.3);
-      margin-bottom: 0.4rem;
-    }
-
-    .contact__info-value {
-      font-size: 0.95rem;
-      font-weight: 500;
-      color: rgba(255,255,255,0.85);
-    }
-
-    /* ============================================
-       FOOTER
-    ============================================ */
-    .footer {
-      background: #080016;
-      padding: 2.5rem 3rem;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      flex-wrap: wrap;
-      gap: 1rem;
-    }
-
-    .footer__logo {
-      font-family: var(--font-heading);
-      font-size: 1.2rem;
-      color: rgba(255,255,255,0.6);
-    }
-
-    .footer__logo span {
-      color: var(--primary);
-    }
-
-    .footer__copy {
-      font-size: 0.75rem;
-      color: rgba(255,255,255,0.25);
-      letter-spacing: 0.05em;
-    }
-
-    .footer__links {
-      display: flex;
-      gap: 1.5rem;
-      list-style: none;
-    }
-
-    .footer__links a {
-      font-size: 0.75rem;
-      color: rgba(255,255,255,0.35);
-      letter-spacing: 0.08em;
-      transition: color 0.2s;
-    }
-
-    .footer__links a:hover {
-      color: var(--primary);
-    }
-
-    /* ============================================
-       MOBILE RESPONSIVE
-    ============================================ */
     @media (max-width: 768px) {
-      .navbar {
-        padding: 1.2rem 1.5rem;
-      }
-      .navbar.scrolled {
-        padding: 0.8rem 1.5rem;
-      }
-      .navbar__links {
-        display: none;
-      }
-      .hero {
-        padding: 7rem 1.5rem 4rem;
-      }
-      .hero__inner {
-        flex-direction: column;
-        align-items: flex-start;
-      }
-      .hero__info {
-        flex-direction: row;
-        align-self: auto;
-        flex-wrap: wrap;
-        gap: 1.5rem;
-      }
-      .info-block {
-        text-align: left;
-      }
-      .hero__sub {
-        flex-direction: column;
-        gap: 1.5rem;
-      }
-      .hero__line--marketing {
-        margin-left: 0;
-      }
-      .section-header {
-        padding: 0 1.5rem;
-      }
-      .service-row {
-        padding: 1.8rem 1.5rem;
-        flex-wrap: wrap;
-      }
-      .service-row--right {
-        flex-direction: row;
-        text-align: left;
-      }
-      .service-row--right .service-content {
-        align-items: flex-start;
-      }
-      .about {
-        padding: 6rem 1.5rem;
-        clip-path: polygon(0 2%, 100% 0, 100% 98%, 0 100%);
-      }
-      .results {
-        padding: 5rem 1.5rem;
-      }
-      .results__grid {
-        grid-template-columns: repeat(2, 1fr);
-      }
-      .result-item {
-        border-right: none;
-        border-bottom: 1px solid rgba(19, 2, 62, 0.08);
-        padding: 2rem 1rem;
-      }
-      .contact {
-        padding: 5rem 1.5rem;
-      }
-      .contact__info-row {
-        gap: 2rem;
-      }
-      .footer {
-        padding: 2rem 1.5rem;
-        flex-direction: column;
-        text-align: center;
-      }
-    }
-
-    @media (max-width: 480px) {
-      .hero__line {
-        font-size: clamp(3.5rem, 17vw, 5rem);
-      }
-      .results__grid {
-        grid-template-columns: 1fr 1fr;
-      }
-      .contact__email-link {
-        font-size: clamp(1.2rem, 6vw, 2rem);
-        word-break: break-all;
-      }
+      .navbar { padding: 1.2rem 1.5rem; }
+      .navbar.scrolled { padding: 0.8rem 1.5rem; }
+      .navbar__links { display: none; }
+      .nav-hamburger { display: flex; }
+      .hero { padding: 0 1.5rem; }
+      .hero__inner { padding: 7rem 0 4rem; }
+      .hero__headline { font-size: clamp(2.5rem, 10vw, 4rem); }
+      .section { padding: 4rem 1.5rem; }
+      .stats-grid { grid-template-columns: 1fr 1fr; gap: 1rem; }
+      .services-grid { grid-template-columns: 1fr; border: none; }
+      .service-card { border: 1px solid rgba(19,2,62,0.08); border-bottom: none; }
+      .service-card:last-child { border-bottom: 1px solid rgba(19,2,62,0.08); }
+      .service-card:nth-child(4n) { border-right: 1px solid rgba(19,2,62,0.08); }
+      .service-card:nth-child(2n) { border-right: 1px solid rgba(19,2,62,0.08); }
+      .testi-grid { grid-template-columns: 1fr; }
+      .testi-grid .testi-card:last-child { grid-column: span 1; max-width: 100%; }
+      .cta-band { padding: 4.5rem 1.5rem; }
+      .footer-top { grid-template-columns: 1fr; gap: 2rem; padding: 3rem 1.5rem 2rem; }
+      .footer-bottom { padding: 1.25rem 1.5rem; flex-direction: column; text-align: center; }
     }
   </style>
 </head>
-
 <body>
-<nav class="navbar" id="navbar" role="navigation" aria-label="Main navigation">
-  <div class="nav-inner">
-    <a href="index.html" class="nav-logo" aria-label="Vora — Home">Vora<span>.</span></a>
-    <ul class="nav-links" role="menubar">
+
+  <div id="cursor" aria-hidden="true"></div>
+  <div id="cursor-dot" aria-hidden="true"></div>
+  <div id="scroll-progress" role="progressbar" aria-label="Page scroll progress"></div>
+
+  <!-- ── NAV ── -->
+  <nav class="navbar" id="navbar" role="navigation" aria-label="Main navigation">
+    <a href="index.html" class="navbar__logo" aria-label="Vora — Home">Vora<span>.</span></a>
+    <ul class="navbar__links" role="menubar">
       <li role="none"><a href="services.html" role="menuitem">Services</a></li>
       <li role="none"><a href="about.html" role="menuitem">About</a></li>
       <li role="none"><a href="pricing.html" role="menuitem">Pricing</a></li>
       <li role="none"><a href="contact.html" role="menuitem">Contact</a></li>
-      <li role="none"><a href="contact.html" class="nav-cta" role="menuitem">Get Started</a></li>
+      <li role="none"><a href="contact.html" class="navbar__cta" role="menuitem">Free Audit</a></li>
     </ul>
     <button class="nav-hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
       <span></span><span></span><span></span>
     </button>
-  </div>
-  <div class="mobile-menu" id="mobile-menu" role="menu" aria-hidden="true">
-    <a href="services.html" role="menuitem">Services</a>
-    <a href="about.html" role="menuitem">About</a>
-    <a href="pricing.html" role="menuitem">Pricing</a>
-    <a href="contact.html" role="menuitem">Contact</a>
-    <a href="contact.html" role="menuitem">Get Started &rarr;</a>
-  </div>
-</nav>
-  <!-- Custom Cursor -->
-  <div id="cursor" aria-hidden="true"></div>
-  <div id="cursor-dot" aria-hidden="true"></div>
+    <div class="mobile-menu" id="mobile-menu" role="menu" aria-hidden="true">
+      <a href="services.html" role="menuitem">Services</a>
+      <a href="about.html" role="menuitem">About</a>
+      <a href="pricing.html" role="menuitem">Pricing</a>
+      <a href="contact.html" role="menuitem">Contact</a>
+      <a href="contact.html" role="menuitem">Free Audit &rarr;</a>
+    </div>
+  </nav>
 
-  <!-- Scroll Progress -->
-  <div id="scroll-progress" role="progressbar" aria-label="Page scroll progress"></div>
+  <!-- ── HERO ── -->
+  <section class="hero" aria-label="Homepage hero">
+    <div class="hero__inner">
+      <span class="hero__label">New York's Performance Marketing Agency</span>
+      <h1 class="hero__headline">
+        Maximize ROAS.
+        <em>Minimize CAC.</em>
+      </h1>
+      <p class="hero__sub">We're the performance marketing team that treats every dollar of your ad spend as if it were our own. Google Ads, Meta Ads, CRO, and AI-powered paid media — engineered for measurable revenue growth.</p>
+      <div class="hero__actions">
+        <a href="contact.html" class="btn-primary"><span>Get Your Free Audit &rarr;</span></a>
+        <a href="services.html" class="btn-secondary">See All Services</a>
+      </div>
+      <div class="hero__scroll-hint" aria-hidden="true">
+        <span class="hero__scroll-line"></span>
+        <span class="hero__scroll-text">Scroll to explore</span>
+      </div>
+    </div>
+  </section>
 
-  <!-- ============================================
-       NAVBAR
-  ============================================ -->
-  <header role="banner">
-    
-  </header>
+  <!-- ── MARQUEE ── -->
+  <div class="marquee-band" aria-hidden="true" role="presentation">
+    <div class="marquee-track">
+      <div class="marquee-item"><span class="marquee-item__text">9.1&#215; Average ROAS</span><span class="marquee-item__dot"></span></div>
+      <div class="marquee-item"><span class="marquee-item__text">$50M+ Ad Spend Managed</span><span class="marquee-item__dot"></span></div>
+      <div class="marquee-item"><span class="marquee-item__text">400+ Brands Scaled</span><span class="marquee-item__dot"></span></div>
+      <div class="marquee-item"><span class="marquee-item__text">40% Avg CAC Reduction</span><span class="marquee-item__dot"></span></div>
+      <div class="marquee-item"><span class="marquee-item__text">New York Performance Agency</span><span class="marquee-item__dot"></span></div>
+      <div class="marquee-item"><span class="marquee-item__text">Google Ads &bull; Meta Ads &bull; PPC &bull; CRO</span><span class="marquee-item__dot"></span></div>
+      <div class="marquee-item"><span class="marquee-item__text">9.1&#215; Average ROAS</span><span class="marquee-item__dot"></span></div>
+      <div class="marquee-item"><span class="marquee-item__text">$50M+ Ad Spend Managed</span><span class="marquee-item__dot"></span></div>
+      <div class="marquee-item"><span class="marquee-item__text">400+ Brands Scaled</span><span class="marquee-item__dot"></span></div>
+      <div class="marquee-item"><span class="marquee-item__text">40% Avg CAC Reduction</span><span class="marquee-item__dot"></span></div>
+      <div class="marquee-item"><span class="marquee-item__text">New York Performance Agency</span><span class="marquee-item__dot"></span></div>
+      <div class="marquee-item"><span class="marquee-item__text">Google Ads &bull; Meta Ads &bull; PPC &bull; CRO</span><span class="marquee-item__dot"></span></div>
+    </div>
+  </div>
 
   <main role="main">
-    <!-- ============================================
-         HERO SECTION
-    ============================================ -->
-    <section class="hero" id="home" aria-label="Hero section">
-      <div class="hero__bg-grid" aria-hidden="true"></div>
 
-      <div class="hero__inner">
-        <div class="hero__typography">
-          <h1>
-            <div class="hero__word-wrap" aria-hidden="true">
-              <span class="hero__line hero__line--digital" id="word-digital">
-                <span class="letter">D</span><span class="letter">I</span><span class="letter">G</span><span class="letter">I</span><span class="letter">T</span><span class="letter">A</span><span class="letter">L</span>
-              </span>
-            </div>
-            <div class="hero__word-wrap" aria-hidden="true">
-              <span class="hero__line hero__line--marketing" id="word-marketing">
-                <span class="letter">M</span><span class="letter">A</span><span class="letter">R</span><span class="letter">K</span><span class="letter">E</span><span class="letter">T</span><span class="letter">I</span><span class="letter">N</span><span class="letter">G</span>
-              </span>
-            </div>
-            <div class="hero__word-wrap" aria-hidden="true">
-              <span class="hero__line hero__line--agency" id="word-agency" aria-label="Agency">
-                <span class="letter" data-char="A">A</span><span class="letter" data-char="G">G</span><span class="letter" data-char="E">E</span><span class="letter" data-char="N">N</span><span class="letter" data-char="C">C</span><span class="letter" data-char="Y">Y</span>
-              </span>
-            </div>
-            <span style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;">Digital Marketing Agency</span>
-          </h1>
-
-          <div class="hero__sub">
-            <p class="hero__subtitle">
-              Toronto-based creative force. We engineer bold brand narratives, performance campaigns, and digital experiences that move markets.
-            </p>
-            <div class="hero__cta-group">
-              <a href="#services" class="btn-primary" aria-label="Explore our services">
-                <span>Explore Services</span>
-              </a>
-              <a href="#results" class="btn-secondary" aria-label="See our results">Our Results</a>
-            </div>
+    <!-- ── STATS ── -->
+    <section class="section" aria-labelledby="stats-heading">
+      <div class="section__inner">
+        <span class="section-label">By the Numbers</span>
+        <h2 class="section-title" id="stats-heading" style="max-width:520px;">Results We're Accountable to Every Single Day</h2>
+        <div class="stats-grid">
+          <div class="stat-card">
+            <span class="stat-card__num">400<em>+</em></span>
+            <span class="stat-card__label">Brands Scaled</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-card__num">9.1<em>&#215;</em></span>
+            <span class="stat-card__label">Avg ROAS Delivered</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-card__num">$50<em>M+</em></span>
+            <span class="stat-card__label">Ad Spend Managed</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-card__num">40<em>%</em></span>
+            <span class="stat-card__label">Avg CAC Reduction</span>
           </div>
         </div>
-
-        <aside class="hero__info" aria-label="Quick stats">
-          <div class="info-block" id="info-city">
-            <div class="info-block__label">Based In</div>
-            <div class="info-block__value">Toronto</div>
-          </div>
-          <div class="info-block" id="info-services">
-            <div class="info-block__label">Services</div>
-            <div class="info-block__value">6+</div>
-          </div>
-          <div class="info-block" id="info-since">
-            <div class="info-block__label">Since</div>
-            <div class="info-block__value">2020</div>
-          </div>
-        </aside>
-      </div>
-
-      <div class="hero__deco" aria-hidden="true">
-        <div class="hero__scroll-line"></div>
-        <span class="hero__scroll-hint">Scroll</span>
       </div>
     </section>
 
-    <!-- ============================================
-         MARQUEE BAND
-    ============================================ -->
-    <div class="marquee-band" aria-hidden="true" role="presentation">
-      <div class="marquee-track" id="marqueeTrack">
-        <div class="marquee-item"><span class="marquee-item__text">Brand Strategy</span><span class="marquee-item__dot"></span></div>
-        <div class="marquee-item"><span class="marquee-item__text">Digital Marketing</span><span class="marquee-item__dot"></span></div>
-        <div class="marquee-item"><span class="marquee-item__text">Toronto Agency</span><span class="marquee-item__dot"></span></div>
-        <div class="marquee-item"><span class="marquee-item__text">Creative Direction</span><span class="marquee-item__dot"></span></div>
-        <div class="marquee-item"><span class="marquee-item__text">Growth Hacking</span><span class="marquee-item__dot"></span></div>
-        <div class="marquee-item"><span class="marquee-item__text">SEO &amp; PPC</span><span class="marquee-item__dot"></span></div>
-        <div class="marquee-item"><span class="marquee-item__text">Content Creation</span><span class="marquee-item__dot"></span></div>
-        <div class="marquee-item"><span class="marquee-item__text">Web Design</span><span class="marquee-item__dot"></span></div>
-        <!-- Duplicate set for seamless loop -->
-        <div class="marquee-item"><span class="marquee-item__text">Brand Strategy</span><span class="marquee-item__dot"></span></div>
-        <div class="marquee-item"><span class="marquee-item__text">Digital Marketing</span><span class="marquee-item__dot"></span></div>
-        <div class="marquee-item"><span class="marquee-item__text">Toronto Agency</span><span class="marquee-item__dot"></span></div>
-        <div class="marquee-item"><span class="marquee-item__text">Creative Direction</span><span class="marquee-item__dot"></span></div>
-        <div class="marquee-item"><span class="marquee-item__text">Growth Hacking</span><span class="marquee-item__dot"></span></div>
-        <div class="marquee-item"><span class="marquee-item__text">SEO &amp; PPC</span><span class="marquee-item__dot"></span></div>
-        <div class="marquee-item"><span class="marquee-item__text">Content Creation</span><span class="marquee-item__dot"></span></div>
-        <div class="marquee-item"><span class="marquee-item__text">Web Design</span><span class="marquee-item__dot"></span></div>
-      </div>
-    </div>
-
-    <!-- ============================================
-         SERVICES SECTION
-    ============================================ -->
-    <section class="services" id="services" aria-labelledby="services-heading">
-      <div class="section-header">
+    <!-- ── SERVICES ── -->
+    <section class="section section--accent" aria-labelledby="services-heading">
+      <div class="section__inner">
         <span class="section-label">What We Do</span>
-        <h2 class="section-title" id="services-heading">Services</h2>
-      </div>
-
-      <div class="services-list" role="list">
-
-        <article class="service-row" role="listitem" aria-label="Brand Strategy service">
-          <div class="service-num" aria-hidden="true">01</div>
-          <div class="service-content">
-            <h3 class="service-name">Brand Strategy</h3>
-            <p class="service-desc">We uncover your brand's core identity and craft positioning that resonates deeply. Logos, voice, values — all unified into a compelling story.</p>
-            <span class="service-tag">Identity &amp; Positioning</span>
-          </div>
-          <div class="service-icon" aria-hidden="true">
-            <svg class="svc-icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
-          </div>
-          <div class="service-arrow" aria-hidden="true">&#8599;</div>
-        </article>
-
-        <article class="service-row service-row--right" role="listitem" aria-label="SEO service">
-          <div class="service-num" aria-hidden="true">02</div>
-          <div class="service-content">
-            <h3 class="service-name">Search Engine Optimization</h3>
-            <p class="service-desc">Technical audits, content strategy, and link-building campaigns that drive organic traffic and sustainable search visibility.</p>
-            <span class="service-tag">Organic Growth</span>
-          </div>
-          <div class="service-icon" aria-hidden="true">
-            <svg class="svc-icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/><path d="M11 8v6"/><path d="M8 11h6"/></svg>
-          </div>
-          <div class="service-arrow" aria-hidden="true">&#8599;</div>
-        </article>
-
-        <article class="service-row" role="listitem" aria-label="Paid Media service">
-          <div class="service-num" aria-hidden="true">03</div>
-          <div class="service-content">
-            <h3 class="service-name">Paid Media &amp; PPC</h3>
-            <p class="service-desc">Google Ads, Meta, LinkedIn — we architect high-ROAS campaigns with data-driven targeting and compelling creative that converts.</p>
-            <span class="service-tag">Performance Marketing</span>
-          </div>
-          <div class="service-icon" aria-hidden="true">
-            <svg class="svc-icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
-          </div>
-          <div class="service-arrow" aria-hidden="true">&#8599;</div>
-        </article>
-
-        <article class="service-row service-row--right" role="listitem" aria-label="Content Marketing service">
-          <div class="service-num" aria-hidden="true">04</div>
-          <div class="service-content">
-            <h3 class="service-name">Content Marketing</h3>
-            <p class="service-desc">Editorial calendars, blog strategy, video scripts, and social copy — content that educates, entertains, and converts your ideal audience.</p>
-            <span class="service-tag">Storytelling at Scale</span>
-          </div>
-          <div class="service-icon" aria-hidden="true">
-            <svg class="svc-icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14,2 14,8 20,8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10,9 9,9 8,9"/></svg>
-          </div>
-          <div class="service-arrow" aria-hidden="true">&#8599;</div>
-        </article>
-
-        <article class="service-row" role="listitem" aria-label="Social Media service">
-          <div class="service-num" aria-hidden="true">05</div>
-          <div class="service-content">
-            <h3 class="service-name">Social Media Management</h3>
-            <p class="service-desc">Community building, content creation, and paid social — we turn followers into fans and fans into loyal customers.</p>
-            <span class="service-tag">Community &amp; Engagement</span>
-          </div>
-          <div class="service-icon" aria-hidden="true">
-            <svg class="svc-icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
-          </div>
-          <div class="service-arrow" aria-hidden="true">&#8599;</div>
-        </article>
-
-        <article class="service-row service-row--right" role="listitem" aria-label="Web Design service">
-          <div class="service-num" aria-hidden="true">06</div>
-          <div class="service-content">
-            <h3 class="service-name">Web Design &amp; Dev</h3>
-            <p class="service-desc">Conversion-optimized websites, landing pages, and digital experiences that are fast, beautiful, and built to perform across all devices.</p>
-            <span class="service-tag">UX / UI / Conversion</span>
-          </div>
-          <div class="service-icon" aria-hidden="true">
-            <svg class="svc-icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
-          </div>
-          <div class="service-arrow" aria-hidden="true">&#8599;</div>
-        </article>
-
-      </div>
-    </section>
-
-    <!-- ============================================
-         ABOUT / QUOTE SECTION
-    ============================================ -->
-    <section class="about" id="about" aria-labelledby="about-heading">
-      <div class="about__inner">
-        <span class="about__label" id="about-heading">Our Philosophy</span>
-        <!--
-          The quote text is placed here as plain text.
-          JavaScript will build word spans using safe DOM methods.
-        -->
-        <blockquote class="about__quote" id="aboutQuote" aria-label="Boomy philosophy quote">
-          Great marketing does not interrupt people. It inspires them. It changes how they see themselves, their world, and the brands bold enough to tell the truth.
-        </blockquote>
-        <div class="about__author" aria-hidden="true">
-          <div class="about__author-line"></div>
-          <span class="about__author-text">The Boomy Manifesto</span>
-          <div class="about__author-line"></div>
+        <h2 class="section-title" id="services-heading">Full-Funnel Performance Services</h2>
+        <div class="services-grid">
+          <a href="services/google-ads.html" class="service-card">
+            <span class="service-card__icon">&#128269;</span>
+            <div class="service-card__title">Google Ads</div>
+            <p class="service-card__desc">Search, Shopping, Performance Max, and Display campaigns that turn intent into revenue. ROAS-first bidding, advanced audience layering, and continuous A/B testing.</p>
+            <span class="service-card__arrow">Learn more &rarr;</span>
+          </a>
+          <a href="services/meta-ads.html" class="service-card">
+            <span class="service-card__icon">&#128081;</span>
+            <div class="service-card__title">Meta Ads</div>
+            <p class="service-card__desc">Facebook and Instagram campaigns built for DTC and ecommerce brands. Prospecting, retargeting, and dynamic product ads that lower CAC and scale LTV.</p>
+            <span class="service-card__arrow">Learn more &rarr;</span>
+          </a>
+          <a href="services/content-marketing.html" class="service-card">
+            <span class="service-card__icon">&#127775;</span>
+            <div class="service-card__title">Performance Creative</div>
+            <p class="service-card__desc">Ad creative that converts — not just looks good. We build, test, and iterate video, static, and UGC assets tied directly to ROAS performance data.</p>
+            <span class="service-card__arrow">Learn more &rarr;</span>
+          </a>
+          <a href="services/web-design.html" class="service-card">
+            <span class="service-card__icon">&#128200;</span>
+            <div class="service-card__title">CRO</div>
+            <p class="service-card__desc">Conversion rate optimization that amplifies your ad spend. Landing page testing, funnel analysis, heatmapping, and revenue-per-visitor optimization.</p>
+            <span class="service-card__arrow">Learn more &rarr;</span>
+          </a>
+          <a href="services/seo.html" class="service-card">
+            <span class="service-card__icon">&#128202;</span>
+            <div class="service-card__title">SEO</div>
+            <p class="service-card__desc">Organic growth built to complement your paid media. Technical SEO, content strategy, and link acquisition that compounds returns over time.</p>
+            <span class="service-card__arrow">Learn more &rarr;</span>
+          </a>
+          <a href="services/ppc.html" class="service-card">
+            <span class="service-card__icon">&#128176;</span>
+            <div class="service-card__title">PPC Management</div>
+            <p class="service-card__desc">Full-service PPC across Google, Microsoft Ads, and programmatic channels. Bid management, negative keyword sculpting, and attribution modeling at every level.</p>
+            <span class="service-card__arrow">Learn more &rarr;</span>
+          </a>
+          <a href="services/social-media.html" class="service-card">
+            <span class="service-card__icon">&#128226;</span>
+            <div class="service-card__title">Social Media</div>
+            <p class="service-card__desc">Organic social strategy, content creation, and community management that builds brand equity and feeds your paid media audience pipeline.</p>
+            <span class="service-card__arrow">Learn more &rarr;</span>
+          </a>
+          <a href="services/ai-automations.html" class="service-card">
+            <span class="service-card__icon">&#129302;</span>
+            <div class="service-card__title">AI Automations</div>
+            <p class="service-card__desc">AI-powered campaign automation, smart bidding enhancement, predictive audience modeling, and automated reporting pipelines that save hours and improve performance.</p>
+            <span class="service-card__arrow">Learn more &rarr;</span>
+          </a>
         </div>
       </div>
     </section>
 
-    <!-- ============================================
-         RESULTS SECTION
-    ============================================ -->
-    <section class="results" id="results" aria-labelledby="results-heading">
-      <div class="results__inner">
-        <div class="section-header" style="padding:0; margin-bottom:4rem;">
-          <span class="section-label">Proof</span>
-          <h2 class="section-title" id="results-heading">Results That Matter</h2>
-        </div>
-
-        <div class="results__grid" role="list">
-          <div class="result-item" role="listitem">
-            <span class="result-number" data-target="127" data-suffix="+">
-              <span class="count-val">0</span><span class="suffix">+</span>
-            </span>
-            <span class="result-label">Clients Served</span>
-            <p class="result-desc">Brands across Toronto and North America</p>
+    <!-- ── WHY VORA ── -->
+    <section class="section" aria-labelledby="why-heading">
+      <div class="section__inner">
+        <div class="why-grid">
+          <div class="why-text">
+            <span class="section-label">Why Vora</span>
+            <h2 class="section-title" id="why-heading">A New York Performance Team That's Allergic to Excuses</h2>
+            <p>We built Vora because we were tired of agencies that delivered slide decks instead of revenue. Every campaign we run, every dollar we manage, every creative we test — it all comes back to one question: <strong>what does this return?</strong></p>
+            <p>Our team has managed over <strong>$50M in ad spend</strong> across Google, Meta, and programmatic channels for 400+ brands — from DTC startups scaling to $10M ARR to enterprise brands protecting market share in hyper-competitive categories.</p>
+            <p>We're based in <strong>New York</strong>, obsessed with data, and structured to be fully accountable to the metrics that actually move your business.</p>
+            <a href="about.html" class="btn-primary" style="margin-top:1.5rem;"><span>Meet the Team &rarr;</span></a>
           </div>
-          <div class="result-item" role="listitem">
-            <span class="result-number" data-target="340" data-suffix="%">
-              <span class="count-val">0</span><span class="suffix">%</span>
-            </span>
-            <span class="result-label">Avg. Traffic Increase</span>
-            <p class="result-desc">12-month organic growth average</p>
-          </div>
-          <div class="result-item" role="listitem">
-            <span class="result-number" data-target="4.8" data-suffix="x" data-decimal="true">
-              <span class="count-val">0</span><span class="suffix">x</span>
-            </span>
-            <span class="result-label">Average ROAS</span>
-            <p class="result-desc">Paid media return on ad spend</p>
-          </div>
-          <div class="result-item" role="listitem">
-            <span class="result-number" data-target="98" data-suffix="%">
-              <span class="count-val">0</span><span class="suffix">%</span>
-            </span>
-            <span class="result-label">Client Retention</span>
-            <p class="result-desc">Year-over-year repeat partnerships</p>
+          <div class="why-pillars">
+            <div class="why-pillar">
+              <span class="why-pillar__num">01</span>
+              <div>
+                <div class="why-pillar__title">ROAS-Obsessed</div>
+                <p class="why-pillar__desc">Every bid, every creative, every audience decision is evaluated against a single standard: return on ad spend. Brand vanity metrics don't pay payroll — ROAS does.</p>
+              </div>
+            </div>
+            <div class="why-pillar">
+              <span class="why-pillar__num">02</span>
+              <div>
+                <div class="why-pillar__title">Data-First, Always</div>
+                <p class="why-pillar__desc">We don't act on gut feelings. Signal drives every optimization. Every recommendation is backed by statistical evidence before it becomes strategy.</p>
+              </div>
+            </div>
+            <div class="why-pillar">
+              <span class="why-pillar__num">03</span>
+              <div>
+                <div class="why-pillar__title">New York Performance Mindset</div>
+                <p class="why-pillar__desc">Rooted in New York's competitive media market, our team knows how to fight for margin in crowded auctions and build scalable paid media systems that survive platform changes.</p>
+              </div>
+            </div>
+            <div class="why-pillar">
+              <span class="why-pillar__num">04</span>
+              <div>
+                <div class="why-pillar__title">Full Transparency</div>
+                <p class="why-pillar__desc">Real-time dashboards. Weekly performance reports. No black boxes. If a campaign underperforms, you'll know exactly why and what we're doing about it.</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- ============================================
-         CONTACT SECTION
-    ============================================ -->
-    <section class="contact" id="contact" aria-labelledby="contact-heading">
-      <div class="contact__inner">
-        <span class="contact__label">Get In Touch</span>
-        <h2 class="contact__heading" id="contact-heading">
-          Ready to make something<br />unforgettable?
-        </h2>
-        <a href="mailto:hello@boomymarketing.ca" class="contact__email-link" aria-label="Email Boomy Marketing at hello@boomymarketing.ca">
-          hello@boomymarketing.ca
-        </a>
-        <span class="contact__or">or reach us at</span>
-        <div class="contact__info-row">
-          <div class="contact__info-item">
-            <div class="contact__info-label">Phone</div>
-            <a href="tel:+14165550199" class="contact__info-value" style="color:rgba(255,255,255,.85)">+1 (416) 555-0199</a>
+    <!-- ── TESTIMONIALS ── -->
+    <section class="section section--accent" aria-labelledby="testi-heading">
+      <div class="section__inner">
+        <span class="section-label">Client Results</span>
+        <h2 class="section-title" id="testi-heading">What Our Clients Say</h2>
+        <div class="testi-grid">
+          <div class="testi-card">
+            <div class="testi-card__quote">&ldquo;</div>
+            <p class="testi-card__text">Vora took our Google Shopping ROAS from 2.8x to 11.4x in four months. They rebuilt our campaign structure from scratch, fixed our feed, and implemented a bidding framework we'd never seen before. Best decision we made this year.</p>
+            <div class="testi-card__author">
+              <div class="testi-card__avatar">J</div>
+              <div>
+                <div class="testi-card__name">Jake R.</div>
+                <div class="testi-card__role">CMO, DTC Apparel Brand &mdash; Austin, TX</div>
+              </div>
+            </div>
+            <span class="testi-card__roas">Google Ads &bull; 11.4&#215; ROAS</span>
           </div>
-          <div class="contact__info-item">
-            <div class="contact__info-label">Location</div>
-            <div class="contact__info-value">Toronto, Ontario, Canada</div>
+          <div class="testi-card">
+            <div class="testi-card__quote">&ldquo;</div>
+            <p class="testi-card__text">We were burning through Meta budget with a 1.2x ROAS. Vora rebuilt our creative testing framework, restructured our audiences, and launched a retargeting sequence that brought us to 7.6x in 90 days. CAC dropped 52% simultaneously.</p>
+            <div class="testi-card__author">
+              <div class="testi-card__avatar">S</div>
+              <div>
+                <div class="testi-card__name">Sarah M.</div>
+                <div class="testi-card__role">Founder, Wellness eCommerce &mdash; Los Angeles, CA</div>
+              </div>
+            </div>
+            <span class="testi-card__roas">Meta Ads &bull; 7.6&#215; ROAS &bull; 52% CAC drop</span>
           </div>
-          <div class="contact__info-item">
-            <div class="contact__info-label">Response Time</div>
-            <div class="contact__info-value">Within 24 hours</div>
+          <div class="testi-card">
+            <div class="testi-card__quote">&ldquo;</div>
+            <p class="testi-card__text">Vora doesn't just manage ads — they built us an entire revenue attribution system. We now know exactly which channel, creative, and keyword is driving LTV. We scaled ad spend by 3x in six months while maintaining our target CAC.</p>
+            <div class="testi-card__author">
+              <div class="testi-card__avatar">D</div>
+              <div>
+                <div class="testi-card__name">David K.</div>
+                <div class="testi-card__role">VP Growth, SaaS &amp; DTC Brand &mdash; New York, NY</div>
+              </div>
+            </div>
+            <span class="testi-card__roas">Full-Funnel &bull; 3&#215; Spend Scale &bull; CAC maintained</span>
           </div>
         </div>
       </div>
     </section>
+
+    <!-- ── CTA ── -->
+    <section class="cta-band" aria-labelledby="cta-heading">
+      <div class="cta-band__inner">
+        <span class="cta-band__label">Ready to Scale?</span>
+        <h2 class="cta-band__title" id="cta-heading">Let's Build Your Revenue Growth Engine</h2>
+        <p class="cta-band__sub">Share your current ad spend, ROAS targets, and biggest growth blocker. We'll respond within 24 hours with a custom performance plan — no fluff, no generic decks.</p>
+        <a href="contact.html" class="btn-gradient">Get Your Free Audit &rarr;</a>
+      </div>
+    </section>
+
   </main>
 
-  <!-- ============================================
-       FOOTER
-  ============================================ -->
+  <!-- ── FOOTER ── -->
   <footer class="footer" role="contentinfo">
-  <div class="footer-inner">
-    <div class="footer-top">
-      <div class="footer-brand">
-        <a href="index.html" class="footer-logo" aria-label="Vora home">Vora<span>.</span></a>
-        <p class="footer-tagline">New York's performance marketing agency. Google Ads, Meta Ads &amp; programmatic advertising engineered for ROAS.</p>
-        <div class="footer-socials">
-          <a href="https://instagram.com/aivopa" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Vora on Instagram">&#9679;</a>
-          <a href="https://linkedin.com/company/aivopa" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Vora on LinkedIn">in</a>
-          <a href="https://twitter.com/aivopa" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Vora on X">&#120143;</a>
+    <div class="footer-inner">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="index.html" class="footer-logo" aria-label="Vora home">Vora<span>.</span></a>
+          <p class="footer-tagline">New York's performance marketing agency. Google Ads, Meta Ads &amp; AI-powered paid media engineered for ROAS.</p>
+          <div class="footer-socials">
+            <a href="https://instagram.com/aivopa" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Vora on Instagram">&#9679;</a>
+            <a href="https://linkedin.com/company/aivopa" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Vora on LinkedIn">in</a>
+            <a href="https://twitter.com/aivopa" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Vora on X">&#120143;</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="services/google-ads.html">Google Ads</a></li>
+            <li><a href="services/meta-ads.html">Meta Ads</a></li>
+            <li><a href="services/ppc.html">PPC Management</a></li>
+            <li><a href="services/seo.html">SEO &amp; Content</a></li>
+            <li><a href="services/social-media.html">Social Media</a></li>
+            <li><a href="services/web-design.html">Web Design</a></li>
+            <li><a href="services/email-marketing.html">Email Marketing</a></li>
+            <li><a href="services/ai-automations.html">AI Automations</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Top Locations</h4>
+          <ul>
+            <li><a href="local/new-york/google-ads-agency/index.html">Google Ads New York</a></li>
+            <li><a href="local/new-york/ppc-agency/index.html">PPC Agency New York</a></li>
+            <li><a href="local/new-york/performance-marketing-agency/index.html">Performance Marketing NY</a></li>
+            <li><a href="local/los-angeles/google-ads-agency/index.html">Google Ads Los Angeles</a></li>
+            <li><a href="local/chicago/google-ads-agency/index.html">Google Ads Chicago</a></li>
+            <li><a href="local/miami/google-ads-agency/index.html">Google Ads Miami</a></li>
+            <li><a href="local/houston/google-ads-agency/index.html">Google Ads Houston</a></li>
+            <li><a href="local/dallas/google-ads-agency/index.html">Google Ads Dallas</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">All Services</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+          <h4 style="margin-top:1.5rem;">Contact</h4>
+          <div class="footer-contact-item"><a href="tel:+12125551234">(212) 555-1234</a></div>
+          <div class="footer-contact-item"><a href="mailto:hello@aivopa.com">hello@aivopa.com</a></div>
         </div>
       </div>
-      <div class="footer-col">
-        <h4>Services</h4>
-        <ul>
-          <li><a href="services/google-ads.html">Google Ads</a></li>
-          <li><a href="services/meta-ads.html">Meta Ads</a></li>
-          <li><a href="services/ppc.html">PPC Management</a></li>
-          <li><a href="services/seo.html">SEO &amp; Content</a></li>
-          <li><a href="services/social-media.html">Social Media</a></li>
-          <li><a href="services/web-design.html">Web Design</a></li>
-          <li><a href="services/email-marketing.html">Email Marketing</a></li>
-          <li><a href="services/ai-development.html">AI Development</a></li>
-        </ul>
-      </div>
-      <div class="footer-col">
-        <h4>Top Locations</h4>
-        <ul>
-          <li><a href="local/new-york/google-ads-agency/index.html">Google Ads New York</a></li>
-          <li><a href="local/new-york/ppc-agency/index.html">PPC Agency New York</a></li>
-          <li><a href="local/new-york/performance-marketing-agency/index.html">Performance Marketing New York</a></li>
-          <li><a href="local/los-angeles/google-ads-agency/index.html">Google Ads Los Angeles</a></li>
-          <li><a href="local/chicago/google-ads-agency/index.html">Google Ads Chicago</a></li>
-          <li><a href="local/miami/google-ads-agency/index.html">Google Ads Miami</a></li>
-          <li><a href="local/houston/google-ads-agency/index.html">Google Ads Houston</a></li>
-          <li><a href="local/dallas/google-ads-agency/index.html">Google Ads Dallas</a></li>
-        </ul>
-      </div>
-      <div class="footer-col">
-        <h4>Company</h4>
-        <ul>
-          <li><a href="about.html">About Us</a></li>
-          <li><a href="services.html">All Services</a></li>
-          <li><a href="pricing.html">Pricing</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-        <h4 style="margin-top:24px">Contact</h4>
-        <div class="footer-contact-item"><span class="fc-text"><a href="tel:+12125551234">(212) 555-1234</a></span></div>
-        <div class="footer-contact-item"><span class="fc-text"><a href="mailto:hello@aivopa.com">hello@aivopa.com</a></span></div>
+      <div class="footer-bottom">
+        <span class="footer-copy">&copy; 2026 Vora. All rights reserved.</span>
+        <div class="footer-bl">
+          <a href="contact.html">Privacy Policy</a>
+          <a href="contact.html">Terms of Service</a>
+        </div>
       </div>
     </div>
-    <div class="footer-bottom">
-      <span class="footer-copy">&copy; 2026 Vora. All rights reserved.</span>
-      <div class="footer-bl">
-        <a href="contact.html">Privacy Policy</a>
-        <a href="contact.html">Terms of Service</a>
-      </div>
-    </div>
-  </div>
-</footer>
+  </footer>
 
-  <!-- ============================================
-       JAVASCRIPT
-  ============================================ -->
   <script>
   (function () {
     'use strict';
 
-    /* ==========================================
-       UTILITIES
-    ========================================== */
-    function qs(sel, ctx) {
-      return (ctx || document).querySelector(sel);
-    }
-    function qsa(sel, ctx) {
-      return Array.from((ctx || document).querySelectorAll(sel));
-    }
-
-    /* ==========================================
-       CUSTOM CURSOR
-    ========================================== */
-    var cursor = qs('#cursor');
-    var cursorDot = qs('#cursor-dot');
-    var cursorX = -100, cursorY = -100;
-    var dotX = -100, dotY = -100;
-
-    document.addEventListener('mousemove', function (e) {
-      cursorX = e.clientX;
-      cursorY = e.clientY;
-    });
-
+    /* ── CURSOR ── */
+    var cursor = document.querySelector('#cursor');
+    var cursorDot = document.querySelector('#cursor-dot');
+    var cursorX = -100, cursorY = -100, dotX = -100, dotY = -100;
+    document.addEventListener('mousemove', function (e) { cursorX = e.clientX; cursorY = e.clientY; });
     function animateCursor() {
       dotX += (cursorX - dotX) * 0.92;
       dotY += (cursorY - dotY) * 0.92;
@@ -1554,380 +632,69 @@
       requestAnimationFrame(animateCursor);
     }
     animateCursor();
-
-    var hoverSel = 'a, button, .service-row, .result-item, .letter';
+    var hoverSel = 'a, button, .service-card, .stat-card, .testi-card';
     document.addEventListener('mouseover', function (e) {
-      if (e.target.closest && e.target.closest(hoverSel)) {
-        cursor.classList.add('cursor-hover');
-      }
+      if (e.target.closest && e.target.closest(hoverSel)) cursor.classList.add('cursor-hover');
     });
     document.addEventListener('mouseout', function (e) {
-      if (e.target.closest && e.target.closest(hoverSel)) {
-        cursor.classList.remove('cursor-hover');
-      }
+      if (e.target.closest && e.target.closest(hoverSel)) cursor.classList.remove('cursor-hover');
     });
 
-    /* ==========================================
-       SCROLL PROGRESS BAR
-    ========================================== */
-    var progressBar = qs('#scroll-progress');
+    /* ── SCROLL PROGRESS ── */
+    var progressBar = document.querySelector('#scroll-progress');
     window.addEventListener('scroll', function () {
-      var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
-      var scrollHeight = document.documentElement.scrollHeight - window.innerHeight;
-      var pct = scrollHeight > 0 ? (scrollTop / scrollHeight) * 100 : 0;
-      progressBar.style.height = pct + '%';
+      var s = document.documentElement.scrollTop || document.body.scrollTop;
+      var h = document.documentElement.scrollHeight - window.innerHeight;
+      progressBar.style.height = (h > 0 ? (s / h) * 100 : 0) + '%';
     }, { passive: true });
 
-    /* ==========================================
-       NAVBAR SCROLL STATE
-    ========================================== */
-    var navbar = qs('#navbar');
+    /* ── NAVBAR ── */
+    var navbar = document.querySelector('#navbar');
     window.addEventListener('scroll', function () {
-      if (window.scrollY > 80) {
-        navbar.classList.add('scrolled');
-      } else {
-        navbar.classList.remove('scrolled');
-      }
+      navbar.classList.toggle('scrolled', window.scrollY > 80);
     }, { passive: true });
 
-    /* ==========================================
-       GSAP + ScrollTrigger
-    ========================================== */
-    gsap.registerPlugin(ScrollTrigger);
-
-    /* ==========================================
-       HERO ANIMATIONS
-    ========================================== */
-    function initHeroAnimations() {
-      var tl = gsap.timeline({ defaults: { ease: 'power4.out' } });
-
-      // DIGITAL: clip-path wipe from left
-      tl.fromTo('#word-digital',
-        { clipPath: 'inset(0 100% 0 0)', x: -30, opacity: 0 },
-        { clipPath: 'inset(0 0% 0 0)', x: 0, opacity: 1, duration: 1.1 },
-        0.3
-      );
-
-      // MARKETING: drop from top
-      tl.fromTo('#word-marketing',
-        { y: -120, opacity: 0, rotateX: 90 },
-        { y: 0, opacity: 1, rotateX: 0, duration: 0.95, ease: 'back.out(1.4)' },
-        0.75
-      );
-
-      // AGENCY: fade in (scramble handles the drama)
-      tl.fromTo('#word-agency',
-        { opacity: 0 },
-        { opacity: 1, duration: 0.3 },
-        1.3
-      );
-
-      // Subtitle + CTA
-      tl.fromTo('.hero__subtitle',
-        { y: 30, opacity: 0 },
-        { y: 0, opacity: 1, duration: 0.8, ease: 'power3.out' },
-        1.2
-      );
-      tl.fromTo('.hero__cta-group',
-        { y: 30, opacity: 0 },
-        { y: 0, opacity: 1, duration: 0.8, ease: 'power3.out' },
-        1.4
-      );
-
-      // Info blocks stagger
-      tl.to('.info-block', {
-        opacity: 1,
-        y: 0,
-        duration: 0.6,
-        stagger: 0.15,
-        ease: 'power3.out',
-        clearProps: 'all'
-      }, 1.6);
-
-      // Hero deco
-      tl.fromTo('.hero__deco',
-        { opacity: 0, y: 10 },
-        { opacity: 1, y: 0, duration: 0.7 },
-        2.0
-      );
-    }
-
-    gsap.set('.info-block', { y: 20, opacity: 0 });
-
-    /* ==========================================
-       SCRAMBLE TEXT: AGENCY
-    ========================================== */
-    function scrambleText(element, delay) {
-      var chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789@#$%&';
-      var letters = qsa('.letter', element);
-      var startTime = performance.now() + (delay || 0);
-      var duration = 1600;
-
-      letters.forEach(function (letter, i) {
-        var charTarget = letter.getAttribute('data-char') || letter.textContent;
-        var letterDelay = i * 90;
-
-        function update(timestamp) {
-          var elapsed = timestamp - (startTime + letterDelay);
-          if (elapsed < 0) {
-            requestAnimationFrame(update);
-            return;
-          }
-          if (elapsed < duration) {
-            var progress = elapsed / duration;
-            if (progress < 0.7) {
-              letter.textContent = chars[Math.floor(Math.random() * chars.length)];
-              requestAnimationFrame(update);
-            } else {
-              letter.textContent = charTarget;
-            }
-          } else {
-            letter.textContent = charTarget;
-          }
-        }
-        requestAnimationFrame(update);
+    /* ── MOBILE MENU ── */
+    var hamburger = document.querySelector('.nav-hamburger');
+    var mobileMenu = document.querySelector('#mobile-menu');
+    if (hamburger && mobileMenu) {
+      hamburger.addEventListener('click', function () {
+        var isOpen = mobileMenu.classList.toggle('open');
+        hamburger.setAttribute('aria-expanded', isOpen);
+        mobileMenu.setAttribute('aria-hidden', !isOpen);
       });
     }
 
-    /* ==========================================
-       ABOUT QUOTE WORD SPLIT (safe DOM method)
-    ========================================== */
-    function initAboutQuote() {
-      var quoteEl = qs('#aboutQuote');
-      if (!quoteEl) return;
+    /* ── GSAP HERO ANIMATION ── */
+    if (typeof gsap !== 'undefined') {
+      gsap.from('.hero__label', { opacity: 0, y: 20, duration: 0.7, delay: 0.2 });
+      gsap.from('.hero__headline', { opacity: 0, y: 40, duration: 0.9, delay: 0.4 });
+      gsap.from('.hero__sub', { opacity: 0, y: 30, duration: 0.8, delay: 0.65 });
+      gsap.from('.hero__actions', { opacity: 0, y: 20, duration: 0.7, delay: 0.85 });
+      gsap.from('.hero__scroll-hint', { opacity: 0, duration: 0.6, delay: 1.2 });
 
-      // Capture plain text content
-      var rawText = quoteEl.textContent.trim();
-      var words = rawText.split(/\s+/);
-
-      // Words to highlight pink
-      var pinkWords = ['inspires', 'truth', 'bold', 'Great', 'changes'];
-
-      // Clear the element safely
-      while (quoteEl.firstChild) {
-        quoteEl.removeChild(quoteEl.firstChild);
+      /* Stats counter-up */
+      if (typeof ScrollTrigger !== 'undefined') {
+        gsap.registerPlugin(ScrollTrigger);
+        gsap.from('.stat-card', {
+          scrollTrigger: { trigger: '.stats-grid', start: 'top 80%' },
+          opacity: 0, y: 30, stagger: 0.12, duration: 0.65
+        });
+        gsap.from('.service-card', {
+          scrollTrigger: { trigger: '.services-grid', start: 'top 80%' },
+          opacity: 0, y: 20, stagger: 0.07, duration: 0.5
+        });
+        gsap.from('.testi-card', {
+          scrollTrigger: { trigger: '.testi-grid', start: 'top 80%' },
+          opacity: 0, y: 25, stagger: 0.15, duration: 0.6
+        });
+        gsap.from('.why-pillar', {
+          scrollTrigger: { trigger: '.why-pillars', start: 'top 80%' },
+          opacity: 0, x: 20, stagger: 0.1, duration: 0.55
+        });
       }
-
-      // Build word spans using DOM methods only
-      words.forEach(function (word, i) {
-        var span = document.createElement('span');
-        span.className = 'q-word';
-        span.setAttribute('data-index', String(i));
-
-        var isPink = pinkWords.some(function (pw) {
-          return word.toLowerCase().indexOf(pw.toLowerCase()) !== -1;
-        });
-        if (isPink) {
-          span.classList.add('word--pink');
-        }
-
-        // Set text with a trailing space
-        span.textContent = word + ' ';
-
-        quoteEl.appendChild(span);
-      });
-
-      // GSAP ScrollTrigger batch for word highlighting
-      var wordEls = qsa('.q-word', quoteEl);
-      gsap.set(wordEls, { color: '#cccccc' });
-
-      ScrollTrigger.batch(wordEls, {
-        onEnter: function (els) {
-          gsap.to(els, {
-            color: function (idx, el) {
-              return el.classList.contains('word--pink') ? '#D2085C' : '#13023E';
-            },
-            duration: 0.5,
-            stagger: 0.04,
-            ease: 'power2.out',
-            overwrite: true
-          });
-        },
-        onLeaveBack: function (els) {
-          gsap.to(els, {
-            color: '#cccccc',
-            duration: 0.3,
-            overwrite: true
-          });
-        },
-        start: 'top 85%',
-        end: 'bottom 20%'
-      });
     }
-
-    /* ==========================================
-       COUNT-UP ANIMATION
-    ========================================== */
-    function initCountUp() {
-      var numbers = qsa('.result-number[data-target]');
-
-      numbers.forEach(function (el) {
-        var target = parseFloat(el.getAttribute('data-target'));
-        var isDecimal = el.getAttribute('data-decimal') === 'true';
-        var valEl = qs('.count-val', el);
-        if (!valEl) return;
-
-        ScrollTrigger.create({
-          trigger: el,
-          start: 'top 80%',
-          once: true,
-          onEnter: function () {
-            var obj = { val: 0 };
-            gsap.to(obj, {
-              val: target,
-              duration: 2.2,
-              ease: 'expo.out',
-              onUpdate: function () {
-                valEl.textContent = isDecimal
-                  ? obj.val.toFixed(1)
-                  : Math.floor(obj.val).toString();
-              },
-              onComplete: function () {
-                // Spring overshoot
-                gsap.to(el, {
-                  scaleX: 1.03,
-                  duration: 0.15,
-                  yoyo: true,
-                  repeat: 1,
-                  ease: 'power2.out'
-                });
-              }
-            });
-          }
-        });
-      });
-    }
-
-    /* ==========================================
-       SECTION REVEALS
-    ========================================== */
-    function initSectionReveals() {
-      // Service rows
-      qsa('.service-row').forEach(function (row, i) {
-        gsap.fromTo(row,
-          { opacity: 0, x: (i % 2 === 0 ? -40 : 40) },
-          {
-            opacity: 1, x: 0, duration: 0.7, ease: 'power3.out',
-            scrollTrigger: { trigger: row, start: 'top 85%', once: true }
-          }
-        );
-      });
-
-      // Section titles
-      qsa('.section-title').forEach(function (el) {
-        gsap.fromTo(el,
-          { clipPath: 'inset(0 100% 0 0)', opacity: 0 },
-          {
-            clipPath: 'inset(0 0% 0 0)', opacity: 1, duration: 1, ease: 'power4.out',
-            scrollTrigger: { trigger: el, start: 'top 85%', once: true }
-          }
-        );
-      });
-
-      // Result items
-      qsa('.result-item').forEach(function (item, i) {
-        gsap.fromTo(item,
-          { y: 50, opacity: 0 },
-          {
-            y: 0, opacity: 1, duration: 0.8, delay: i * 0.1, ease: 'power3.out',
-            scrollTrigger: { trigger: item, start: 'top 85%', once: true }
-          }
-        );
-      });
-
-      // Contact email wipe
-      gsap.fromTo('.contact__email-link',
-        { clipPath: 'inset(0 100% 0 0)', opacity: 0 },
-        {
-          clipPath: 'inset(0 0% 0 0)', opacity: 1, duration: 1.2, ease: 'power4.out',
-          scrollTrigger: { trigger: '.contact__email-link', start: 'top 85%', once: true }
-        }
-      );
-
-      // Contact heading
-      gsap.fromTo('.contact__heading',
-        { y: 40, opacity: 0 },
-        {
-          y: 0, opacity: 1, duration: 0.9, ease: 'power3.out',
-          scrollTrigger: { trigger: '.contact__heading', start: 'top 85%', once: true }
-        }
-      );
-    }
-
-    /* ==========================================
-       LETTER WOBBLE (GSAP on hover)
-    ========================================== */
-    function initLetterWobble() {
-      qsa('.hero__line .letter').forEach(function (letter) {
-        letter.addEventListener('mouseenter', function () {
-          gsap.to(letter, {
-            rotation: (Math.random() - 0.5) * 12,
-            scale: 1.12,
-            duration: 0.25,
-            ease: 'back.out(2)'
-          });
-        });
-        letter.addEventListener('mouseleave', function () {
-          gsap.to(letter, {
-            rotation: 0,
-            scale: 1,
-            duration: 0.4,
-            ease: 'elastic.out(1, 0.5)'
-          });
-        });
-      });
-    }
-
-    /* ==========================================
-       SMOOTH ANCHOR SCROLL
-    ========================================== */
-    function initSmoothAnchors() {
-      qsa('a[href^="#"]').forEach(function (anchor) {
-        anchor.addEventListener('click', function (e) {
-          var targetId = anchor.getAttribute('href').slice(1);
-          if (!targetId) return;
-          var target = document.getElementById(targetId);
-          if (!target) return;
-          e.preventDefault();
-          var top = target.getBoundingClientRect().top + window.scrollY - 80;
-          window.scrollTo({ top: top, behavior: 'smooth' });
-        });
-      });
-    }
-
-    /* ==========================================
-       PARALLAX: Subtle hero grid
-    ========================================== */
-    function initParallax() {
-      var grid = qs('.hero__bg-grid');
-      if (!grid) return;
-      window.addEventListener('scroll', function () {
-        grid.style.transform = 'translateY(' + (window.scrollY * 0.3) + 'px)';
-      }, { passive: true });
-    }
-
-    /* ==========================================
-       INIT ALL
-    ========================================== */
-    function init() {
-      initHeroAnimations();
-      scrambleText(qs('#word-agency'), 1350);
-      initAboutQuote();
-      initCountUp();
-      initSectionReveals();
-      initLetterWobble();
-      initSmoothAnchors();
-      initParallax();
-    }
-
-    if (document.readyState === 'loading') {
-      document.addEventListener('DOMContentLoaded', init);
-    } else {
-      init();
-    }
-
-  }());
+  })();
   </script>
 </body>
 </html>
-<\!-- dns-trigger -->
