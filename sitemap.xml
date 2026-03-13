@@ -1,748 +1,601 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <!-- Homepage -->
-  <url>
+
+  <!-- Core Pages -->
+<url>
     <loc>https://aivopa.com/</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <lastmod>2026-03-13</lastmod>
   </url>
-  <url>
+<url>
     <loc>https://aivopa.com/about</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <lastmod>2026-03-13</lastmod>
   </url>
-  <url>
+<url>
     <loc>https://aivopa.com/services</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <lastmod>2026-03-13</lastmod>
   </url>
-  <url>
+<url>
     <loc>https://aivopa.com/pricing</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <lastmod>2026-03-13</lastmod>
   </url>
-  <url>
+<url>
     <loc>https://aivopa.com/contact</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <lastmod>2026-03-13</lastmod>
   </url>
-  <url>
+<url>
     <loc>https://aivopa.com/services/seo</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <lastmod>2026-03-13</lastmod>
   </url>
-  <url>
+<url>
     <loc>https://aivopa.com/services/geo</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <lastmod>2026-03-13</lastmod>
   </url>
-  <url>
+<url>
     <loc>https://aivopa.com/services/google-ads</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <lastmod>2026-03-13</lastmod>
   </url>
-  <url>
+<url>
     <loc>https://aivopa.com/services/meta-ads</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <lastmod>2026-03-13</lastmod>
   </url>
-  <url>
+<url>
     <loc>https://aivopa.com/services/ai-automations</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <lastmod>2026-03-13</lastmod>
   </url>
-  <url>
+<url>
     <loc>https://aivopa.com/services/ai-development</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <lastmod>2026-03-13</lastmod>
   </url>
-  <url>
+<url>
     <loc>https://aivopa.com/services/web-design</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <lastmod>2026-03-13</lastmod>
   </url>
-  <url>
+<url>
     <loc>https://aivopa.com/services/saas-products</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <lastmod>2026-03-13</lastmod>
   </url>
-  <url>
+<url>
     <loc>https://aivopa.com/services/voice-ai</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <lastmod>2026-03-13</lastmod>
   </url>
-  <url>
+<url>
     <loc>https://aivopa.com/services/email-marketing</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <lastmod>2026-03-13</lastmod>
   </url>
-  <url>
+<url>
     <loc>https://aivopa.com/services/ai-outbound</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <lastmod>2026-03-13</lastmod>
   </url>
-  <url>
+<url>
     <loc>https://aivopa.com/services/social-media</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <lastmod>2026-03-13</lastmod>
   </url>
-  <url>
+<url>
     <loc>https://aivopa.com/services/content-marketing</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <lastmod>2026-03-13</lastmod>
   </url>
-  <url>
+<url>
     <loc>https://aivopa.com/services/ppc</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <lastmod>2026-03-13</lastmod>
   </url>
+
+  <!-- Published Local Pages -->
   <url>
-    <loc>https://aivopa.com/local/albuquerque/ppc-agency</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-02-20</lastmod>
-  </url>
-  <url>
-    <loc>https://aivopa.com/local/atlanta/digital-advertising-agency</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2025-12-01</lastmod>
-  </url>
-  <url>
-    <loc>https://aivopa.com/local/atlanta/paid-search-agency</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-01-31</lastmod>
-  </url>
-  <url>
-    <loc>https://aivopa.com/local/atlanta/ppc-agency</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2025-12-08</lastmod>
-  </url>
-  <url>
-    <loc>https://aivopa.com/local/austin/google-ads-agency</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-01-15</lastmod>
-  </url>
-  <url>
-    <loc>https://aivopa.com/local/austin/paid-search-agency</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-01-19</lastmod>
-  </url>
-  <url>
-    <loc>https://aivopa.com/local/austin/ppc-agency</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2025-12-10</lastmod>
-  </url>
-  <url>
-    <loc>https://aivopa.com/local/bakersfield/ppc-agency</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-02-02</lastmod>
-  </url>
-  <url>
-    <loc>https://aivopa.com/local/boston/google-ads-agency</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-03-01</lastmod>
-  </url>
-  <url>
-    <loc>https://aivopa.com/local/boston/ppc-agency</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2025-12-17</lastmod>
-  </url>
-  <url>
-    <loc>https://aivopa.com/local/charlotte/digital-advertising-agency</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-02-15</lastmod>
-  </url>
-  <url>
-    <loc>https://aivopa.com/local/charlotte/ppc-agency</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2025-12-19</lastmod>
-  </url>
-  <url>
-    <loc>https://aivopa.com/local/chicago/performance-marketing-agency</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-02-06</lastmod>
-  </url>
-  <url>
-    <loc>https://aivopa.com/local/chicago/ppc-agency</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2025-12-13</lastmod>
-  </url>
-  <url>
-    <loc>https://aivopa.com/local/cincinnati/digital-advertising-agency</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-01-28</lastmod>
-  </url>
-  <url>
-    <loc>https://aivopa.com/local/cincinnati/ppc-agency</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-01-18</lastmod>
-  </url>
-  <url>
-    <loc>https://aivopa.com/local/cleveland/ppc-agency</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-01-11</lastmod>
-  </url>
-  <url>
-    <loc>https://aivopa.com/local/columbus/google-ads-agency</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-03-05</lastmod>
-  </url>
-  <url>
-    <loc>https://aivopa.com/local/columbus/ppc-agency</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-02-22</lastmod>
-  </url>
-  <url>
-    <loc>https://aivopa.com/local/dallas/facebook-ads-agency</loc>
+    <loc>https://aivopa.com/local/albuquerque/digital-advertising-agency</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <lastmod>2026-02-26</lastmod>
   </url>
   <url>
-    <loc>https://aivopa.com/local/dallas/paid-search-agency</loc>
+    <loc>https://aivopa.com/local/albuquerque/ecommerce-marketing-agency</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <lastmod>2026-02-28</lastmod>
+    <lastmod>2026-02-26</lastmod>
   </url>
   <url>
-    <loc>https://aivopa.com/local/dallas/ppc-agency</loc>
+    <loc>https://aivopa.com/local/albuquerque/facebook-ads-agency</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <lastmod>2025-12-14</lastmod>
+    <lastmod>2026-02-26</lastmod>
   </url>
   <url>
-    <loc>https://aivopa.com/local/denver/facebook-ads-agency</loc>
+    <loc>https://aivopa.com/local/albuquerque/google-ads-agency</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <lastmod>2026-02-18</lastmod>
+    <lastmod>2026-02-26</lastmod>
   </url>
   <url>
-    <loc>https://aivopa.com/local/denver/ppc-agency</loc>
+    <loc>https://aivopa.com/local/albuquerque/meta-ads-agency</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <lastmod>2026-01-02</lastmod>
+    <lastmod>2026-02-26</lastmod>
   </url>
   <url>
-    <loc>https://aivopa.com/local/detroit/digital-advertising-agency</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-02-08</lastmod>
-  </url>
-  <url>
-    <loc>https://aivopa.com/local/detroit/ppc-agency</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-03-12</lastmod>
-  </url>
-  <url>
-    <loc>https://aivopa.com/local/fresno/ppc-agency</loc>
+    <loc>https://aivopa.com/local/albuquerque/paid-search-agency</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <lastmod>2026-02-27</lastmod>
   </url>
   <url>
-    <loc>https://aivopa.com/local/houston/digital-advertising-agency</loc>
+    <loc>https://aivopa.com/local/albuquerque/performance-marketing-agency</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <lastmod>2025-11-30</lastmod>
+    <lastmod>2026-02-27</lastmod>
   </url>
   <url>
-    <loc>https://aivopa.com/local/houston/facebook-ads-agency</loc>
+    <loc>https://aivopa.com/local/albuquerque/ppc-agency</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <lastmod>2026-02-16</lastmod>
+    <lastmod>2026-02-27</lastmod>
   </url>
   <url>
-    <loc>https://aivopa.com/local/houston/google-ads-agency</loc>
+    <loc>https://aivopa.com/local/arlington/digital-advertising-agency</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <lastmod>2026-02-24</lastmod>
+    <lastmod>2026-02-27</lastmod>
   </url>
   <url>
-    <loc>https://aivopa.com/local/houston/paid-search-agency</loc>
+    <loc>https://aivopa.com/local/arlington/ecommerce-marketing-agency</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-02-27</lastmod>
   </url>
   <url>
-    <loc>https://aivopa.com/local/houston/ppc-agency</loc>
+    <loc>https://aivopa.com/local/arlington/facebook-ads-agency</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <lastmod>2025-12-03</lastmod>
+    <lastmod>2026-02-28</lastmod>
   </url>
   <url>
-    <loc>https://aivopa.com/local/industry-accountants/ppc-agency</loc>
+    <loc>https://aivopa.com/local/arlington/google-ads-agency</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <lastmod>2026-02-13</lastmod>
+    <lastmod>2026-02-28</lastmod>
   </url>
   <url>
-    <loc>https://aivopa.com/local/industry-dentists/google-ads-agency</loc>
+    <loc>https://aivopa.com/local/arlington/meta-ads-agency</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <lastmod>2025-12-26</lastmod>
+    <lastmod>2026-02-28</lastmod>
   </url>
   <url>
-    <loc>https://aivopa.com/local/industry-dentists/ppc-agency</loc>
+    <loc>https://aivopa.com/local/arlington/paid-search-agency</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <lastmod>2025-12-25</lastmod>
+    <lastmod>2026-02-28</lastmod>
   </url>
   <url>
-    <loc>https://aivopa.com/local/industry-ecommerce/facebook-ads-agency</loc>
+    <loc>https://aivopa.com/local/arlington/performance-marketing-agency</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <lastmod>2026-01-05</lastmod>
+    <lastmod>2026-02-28</lastmod>
   </url>
   <url>
-    <loc>https://aivopa.com/local/industry-ecommerce/ppc-agency</loc>
+    <loc>https://aivopa.com/local/arlington/ppc-agency</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <lastmod>2025-12-04</lastmod>
+    <lastmod>2026-03-01</lastmod>
   </url>
   <url>
-    <loc>https://aivopa.com/local/industry-healthcare/ppc-agency</loc>
+    <loc>https://aivopa.com/local/atlanta/digital-advertising-agency</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <lastmod>2026-01-12</lastmod>
+    <lastmod>2026-03-01</lastmod>
   </url>
   <url>
-    <loc>https://aivopa.com/local/industry-hotels/google-ads-agency</loc>
+    <loc>https://aivopa.com/local/atlanta/ecommerce-marketing-agency</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <lastmod>2026-03-03</lastmod>
+    <lastmod>2026-03-01</lastmod>
   </url>
   <url>
-    <loc>https://aivopa.com/local/industry-hotels/performance-marketing-agency</loc>
+    <loc>https://aivopa.com/local/atlanta/facebook-ads-agency</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <lastmod>2026-02-12</lastmod>
+    <lastmod>2026-03-01</lastmod>
   </url>
   <url>
-    <loc>https://aivopa.com/local/industry-hotels/ppc-agency</loc>
+    <loc>https://aivopa.com/local/atlanta/google-ads-agency</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <lastmod>2026-02-14</lastmod>
+    <lastmod>2026-03-01</lastmod>
   </url>
   <url>
-    <loc>https://aivopa.com/local/industry-lawyers/ppc-agency</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2025-12-24</lastmod>
-  </url>
-  <url>
-    <loc>https://aivopa.com/local/industry-real-estate/performance-marketing-agency</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-02-07</lastmod>
-  </url>
-  <url>
-    <loc>https://aivopa.com/local/industry-small-business/google-ads-agency</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2025-12-27</lastmod>
-  </url>
-  <url>
-    <loc>https://aivopa.com/local/industry-small-business/ppc-agency</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-01-04</lastmod>
-  </url>
-  <url>
-    <loc>https://aivopa.com/local/industry-startups/ppc-agency</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-01-21</lastmod>
-  </url>
-  <url>
-    <loc>https://aivopa.com/local/kansas-city/digital-advertising-agency</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-02-05</lastmod>
-  </url>
-  <url>
-    <loc>https://aivopa.com/local/kansas-city/google-ads-agency</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-02-19</lastmod>
-  </url>
-  <url>
-    <loc>https://aivopa.com/local/kansas-city/ppc-agency</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2025-12-28</lastmod>
-  </url>
-  <url>
-    <loc>https://aivopa.com/local/las-vegas/digital-advertising-agency</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-02-10</lastmod>
-  </url>
-  <url>
-    <loc>https://aivopa.com/local/las-vegas/google-ads-management</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2025-12-21</lastmod>
-  </url>
-  <url>
-    <loc>https://aivopa.com/local/las-vegas/ppc-agency</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-01-17</lastmod>
-  </url>
-  <url>
-    <loc>https://aivopa.com/local/los-angeles/digital-advertising-agency</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-01-06</lastmod>
-  </url>
-  <url>
-    <loc>https://aivopa.com/local/los-angeles/ecommerce-marketing-agency</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2025-12-30</lastmod>
-  </url>
-  <url>
-    <loc>https://aivopa.com/local/los-angeles/facebook-ads-agency</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2025-12-31</lastmod>
-  </url>
-  <url>
-    <loc>https://aivopa.com/local/los-angeles/google-ads-agency</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-01-08</lastmod>
-  </url>
-  <url>
-    <loc>https://aivopa.com/local/los-angeles/paid-search-agency</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-01-10</lastmod>
-  </url>
-  <url>
-    <loc>https://aivopa.com/local/los-angeles/performance-marketing-agency</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-02-01</lastmod>
-  </url>
-  <url>
-    <loc>https://aivopa.com/local/los-angeles/ppc-agency</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2025-12-05</lastmod>
-  </url>
-  <url>
-    <loc>https://aivopa.com/local/miami/ecommerce-marketing-agency</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-01-23</lastmod>
-  </url>
-  <url>
-    <loc>https://aivopa.com/local/miami/google-ads-agency</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-02-17</lastmod>
-  </url>
-  <url>
-    <loc>https://aivopa.com/local/miami/performance-marketing-agency</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-03-06</lastmod>
-  </url>
-  <url>
-    <loc>https://aivopa.com/local/miami/ppc-agency</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2025-12-11</lastmod>
-  </url>
-  <url>
-    <loc>https://aivopa.com/local/minneapolis/paid-search-agency</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-02-04</lastmod>
-  </url>
-  <url>
-    <loc>https://aivopa.com/local/minneapolis/ppc-agency</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-01-25</lastmod>
-  </url>
-  <url>
-    <loc>https://aivopa.com/local/nashville/google-ads-agency</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2025-12-12</lastmod>
-  </url>
-  <url>
-    <loc>https://aivopa.com/local/nashville/ppc-agency</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-01-22</lastmod>
-  </url>
-  <url>
-    <loc>https://aivopa.com/local/new-york/digital-advertising-agency</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2025-11-29</lastmod>
-  </url>
-  <url>
-    <loc>https://aivopa.com/local/new-york/facebook-ads-agency</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-01-07</lastmod>
-  </url>
-  <url>
-    <loc>https://aivopa.com/local/new-york/google-ads-agency</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-01-09</lastmod>
-  </url>
-  <url>
-    <loc>https://aivopa.com/local/new-york/paid-search-agency</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-01-16</lastmod>
-  </url>
-  <url>
-    <loc>https://aivopa.com/local/new-york/ppc-agency</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2025-12-06</lastmod>
-  </url>
-  <url>
-    <loc>https://aivopa.com/local/oakland/ppc-agency</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-03-10</lastmod>
-  </url>
-  <url>
-    <loc>https://aivopa.com/local/orlando/ppc-agency</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2025-12-22</lastmod>
-  </url>
-  <url>
-    <loc>https://aivopa.com/local/philadelphia/paid-search-agency</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-02-11</lastmod>
-  </url>
-  <url>
-    <loc>https://aivopa.com/local/philadelphia/ppc-agency</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2025-12-18</lastmod>
-  </url>
-  <url>
-    <loc>https://aivopa.com/local/phoenix/digital-advertising-agency</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-03-07</lastmod>
-  </url>
-  <url>
-    <loc>https://aivopa.com/local/phoenix/paid-search-agency</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-01-30</lastmod>
-  </url>
-  <url>
-    <loc>https://aivopa.com/local/phoenix/performance-marketing-agency</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-03-08</lastmod>
-  </url>
-  <url>
-    <loc>https://aivopa.com/local/phoenix/ppc-agency</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-01-26</lastmod>
-  </url>
-  <url>
-    <loc>https://aivopa.com/local/pittsburgh/digital-advertising-agency</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-01-29</lastmod>
-  </url>
-  <url>
-    <loc>https://aivopa.com/local/pittsburgh/ppc-agency</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-01-13</lastmod>
-  </url>
-  <url>
-    <loc>https://aivopa.com/local/portland/ppc-agency</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2025-12-15</lastmod>
-  </url>
-  <url>
-    <loc>https://aivopa.com/local/raleigh/ppc-agency</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-02-25</lastmod>
-  </url>
-  <url>
-    <loc>https://aivopa.com/local/richmond/digital-advertising-agency</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-03-13</lastmod>
-  </url>
-  <url>
-    <loc>https://aivopa.com/local/richmond/google-ads-agency</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-02-09</lastmod>
-  </url>
-  <url>
-    <loc>https://aivopa.com/local/richmond/ppc-agency</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-01-20</lastmod>
-  </url>
-  <url>
-    <loc>https://aivopa.com/local/sacramento/ppc-agency</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2025-12-23</lastmod>
-  </url>
-  <url>
-    <loc>https://aivopa.com/local/salt-lake-city/ppc-agency</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-01-27</lastmod>
-  </url>
-  <url>
-    <loc>https://aivopa.com/local/san-antonio/ppc-agency</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-01-03</lastmod>
-  </url>
-  <url>
-    <loc>https://aivopa.com/local/san-diego/digital-advertising-agency</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2025-12-20</lastmod>
-  </url>
-  <url>
-    <loc>https://aivopa.com/local/san-diego/facebook-ads-agency</loc>
+    <loc>https://aivopa.com/local/atlanta/meta-ads-agency</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <lastmod>2026-03-02</lastmod>
   </url>
   <url>
-    <loc>https://aivopa.com/local/san-diego/google-ads-agency</loc>
+    <loc>https://aivopa.com/local/atlanta/paid-search-agency</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <lastmod>2026-01-01</lastmod>
+    <lastmod>2026-03-02</lastmod>
   </url>
   <url>
-    <loc>https://aivopa.com/local/san-diego/ppc-agency</loc>
+    <loc>https://aivopa.com/local/atlanta/performance-marketing-agency</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <lastmod>2025-12-09</lastmod>
+    <lastmod>2026-03-02</lastmod>
   </url>
   <url>
-    <loc>https://aivopa.com/local/san-francisco/digital-advertising-agency</loc>
+    <loc>https://aivopa.com/local/atlanta/ppc-agency</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <lastmod>2026-01-14</lastmod>
+    <lastmod>2026-03-02</lastmod>
   </url>
   <url>
-    <loc>https://aivopa.com/local/san-francisco/facebook-ads-agency</loc>
+    <loc>https://aivopa.com/local/austin/digital-advertising-agency</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <lastmod>2026-02-23</lastmod>
+    <lastmod>2026-03-02</lastmod>
   </url>
   <url>
-    <loc>https://aivopa.com/local/san-francisco/performance-marketing-agency</loc>
+    <loc>https://aivopa.com/local/austin/ecommerce-marketing-agency</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <lastmod>2026-01-24</lastmod>
+    <lastmod>2026-03-03</lastmod>
   </url>
   <url>
-    <loc>https://aivopa.com/local/san-francisco/ppc-agency</loc>
+    <loc>https://aivopa.com/local/austin/facebook-ads-agency</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <lastmod>2025-12-29</lastmod>
+    <lastmod>2026-03-03</lastmod>
   </url>
   <url>
-    <loc>https://aivopa.com/local/san-jose/ppc-agency</loc>
+    <loc>https://aivopa.com/local/austin/google-ads-agency</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <lastmod>2026-02-03</lastmod>
+    <lastmod>2026-03-03</lastmod>
   </url>
   <url>
-    <loc>https://aivopa.com/local/seattle/facebook-ads-agency</loc>
+    <loc>https://aivopa.com/local/austin/meta-ads-agency</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-03-03</lastmod>
+  </url>
+  <url>
+    <loc>https://aivopa.com/local/austin/paid-search-agency</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-03-03</lastmod>
+  </url>
+  <url>
+    <loc>https://aivopa.com/local/austin/performance-marketing-agency</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-03-04</lastmod>
+  </url>
+  <url>
+    <loc>https://aivopa.com/local/austin/ppc-agency</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-03-04</lastmod>
+  </url>
+  <url>
+    <loc>https://aivopa.com/local/bakersfield/digital-advertising-agency</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-03-04</lastmod>
+  </url>
+  <url>
+    <loc>https://aivopa.com/local/bakersfield/ecommerce-marketing-agency</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-03-04</lastmod>
+  </url>
+  <url>
+    <loc>https://aivopa.com/local/bakersfield/facebook-ads-agency</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-03-04</lastmod>
+  </url>
+  <url>
+    <loc>https://aivopa.com/local/bakersfield/google-ads-agency</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-03-05</lastmod>
+  </url>
+  <url>
+    <loc>https://aivopa.com/local/bakersfield/meta-ads-agency</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-03-05</lastmod>
+  </url>
+  <url>
+    <loc>https://aivopa.com/local/bakersfield/paid-search-agency</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-03-05</lastmod>
+  </url>
+  <url>
+    <loc>https://aivopa.com/local/bakersfield/performance-marketing-agency</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-03-05</lastmod>
+  </url>
+  <url>
+    <loc>https://aivopa.com/local/bakersfield/ppc-agency</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-03-05</lastmod>
+  </url>
+  <url>
+    <loc>https://aivopa.com/local/boston/digital-advertising-agency</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-03-06</lastmod>
+  </url>
+  <url>
+    <loc>https://aivopa.com/local/boston/ecommerce-marketing-agency</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-03-06</lastmod>
+  </url>
+  <url>
+    <loc>https://aivopa.com/local/boston/facebook-ads-agency</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-03-06</lastmod>
+  </url>
+  <url>
+    <loc>https://aivopa.com/local/boston/google-ads-agency</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-03-06</lastmod>
+  </url>
+  <url>
+    <loc>https://aivopa.com/local/boston/meta-ads-agency</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-03-06</lastmod>
+  </url>
+  <url>
+    <loc>https://aivopa.com/local/boston/paid-search-agency</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-03-07</lastmod>
+  </url>
+  <url>
+    <loc>https://aivopa.com/local/boston/performance-marketing-agency</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-03-07</lastmod>
+  </url>
+  <url>
+    <loc>https://aivopa.com/local/boston/ppc-agency</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-03-07</lastmod>
+  </url>
+  <url>
+    <loc>https://aivopa.com/local/charlotte/digital-advertising-agency</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-03-07</lastmod>
+  </url>
+  <url>
+    <loc>https://aivopa.com/local/charlotte/ecommerce-marketing-agency</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-03-07</lastmod>
+  </url>
+  <url>
+    <loc>https://aivopa.com/local/charlotte/facebook-ads-agency</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-03-08</lastmod>
+  </url>
+  <url>
+    <loc>https://aivopa.com/local/charlotte/google-ads-agency</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-03-08</lastmod>
+  </url>
+  <url>
+    <loc>https://aivopa.com/local/charlotte/meta-ads-agency</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-03-08</lastmod>
+  </url>
+  <url>
+    <loc>https://aivopa.com/local/charlotte/paid-search-agency</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-03-08</lastmod>
+  </url>
+  <url>
+    <loc>https://aivopa.com/local/charlotte/performance-marketing-agency</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-03-08</lastmod>
+  </url>
+  <url>
+    <loc>https://aivopa.com/local/charlotte/ppc-agency</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-03-09</lastmod>
+  </url>
+  <url>
+    <loc>https://aivopa.com/local/chicago/digital-advertising-agency</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-03-09</lastmod>
+  </url>
+  <url>
+    <loc>https://aivopa.com/local/chicago/ecommerce-marketing-agency</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-03-09</lastmod>
+  </url>
+  <url>
+    <loc>https://aivopa.com/local/chicago/facebook-ads-agency</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-03-09</lastmod>
+  </url>
+  <url>
+    <loc>https://aivopa.com/local/chicago/google-ads-agency</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-03-09</lastmod>
+  </url>
+  <url>
+    <loc>https://aivopa.com/local/chicago/meta-ads-agency</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-03-10</lastmod>
+  </url>
+  <url>
+    <loc>https://aivopa.com/local/chicago/paid-search-agency</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-03-10</lastmod>
+  </url>
+  <url>
+    <loc>https://aivopa.com/local/chicago/performance-marketing-agency</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-03-10</lastmod>
+  </url>
+  <url>
+    <loc>https://aivopa.com/local/chicago/ppc-agency</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-03-10</lastmod>
+  </url>
+  <url>
+    <loc>https://aivopa.com/local/cincinnati/digital-advertising-agency</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-03-10</lastmod>
+  </url>
+  <url>
+    <loc>https://aivopa.com/local/cincinnati/ecommerce-marketing-agency</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <lastmod>2026-03-11</lastmod>
   </url>
   <url>
-    <loc>https://aivopa.com/local/seattle/ppc-agency</loc>
+    <loc>https://aivopa.com/local/cincinnati/facebook-ads-agency</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <lastmod>2025-12-16</lastmod>
+    <lastmod>2026-03-11</lastmod>
   </url>
   <url>
-    <loc>https://aivopa.com/local/tampa/facebook-ads-agency</loc>
+    <loc>https://aivopa.com/local/cincinnati/google-ads-agency</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <lastmod>2026-02-21</lastmod>
+    <lastmod>2026-03-11</lastmod>
   </url>
   <url>
-    <loc>https://aivopa.com/local/tampa/google-ads-agency</loc>
+    <loc>https://aivopa.com/local/cincinnati/meta-ads-agency</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <lastmod>2025-12-07</lastmod>
+    <lastmod>2026-03-11</lastmod>
   </url>
   <url>
-    <loc>https://aivopa.com/local/tampa/ppc-agency</loc>
+    <loc>https://aivopa.com/local/cincinnati/paid-search-agency</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <lastmod>2025-12-02</lastmod>
+    <lastmod>2026-03-11</lastmod>
   </url>
   <url>
-    <loc>https://aivopa.com/local/tucson/ppc-agency</loc>
+    <loc>https://aivopa.com/local/cincinnati/performance-marketing-agency</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <lastmod>2026-03-09</lastmod>
+    <lastmod>2026-03-12</lastmod>
+  </url>
+  <url>
+    <loc>https://aivopa.com/local/cincinnati/ppc-agency</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-03-12</lastmod>
+  </url>
+  <url>
+    <loc>https://aivopa.com/local/cleveland/digital-advertising-agency</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-03-12</lastmod>
+  </url>
+  <url>
+    <loc>https://aivopa.com/local/cleveland/ecommerce-marketing-agency</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-03-12</lastmod>
+  </url>
+  <url>
+    <loc>https://aivopa.com/local/cleveland/facebook-ads-agency</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-03-12</lastmod>
+  </url>
+  <url>
+    <loc>https://aivopa.com/local/cleveland/google-ads-agency</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-03-13</lastmod>
+  </url>
+  <url>
+    <loc>https://aivopa.com/local/cleveland/meta-ads-agency</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-03-13</lastmod>
+  </url>
+  <url>
+    <loc>https://aivopa.com/local/cleveland/paid-search-agency</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-03-13</lastmod>
+  </url>
+  <url>
+    <loc>https://aivopa.com/local/cleveland/performance-marketing-agency</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-03-13</lastmod>
+  </url>
+  <url>
+    <loc>https://aivopa.com/local/cleveland/ppc-agency</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-03-13</lastmod>
   </url>
 </urlset>
