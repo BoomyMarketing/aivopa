@@ -85,6 +85,11 @@ Allow: /local/columbus/ecommerce-marketing-agency/
 Allow: /local/columbus/facebook-ads-agency/
 Allow: /local/columbus/google-ads-agency/
 Allow: /local/columbus/meta-ads-agency/
+Allow: /local/columbus/paid-search-agency/
+Allow: /local/columbus/performance-marketing-agency/
+Allow: /local/columbus/ppc-agency/
+Allow: /local/dallas/digital-advertising-agency/
+Allow: /local/dallas/ecommerce-marketing-agency/
 
 # Block unpublished local pages
 Disallow: /local/
