@@ -90,6 +90,11 @@ Allow: /local/columbus/performance-marketing-agency/
 Allow: /local/columbus/ppc-agency/
 Allow: /local/dallas/digital-advertising-agency/
 Allow: /local/dallas/ecommerce-marketing-agency/
+Allow: /local/dallas/facebook-ads-agency/
+Allow: /local/dallas/google-ads-agency/
+Allow: /local/dallas/meta-ads-agency/
+Allow: /local/dallas/paid-search-agency/
+Allow: /local/dallas/performance-marketing-agency/
 
 # Block unpublished local pages
 Disallow: /local/
