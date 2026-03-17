@@ -95,6 +95,11 @@ Allow: /local/dallas/google-ads-agency/
 Allow: /local/dallas/meta-ads-agency/
 Allow: /local/dallas/paid-search-agency/
 Allow: /local/dallas/performance-marketing-agency/
+Allow: /local/dallas/ppc-agency/
+Allow: /local/denver/digital-advertising-agency/
+Allow: /local/denver/ecommerce-marketing-agency/
+Allow: /local/denver/facebook-ads-agency/
+Allow: /local/denver/google-ads-agency/
 
 # Block unpublished local pages
 Disallow: /local/
