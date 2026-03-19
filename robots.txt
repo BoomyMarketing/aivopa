@@ -105,6 +105,11 @@ Allow: /local/denver/paid-search-agency/
 Allow: /local/denver/performance-marketing-agency/
 Allow: /local/denver/ppc-agency/
 Allow: /local/detroit/digital-advertising-agency/
+Allow: /local/detroit/ecommerce-marketing-agency/
+Allow: /local/detroit/facebook-ads-agency/
+Allow: /local/detroit/google-ads-agency/
+Allow: /local/detroit/meta-ads-agency/
+Allow: /local/detroit/paid-search-agency/
 
 # Block unpublished local pages
 Disallow: /local/
