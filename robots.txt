@@ -110,6 +110,11 @@ Allow: /local/detroit/facebook-ads-agency/
 Allow: /local/detroit/google-ads-agency/
 Allow: /local/detroit/meta-ads-agency/
 Allow: /local/detroit/paid-search-agency/
+Allow: /local/detroit/performance-marketing-agency/
+Allow: /local/detroit/ppc-agency/
+Allow: /local/fresno/digital-advertising-agency/
+Allow: /local/fresno/ecommerce-marketing-agency/
+Allow: /local/fresno/facebook-ads-agency/
 
 # Block unpublished local pages
 Disallow: /local/
