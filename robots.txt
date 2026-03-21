@@ -115,6 +115,11 @@ Allow: /local/detroit/ppc-agency/
 Allow: /local/fresno/digital-advertising-agency/
 Allow: /local/fresno/ecommerce-marketing-agency/
 Allow: /local/fresno/facebook-ads-agency/
+Allow: /local/fresno/google-ads-agency/
+Allow: /local/fresno/meta-ads-agency/
+Allow: /local/fresno/paid-search-agency/
+Allow: /local/fresno/performance-marketing-agency/
+Allow: /local/fresno/ppc-agency/
 
 # Block unpublished local pages
 Disallow: /local/
