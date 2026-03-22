@@ -120,6 +120,11 @@ Allow: /local/fresno/meta-ads-agency/
 Allow: /local/fresno/paid-search-agency/
 Allow: /local/fresno/performance-marketing-agency/
 Allow: /local/fresno/ppc-agency/
+Allow: /local/houston/digital-advertising-agency/
+Allow: /local/houston/ecommerce-marketing-agency/
+Allow: /local/houston/facebook-ads-agency/
+Allow: /local/houston/google-ads-agency/
+Allow: /local/houston/meta-ads-agency/
 
 # Block unpublished local pages
 Disallow: /local/
