@@ -130,6 +130,11 @@ Allow: /local/houston/performance-marketing-agency/
 Allow: /local/houston/ppc-agency/
 Allow: /local/indianapolis/digital-advertising-agency/
 Allow: /local/indianapolis/ecommerce-marketing-agency/
+Allow: /local/indianapolis/facebook-ads-agency/
+Allow: /local/indianapolis/google-ads-agency/
+Allow: /local/indianapolis/meta-ads-agency/
+Allow: /local/indianapolis/paid-search-agency/
+Allow: /local/indianapolis/performance-marketing-agency/
 
 # Block unpublished local pages
 Disallow: /local/
