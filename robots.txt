@@ -150,6 +150,11 @@ Allow: /local/portland/ppc-agency/
 Allow: /local/san-diego/digital-advertising-agency/
 Allow: /local/san-diego/ecommerce-marketing-agency/
 Allow: /local/san-diego/facebook-ads-agency/
+Allow: /local/san-diego/google-ads-agency/
+Allow: /local/san-diego/meta-ads-agency/
+Allow: /local/san-diego/paid-search-agency/
+Allow: /local/san-diego/performance-marketing-agency/
+Allow: /local/san-diego/ppc-agency/
 
 # Block unpublished local pages
 Disallow: /local/
