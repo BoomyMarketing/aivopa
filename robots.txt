@@ -155,6 +155,11 @@ Allow: /local/san-diego/meta-ads-agency/
 Allow: /local/san-diego/paid-search-agency/
 Allow: /local/san-diego/performance-marketing-agency/
 Allow: /local/san-diego/ppc-agency/
+Allow: /local/san-francisco/digital-advertising-agency/
+Allow: /local/san-francisco/ecommerce-marketing-agency/
+Allow: /local/san-francisco/facebook-ads-agency/
+Allow: /local/san-francisco/google-ads-agency/
+Allow: /local/san-francisco/meta-ads-agency/
 
 # Block unpublished local pages
 Disallow: /local/
