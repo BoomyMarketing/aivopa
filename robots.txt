@@ -160,6 +160,11 @@ Allow: /local/san-francisco/ecommerce-marketing-agency/
 Allow: /local/san-francisco/facebook-ads-agency/
 Allow: /local/san-francisco/google-ads-agency/
 Allow: /local/san-francisco/meta-ads-agency/
+Allow: /local/san-francisco/paid-search-agency/
+Allow: /local/san-francisco/performance-marketing-agency/
+Allow: /local/san-francisco/ppc-agency/
+Allow: /local/seattle/digital-advertising-agency/
+Allow: /local/seattle/ecommerce-marketing-agency/
 
 # Block unpublished local pages
 Disallow: /local/
