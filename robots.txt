@@ -170,6 +170,7 @@ Allow: /local/seattle/google-ads-agency/
 Allow: /local/seattle/meta-ads-agency/
 Allow: /local/seattle/paid-search-agency/
 Allow: /local/seattle/performance-marketing-agency/
+Allow: /local/seattle/ppc-agency/
 
 # Block unpublished local pages
 Disallow: /local/
