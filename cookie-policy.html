@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cookie Policy — Vora Media Inc. | aivopa.com</title>
+  <meta name="description" content="Vora Media Inc. cookie policy. Learn what cookies and tracking technologies we use on aivopa.com and how to manage your preferences." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://aivopa.com/cookie-policy" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://aivopa.com/cookie-policy" />
+  <meta property="og:title" content="Cookie Policy — Vora Media Inc." />
+  <meta property="og:description" content="What cookies and tracking technologies Vora Media Inc. uses on aivopa.com and how to manage your preferences." />
+  <meta property="og:image" content="https://aivopa.com/og-image.jpg" />
+  <meta property="og:locale" content="en_US" />
+
+  <!-- JSON-LD Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Cookie Policy — Vora Media Inc.",
+    "url": "https://aivopa.com/cookie-policy",
+    "description": "Cookie policy for Vora Media Inc., a New York performance marketing agency.",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Vora Media Inc.",
+      "url": "https://aivopa.com"
+    },
+    "breadcrumb": {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://aivopa.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Cookie Policy", "item": "https://aivopa.com/cookie-policy"}
+      ]
+    }
+  }
+  </script>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Inter:wght@300;400;500;600;700;900&display=swap" rel="stylesheet" />
+
+  <!-- GSAP CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+
+  <style>
+    :root {
+      --primary: #D2085C;
+      --navy: #13023E;
+      --text: #13023E;
+      --bg: #FFFFFF;
+      --accent: #F5F0FF;
+      --gray-light: #f0eef8;
+      --gray-mid: #9b97aa;
+      --font-heading: 'Berkshire Swash', serif;
+      --font-body: 'Inter', sans-serif;
+      --transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      --row-transition: 0.55s cubic-bezier(0.76, 0, 0.24, 1);
+    }
+
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; font-size: 16px; -webkit-font-smoothing: antialiased; cursor: none; }
+    body { font-family: var(--font-body); background: var(--bg); color: var(--text); overflow-x: hidden; cursor: none; }
+    a { color: inherit; text-decoration: none; cursor: none; }
+    img, svg { display: block; max-width: 100%; }
+
+    /* CURSOR */
+    #cursor { position: fixed; top: 0; left: 0; width: 20px; height: 20px; pointer-events: none; z-index: 9999; transform: translate(-50%, -50%); }
+    #cursor::before, #cursor::after { content: ''; position: absolute; background: var(--navy); transition: all 0.2s ease; }
+    #cursor::before { width: 20px; height: 2px; top: 50%; left: 0; transform: translateY(-50%); }
+    #cursor::after { width: 2px; height: 20px; left: 50%; top: 0; transform: translateX(-50%); }
+    #cursor.cursor-hover::before { width: 32px; height: 2.5px; left: -6px; background: var(--primary); }
+    #cursor.cursor-hover::after { height: 32px; width: 2.5px; top: -6px; background: var(--primary); }
+    #cursor-dot { position: fixed; top: 0; left: 0; width: 6px; height: 6px; background: var(--primary); border-radius: 50%; pointer-events: none; z-index: 10000; transform: translate(-50%, -50%); }
+
+    /* SCROLL PROGRESS */
+    #scroll-progress { position: fixed; left: 0; top: 0; width: 3px; height: 0%; background: linear-gradient(to bottom, var(--primary), var(--navy)); z-index: 1000; }
+
+    /* NAVBAR */
+    .navbar { position: fixed; top: 0; left: 0; right: 0; z-index: 500; display: flex; align-items: center; justify-content: space-between; padding: 1.5rem 3rem; transition: background var(--transition), padding var(--transition); }
+    .navbar.scrolled { background: rgba(255,255,255,0.95); backdrop-filter: blur(12px); padding: 1rem 3rem; box-shadow: 0 1px 0 rgba(19,2,62,0.08); }
+    .nav-inner { display: flex; align-items: center; justify-content: space-between; width: 100%; }
+    .nav-logo { font-family: var(--font-heading); font-size: 1.5rem; color: var(--navy); letter-spacing: -0.02em; }
+    .nav-logo span { color: var(--primary); }
+    .nav-links { display: flex; gap: 2.5rem; list-style: none; }
+    .nav-links a { font-size: 0.85rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: var(--navy); position: relative; padding-bottom: 3px; }
+    .nav-links a::after { content: ''; position: absolute; bottom: 0; left: 0; width: 0; height: 1.5px; background: var(--primary); transition: width 0.3s ease; }
+    .nav-links a:hover::after { width: 100%; }
+    .nav-cta { font-size: 0.8rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: #fff !important; background: var(--primary); padding: 0.65rem 1.4rem; border-radius: 2px; transition: background var(--transition); }
+    .nav-cta:hover { background: var(--navy) !important; }
+    .nav-cta::after { display: none !important; }
+    .nav-hamburger { display: none; background: none; border: none; padding: 0; flex-direction: column; gap: 5px; cursor: none; }
+    .nav-hamburger span { display: block; width: 24px; height: 2px; background: var(--navy); border-radius: 2px; }
+    .mobile-menu { display: none; position: absolute; top: 100%; left: 0; right: 0; background: #fff; box-shadow: 0 8px 24px rgba(19,2,62,0.12); padding: 1.5rem 3rem; flex-direction: column; gap: 1rem; }
+    .mobile-menu.open { display: flex; }
+    .mobile-menu a { font-size: 0.9rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--navy); padding: 0.5rem 0; border-bottom: 1px solid rgba(19,2,62,0.06); }
+    .mobile-menu a:last-child { color: var(--primary); border-bottom: none; }
+
+    /* PAGE HERO */
+    .page-hero { padding: 10rem 3rem 6rem; background: var(--navy); position: relative; overflow: hidden; }
+    .page-hero::before { content: ''; position: absolute; top: -200px; right: -200px; width: 700px; height: 700px; border-radius: 50%; background: radial-gradient(circle, rgba(210,8,92,0.15) 0%, transparent 70%); pointer-events: none; }
+    .page-hero__inner { max-width: 1200px; margin: 0 auto; position: relative; z-index: 1; }
+    .page-hero__label { font-size: 0.7rem; font-weight: 700; letter-spacing: 0.25em; text-transform: uppercase; color: var(--primary); display: block; margin-bottom: 1.5rem; }
+    .page-hero__title { font-family: var(--font-heading); font-size: clamp(2.5rem, 6vw, 5rem); color: #fff; line-height: 1.05; margin-bottom: 1.5rem; }
+    .page-hero__sub { font-size: 1.1rem; color: rgba(255,255,255,0.6); max-width: 560px; line-height: 1.7; }
+
+    /* LEGAL CONTENT */
+    .legal-section { padding: 6rem 3rem; }
+    .legal-section__inner { max-width: 860px; margin: 0 auto; }
+    .legal-meta { font-size: 0.8rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--gray-mid); margin-bottom: 3rem; padding-bottom: 1.5rem; border-bottom: 1px solid rgba(19,2,62,0.08); }
+    .legal-toc { background: var(--accent); padding: 2rem 2.5rem; border-left: 3px solid var(--primary); margin-bottom: 3rem; }
+    .legal-toc h2 { font-family: var(--font-heading); font-size: 1rem; color: var(--navy); margin-bottom: 1rem; }
+    .legal-toc ol { padding-left: 1.2rem; }
+    .legal-toc li { font-size: 0.88rem; line-height: 2; color: rgba(19,2,62,0.7); }
+    .legal-toc a { color: var(--primary); border-bottom: 1px solid transparent; transition: border-color 0.2s; }
+    .legal-toc a:hover { border-color: var(--primary); }
+    .legal-body h2 { font-family: var(--font-heading); font-size: 1.6rem; color: var(--navy); margin-top: 3rem; margin-bottom: 1rem; padding-top: 2rem; border-top: 1px solid rgba(19,2,62,0.06); }
+    .legal-body h2:first-child { border-top: none; margin-top: 0; padding-top: 0; }
+    .legal-body h3 { font-size: 1rem; font-weight: 700; color: var(--navy); margin-top: 1.5rem; margin-bottom: 0.75rem; }
+    .legal-body p { font-size: 0.95rem; line-height: 1.85; color: rgba(19,2,62,0.72); margin-bottom: 1.1rem; }
+    .legal-body ul, .legal-body ol { padding-left: 1.5rem; margin-bottom: 1.1rem; }
+    .legal-body li { font-size: 0.95rem; line-height: 1.85; color: rgba(19,2,62,0.72); margin-bottom: 0.4rem; }
+    .legal-body strong { color: var(--navy); font-weight: 600; }
+    .legal-body a { color: var(--primary); border-bottom: 1px solid transparent; transition: border-color 0.2s; }
+    .legal-body a:hover { border-color: var(--primary); }
+
+    /* COOKIE TABLE */
+    .cookie-table { width: 100%; border-collapse: collapse; margin: 1.5rem 0 2rem; font-size: 0.88rem; }
+    .cookie-table th { background: var(--navy); color: #fff; font-weight: 600; font-size: 0.75rem; letter-spacing: 0.1em; text-transform: uppercase; padding: 0.75rem 1rem; text-align: left; }
+    .cookie-table td { padding: 0.75rem 1rem; border-bottom: 1px solid rgba(19,2,62,0.06); color: rgba(19,2,62,0.72); vertical-align: top; line-height: 1.6; }
+    .cookie-table tr:nth-child(even) td { background: var(--accent); }
+    .cookie-table td strong { color: var(--navy); }
+
+    .legal-contact-box { background: var(--navy); color: #fff; padding: 2.5rem; margin-top: 3rem; }
+    .legal-contact-box h3 { font-family: var(--font-heading); font-size: 1.3rem; color: #fff; margin-bottom: 1rem; }
+    .legal-contact-box p { font-size: 0.9rem; line-height: 1.8; color: rgba(255,255,255,0.65); margin-bottom: 0.5rem; }
+    .legal-contact-box a { color: var(--primary); }
+
+    /* FOOTER */
+    .footer { background: #080016; padding: 0; }
+    .footer-inner { max-width: 1200px; margin: 0 auto; }
+    .footer-top { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 3rem; padding: 4rem 3rem 3rem; }
+    .footer-logo { font-family: var(--font-heading); font-size: 1.5rem; color: rgba(255,255,255,0.8); display: inline-block; margin-bottom: 1rem; }
+    .footer-logo span { color: var(--primary); }
+    .footer-tagline { font-size: 0.85rem; line-height: 1.7; color: rgba(255,255,255,0.35); max-width: 260px; margin-bottom: 1.5rem; }
+    .footer-socials { display: flex; gap: 1rem; }
+    .social-link { display: inline-flex; align-items: center; justify-content: center; width: 36px; height: 36px; border: 1px solid rgba(255,255,255,0.12); color: rgba(255,255,255,0.45); font-size: 0.8rem; transition: border-color 0.2s, color 0.2s; }
+    .social-link:hover { border-color: var(--primary); color: var(--primary); }
+    .footer-col h4 { font-size: 0.7rem; font-weight: 700; letter-spacing: 0.2em; text-transform: uppercase; color: rgba(255,255,255,0.4); margin-bottom: 1.2rem; }
+    .footer-col ul { list-style: none; }
+    .footer-col ul li { margin-bottom: 0.6rem; }
+    .footer-col ul a { font-size: 0.82rem; color: rgba(255,255,255,0.35); transition: color 0.2s; }
+    .footer-col ul a:hover { color: var(--primary); }
+    .footer-contact-item { margin-bottom: 0.6rem; }
+    .fc-text { font-size: 0.82rem; color: rgba(255,255,255,0.35); }
+    .fc-text a { transition: color 0.2s; }
+    .fc-text a:hover { color: var(--primary); }
+    .footer-bottom { display: flex; align-items: center; justify-content: space-between; padding: 1.5rem 3rem; border-top: 1px solid rgba(255,255,255,0.06); flex-wrap: wrap; gap: 1rem; }
+    .footer-copy { font-size: 0.75rem; color: rgba(255,255,255,0.25); letter-spacing: 0.05em; }
+    .footer-bl { display: flex; gap: 1.5rem; }
+    .footer-bl a { font-size: 0.75rem; color: rgba(255,255,255,0.25); letter-spacing: 0.08em; transition: color 0.2s; }
+    .footer-bl a:hover { color: var(--primary); }
+
+    @media (max-width: 1024px) {
+      .footer-top { grid-template-columns: 1fr 1fr; }
+      .cookie-table { display: block; overflow-x: auto; }
+    }
+    @media (max-width: 768px) {
+      .navbar { padding: 1.2rem 1.5rem; }
+      .navbar.scrolled { padding: 0.8rem 1.5rem; }
+      .nav-links { display: none; }
+      .nav-hamburger { display: flex; }
+      .page-hero { padding: 8rem 1.5rem 4rem; }
+      .legal-section { padding: 4rem 1.5rem; }
+      .footer-top { grid-template-columns: 1fr; gap: 2rem; padding: 3rem 1.5rem 2rem; }
+      .footer-bottom { padding: 1.25rem 1.5rem; flex-direction: column; text-align: center; }
+    }
+  </style>
+</head>
+<body>
+<nav class="navbar" id="navbar" role="navigation" aria-label="Main navigation">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo" aria-label="Vora — Home">Vora<span>.</span></a>
+    <ul class="nav-links" role="menubar">
+      <li role="none"><a href="services.html" role="menuitem">Services</a></li>
+      <li role="none"><a href="about.html" role="menuitem">About</a></li>
+      <li role="none"><a href="pricing.html" role="menuitem">Pricing</a></li>
+      <li role="none"><a href="contact.html" role="menuitem">Contact</a></li>
+      <li role="none"><a href="contact.html" class="nav-cta" role="menuitem">Get Started</a></li>
+    </ul>
+    <button class="nav-hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div class="mobile-menu" id="mobile-menu" role="menu" aria-hidden="true">
+    <a href="services.html" role="menuitem">Services</a>
+    <a href="about.html" role="menuitem">About</a>
+    <a href="pricing.html" role="menuitem">Pricing</a>
+    <a href="contact.html" role="menuitem">Contact</a>
+    <a href="contact.html" role="menuitem">Get Started &rarr;</a>
+  </div>
+</nav>
+  <div id="cursor" aria-hidden="true"></div>
+  <div id="cursor-dot" aria-hidden="true"></div>
+  <div id="scroll-progress" role="progressbar" aria-label="Page scroll progress"></div>
+
+  <header role="banner">
+    <!-- PAGE HERO -->
+    <section class="page-hero" aria-label="Cookie Policy hero">
+      <div class="page-hero__inner">
+        <span class="page-hero__label">Legal</span>
+        <h1 class="page-hero__title">Cookie Policy</h1>
+        <p class="page-hero__sub">How Vora Media Inc. uses cookies and tracking technologies on aivopa.com, and how you can manage your preferences. Last updated: April 12, 2026.</p>
+      </div>
+    </section>
+  </header>
+
+  <main role="main">
+    <section class="legal-section" aria-label="Cookie Policy content">
+      <div class="legal-section__inner">
+        <p class="legal-meta">Last Updated: April 12, 2026 &nbsp;|&nbsp; Vora Media Inc. &nbsp;|&nbsp; 350 Fifth Avenue, New York, NY 10118</p>
+
+        <nav class="legal-toc" aria-label="Table of contents">
+          <h2>Contents</h2>
+          <ol>
+            <li><a href="#what-are-cookies">What Are Cookies?</a></li>
+            <li><a href="#why-we-use">Why We Use Cookies</a></li>
+            <li><a href="#types">Types of Cookies We Use</a></li>
+            <li><a href="#third-party">Third-Party Cookies and Tracking</a></li>
+            <li><a href="#advertising-cookies">Advertising and Retargeting Cookies</a></li>
+            <li><a href="#managing">Managing Your Cookie Preferences</a></li>
+            <li><a href="#do-not-track">Do Not Track Signals</a></li>
+            <li><a href="#updates">Updates to This Policy</a></li>
+            <li><a href="#contact-us">Contact Us</a></li>
+          </ol>
+        </nav>
+
+        <div class="legal-body">
+
+          <h2 id="what-are-cookies">1. What Are Cookies?</h2>
+          <p>Cookies are small text files placed on your device (computer, smartphone, or tablet) when you visit a website. They are widely used to make websites work efficiently, remember your preferences, and provide information to the site owner about how users interact with their pages.</p>
+          <p>In addition to traditional cookies, we may also use <strong>local storage</strong>, <strong>session storage</strong>, <strong>pixel tags</strong> (also called web beacons or tracking pixels), and <strong>JavaScript tracking code</strong> to collect similar types of information. For simplicity, we refer to all of these technologies collectively as "cookies" in this policy.</p>
+          <p>Cookies can be "session cookies" (which expire when you close your browser) or "persistent cookies" (which remain on your device for a set period or until you delete them). They may be set by us ("first-party cookies") or by third parties whose content appears on our Site ("third-party cookies").</p>
+
+          <h2 id="why-we-use">2. Why We Use Cookies</h2>
+          <p>As a performance marketing agency, our use of cookies reflects our deep commitment to data-driven decision-making — both for our own site and on behalf of our clients. On aivopa.com, we use cookies to:</p>
+          <ul>
+            <li>Ensure the Site functions correctly and loads efficiently</li>
+            <li>Understand how visitors interact with our content — which pages they visit, how long they stay, and where they come from</li>
+            <li>Measure the effectiveness of our own advertising campaigns (including tracking ROAS for our own paid acquisition)</li>
+            <li>Personalize your experience and remember preferences from previous visits</li>
+            <li>Run retargeting campaigns to reach visitors who have shown interest in our services</li>
+            <li>Improve our Site's content, performance, and user experience based on behavioral data</li>
+          </ul>
+
+          <h2 id="types">3. Types of Cookies We Use</h2>
+
+          <h3>3.1 Strictly Necessary Cookies</h3>
+          <p>These cookies are essential for the Site to function. They enable core features such as security, form submission, and navigation. You cannot opt out of these cookies, as the Site cannot function properly without them.</p>
+
+          <table class="cookie-table" aria-label="Strictly necessary cookies">
+            <thead>
+              <tr>
+                <th>Cookie Name</th>
+                <th>Provider</th>
+                <th>Purpose</th>
+                <th>Duration</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>__cf_bm</strong></td>
+                <td>Cloudflare</td>
+                <td>Bot detection and mitigation; protects against automated attacks</td>
+                <td>30 minutes</td>
+              </tr>
+              <tr>
+                <td><strong>XSRF-TOKEN</strong></td>
+                <td>aivopa.com</td>
+                <td>Cross-site request forgery protection for form submissions</td>
+                <td>Session</td>
+              </tr>
+              <tr>
+                <td><strong>aivopa_session</strong></td>
+                <td>aivopa.com</td>
+                <td>Maintains your session state as you browse the Site</td>
+                <td>Session</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h3>3.2 Analytics and Performance Cookies</h3>
+          <p>These cookies help us understand how visitors use our Site so we can improve it. All data is aggregated and anonymized. These cookies do not identify you personally.</p>
+
+          <table class="cookie-table" aria-label="Analytics cookies">
+            <thead>
+              <tr>
+                <th>Cookie Name</th>
+                <th>Provider</th>
+                <th>Purpose</th>
+                <th>Duration</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>_ga</strong></td>
+                <td>Google Analytics</td>
+                <td>Distinguishes unique users; assigns a randomly generated Client ID</td>
+                <td>2 years</td>
+              </tr>
+              <tr>
+                <td><strong>_ga_[ID]</strong></td>
+                <td>Google Analytics 4</td>
+                <td>Maintains session state and campaign data for GA4 reporting</td>
+                <td>2 years</td>
+              </tr>
+              <tr>
+                <td><strong>_gid</strong></td>
+                <td>Google Analytics</td>
+                <td>Distinguishes users for 24-hour session tracking</td>
+                <td>24 hours</td>
+              </tr>
+              <tr>
+                <td><strong>_gat</strong></td>
+                <td>Google Analytics</td>
+                <td>Rate limiting — reduces requests to Google Analytics servers</td>
+                <td>1 minute</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h3>3.3 Functional Cookies</h3>
+          <p>These cookies enable enhanced functionality and personalization. They may be set by us or by third-party providers whose services we use on our Site.</p>
+
+          <table class="cookie-table" aria-label="Functional cookies">
+            <thead>
+              <tr>
+                <th>Cookie Name</th>
+                <th>Provider</th>
+                <th>Purpose</th>
+                <th>Duration</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>aivopa_prefs</strong></td>
+                <td>aivopa.com</td>
+                <td>Stores user interface preferences (e.g., scroll position, form state)</td>
+                <td>1 year</td>
+              </tr>
+              <tr>
+                <td><strong>aivopa_ref</strong></td>
+                <td>aivopa.com</td>
+                <td>Records the source channel that referred you for attribution purposes</td>
+                <td>30 days</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h2 id="third-party">4. Third-Party Cookies and Tracking</h2>
+          <p>Our Site may include content, functionality, or links from third-party services that set their own cookies. These include:</p>
+          <ul>
+            <li><strong>Google Fonts</strong> — loads font files; may collect IP address data</li>
+            <li><strong>Google Tag Manager</strong> — manages and fires analytics and marketing tags; governed by Google's privacy policy</li>
+            <li><strong>Cloudflare</strong> — CDN and security provider; sets performance and security cookies</li>
+            <li><strong>LinkedIn Insight Tag</strong> — if active, tracks LinkedIn users for campaign attribution and retargeting</li>
+          </ul>
+          <p>These third parties operate under their own privacy policies. We encourage you to review the privacy policies of Google (<a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">policies.google.com/privacy</a>), LinkedIn (<a href="https://linkedin.com/legal/privacy-policy" target="_blank" rel="noopener noreferrer">linkedin.com/legal/privacy-policy</a>), and other relevant providers.</p>
+
+          <h2 id="advertising-cookies">5. Advertising and Retargeting Cookies</h2>
+          <p>As a performance marketing agency, we use advertising cookies to run and measure paid campaigns. These cookies help us track which ads led to visits on our Site and enable us to reach prior visitors with relevant follow-up advertisements.</p>
+
+          <table class="cookie-table" aria-label="Advertising cookies">
+            <thead>
+              <tr>
+                <th>Cookie Name</th>
+                <th>Provider</th>
+                <th>Purpose</th>
+                <th>Duration</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>_gcl_au</strong></td>
+                <td>Google Ads</td>
+                <td>Conversion tracking — records whether a Google Ad click led to an action on our Site</td>
+                <td>90 days</td>
+              </tr>
+              <tr>
+                <td><strong>IDE</strong></td>
+                <td>Google DoubleClick</td>
+                <td>Retargeting — used to show relevant ads to users who have visited our Site</td>
+                <td>1 year</td>
+              </tr>
+              <tr>
+                <td><strong>_fbp</strong></td>
+                <td>Meta (Facebook)</td>
+                <td>Identifies browsers for Meta Pixel conversion tracking and retargeting</td>
+                <td>90 days</td>
+              </tr>
+              <tr>
+                <td><strong>fr</strong></td>
+                <td>Meta (Facebook)</td>
+                <td>Enables delivery and measurement of Meta advertising</td>
+                <td>90 days</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <p>You can opt out of interest-based advertising at any time through the <a href="https://optout.aboutads.info/" target="_blank" rel="noopener noreferrer">Digital Advertising Alliance opt-out</a>, <a href="https://optout.networkadvertising.org/" target="_blank" rel="noopener noreferrer">Network Advertising Initiative opt-out</a>, or through your Google Ad settings at <a href="https://adssettings.google.com" target="_blank" rel="noopener noreferrer">adssettings.google.com</a>.</p>
+
+          <h2 id="managing">6. Managing Your Cookie Preferences</h2>
+          <p>You have several options for managing cookies:</p>
+          <h3>Browser-Level Controls</h3>
+          <p>Most web browsers allow you to view, manage, delete, and block cookies through their settings. Instructions for the most common browsers:</p>
+          <ul>
+            <li><strong>Google Chrome:</strong> Settings &rarr; Privacy and Security &rarr; Cookies and other site data</li>
+            <li><strong>Mozilla Firefox:</strong> Options &rarr; Privacy &amp; Security &rarr; Cookies and Site Data</li>
+            <li><strong>Safari:</strong> Preferences &rarr; Privacy &rarr; Manage Website Data</li>
+            <li><strong>Microsoft Edge:</strong> Settings &rarr; Cookies and site permissions</li>
+          </ul>
+          <p>Note: Blocking all cookies may affect Site functionality and the quality of your browsing experience. Strictly necessary cookies cannot be disabled without impacting core Site features.</p>
+          <h3>Opt-Out Tools</h3>
+          <p>In addition to browser controls, you can use the following tools:</p>
+          <ul>
+            <li>Google Analytics Opt-Out Browser Add-on: <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener noreferrer">tools.google.com/dlpage/gaoptout</a></li>
+            <li>Meta's Cookie Settings: available via your Facebook account under Settings &rarr; Ads</li>
+            <li>Your Ad Choices (YourAdChoices.com) for participating advertisers</li>
+          </ul>
+
+          <h2 id="do-not-track">7. Do Not Track Signals</h2>
+          <p>Some web browsers transmit "Do Not Track" (DNT) signals to websites. Currently there is no universally accepted standard for how websites should respond to DNT signals, and our Site does not currently alter its data collection practices in response to DNT signals. We will revisit this policy if a recognized standard emerges.</p>
+          <p>California residents may also exercise rights under the California Consumer Privacy Act (CCPA) with respect to data collected through tracking technologies. For more information, see our <a href="privacy-policy.html">Privacy Policy</a>.</p>
+
+          <h2 id="updates">8. Updates to This Policy</h2>
+          <p>We may update this Cookie Policy periodically to reflect changes in the cookies we use, technology, or legal requirements. We will post any changes on this page with a revised "Last Updated" date. We encourage you to review this page periodically to stay informed about our use of cookies.</p>
+
+          <h2 id="contact-us">9. Contact Us</h2>
+          <p>If you have questions about our use of cookies or this Cookie Policy, please contact us:</p>
+        </div>
+
+        <div class="legal-contact-box">
+          <h3>Vora Media Inc. — Cookie &amp; Privacy Contact</h3>
+          <p>350 Fifth Avenue, New York, NY 10118</p>
+          <p>Email: <a href="mailto:hello@aivopa.com">hello@aivopa.com</a></p>
+          <p>Phone: <a href="tel:+12125550167">+1 212 555 0167</a></p>
+          <p>We typically respond to privacy and cookie inquiries within 3 business days.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" role="contentinfo">
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="index.html" class="footer-logo" aria-label="Vora home">Vora<span>.</span></a>
+        <p class="footer-tagline">New York's performance marketing agency. Google Ads, Meta Ads &amp; programmatic advertising engineered for ROAS.</p>
+        <div class="footer-socials">
+          <a href="https://instagram.com/aivopa" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Vora on Instagram">&#9679;</a>
+          <a href="https://linkedin.com/company/aivopa" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Vora on LinkedIn">in</a>
+          <a href="https://twitter.com/aivopa" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Vora on X">&#120143;</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="services/google-ads.html">Google Ads</a></li>
+          <li><a href="services/meta-ads.html">Meta Ads</a></li>
+          <li><a href="services/ppc.html">PPC Management</a></li>
+          <li><a href="services/seo.html">SEO &amp; Content</a></li>
+          <li><a href="services/social-media.html">Social Media</a></li>
+          <li><a href="services/web-design.html">Web Design</a></li>
+          <li><a href="services/email-marketing.html">Email Marketing</a></li>
+          <li><a href="services/ai-development.html">AI Development</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Top Locations</h4>
+        <ul>
+          <li><a href="local/new-york/google-ads-agency/index.html">Google Ads New York</a></li>
+          <li><a href="local/new-york/ppc-agency/index.html">PPC Agency New York</a></li>
+          <li><a href="local/new-york/performance-marketing-agency/index.html">Performance Marketing New York</a></li>
+          <li><a href="local/los-angeles/google-ads-agency/index.html">Google Ads Los Angeles</a></li>
+          <li><a href="local/chicago/google-ads-agency/index.html">Google Ads Chicago</a></li>
+          <li><a href="local/miami/google-ads-agency/index.html">Google Ads Miami</a></li>
+          <li><a href="local/houston/google-ads-agency/index.html">Google Ads Houston</a></li>
+          <li><a href="local/dallas/google-ads-agency/index.html">Google Ads Dallas</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="services.html">All Services</a></li>
+          <li><a href="pricing.html">Pricing</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <h4 style="margin-top:24px">Contact</h4>
+        <div class="footer-contact-item"><span class="fc-text"><a href="tel:+12125550167">+1 212 555 0167</a></span></div>
+        <div class="footer-contact-item"><span class="fc-text"><a href="mailto:hello@aivopa.com">hello@aivopa.com</a></span></div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span class="footer-copy">&copy; 2026 Vora Media Inc. All rights reserved.</span>
+      <div class="footer-bl">
+        <a href="privacy-policy.html">Privacy Policy</a>
+        <a href="terms.html">Terms of Service</a>
+        <a href="cookie-policy.html">Cookie Policy</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  <script>
+  (function () {
+    'use strict';
+    var cursor = document.querySelector('#cursor');
+    var cursorDot = document.querySelector('#cursor-dot');
+    var cursorX = -100, cursorY = -100, dotX = -100, dotY = -100;
+    document.addEventListener('mousemove', function (e) { cursorX = e.clientX; cursorY = e.clientY; });
+    function animateCursor() {
+      dotX += (cursorX - dotX) * 0.92; dotY += (cursorY - dotY) * 0.92;
+      cursor.style.left = cursorX + 'px'; cursor.style.top = cursorY + 'px';
+      cursorDot.style.left = dotX + 'px'; cursorDot.style.top = dotY + 'px';
+      requestAnimationFrame(animateCursor);
+    }
+    animateCursor();
+    var hoverSel = 'a, button';
+    document.addEventListener('mouseover', function (e) { if (e.target.closest && e.target.closest(hoverSel)) cursor.classList.add('cursor-hover'); });
+    document.addEventListener('mouseout', function (e) { if (e.target.closest && e.target.closest(hoverSel)) cursor.classList.remove('cursor-hover'); });
+    var progressBar = document.querySelector('#scroll-progress');
+    window.addEventListener('scroll', function () {
+      var s = document.documentElement.scrollTop || document.body.scrollTop;
+      var h = document.documentElement.scrollHeight - window.innerHeight;
+      progressBar.style.height = (h > 0 ? (s / h) * 100 : 0) + '%';
+    }, { passive: true });
+    var navbar = document.querySelector('#navbar');
+    window.addEventListener('scroll', function () {
+      navbar.classList.toggle('scrolled', window.scrollY > 80);
+    }, { passive: true });
+    var hamburger = document.querySelector('.nav-hamburger');
+    var mobileMenu = document.querySelector('.mobile-menu');
+    if (hamburger && mobileMenu) {
+      hamburger.addEventListener('click', function () {
+        var open = mobileMenu.classList.toggle('open');
+        hamburger.setAttribute('aria-expanded', open);
+        mobileMenu.setAttribute('aria-hidden', !open);
+      });
+    }
+  })();
+  </script>
+</body>
+</html>
