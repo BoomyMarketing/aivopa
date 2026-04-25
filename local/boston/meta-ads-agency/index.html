@@ -1405,8 +1405,14 @@
         .social-link { width: 40px; height: 40px; border-radius: 10px; background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.12); display: flex; align-items: center; justify-content: center; color: rgba(255,255,255,.7); text-decoration: none; transition: all .3s ease; }
         .social-link:hover { background: rgba(255,107,53,.15); border-color: rgba(255,107,53,.4); color: #FF6B35; transform: translateY(-2px); }
         .social-link svg { width: 18px; height: 18px; fill: currentColor; }
-</style>
+
+        /* Accessibility: focus-visible */
+        :focus-visible { outline: 2px solid var(--primary, #FF6B35); outline-offset: 3px; border-radius: 3px; }
+        :focus:not(:focus-visible) { outline: none; }
+        </style>
+  <meta name="author" content="Vora Ads Team">
 </head>
+<a href="#main-content" class="skip-to-content" style="position:absolute;left:-9999px;top:0;z-index:9999;padding:8px 16px;background:#fff;color:#000;text-decoration:none;font-weight:700;" onfocus="this.style.left='0'" onblur="this.style.left='-9999px'">Skip to main content</a>
 <body>
 
     <!-- ── SCROLL PROGRESS ───────────────────────────────────────────── -->
@@ -1448,11 +1454,12 @@
     </nav>
 
     <!-- ── HERO ──────────────────────────────────────────────────────── -->
-    <section class="hero" aria-labelledby="hero-heading">
+    <section id="main-content" class="hero" aria-labelledby="hero-heading">
         <div class="container">
             <div class="hero-content">
                 <div class="hero-meta-badge">Meta Ads Agency · Boston</div>
                 <h1 id="hero-heading">Expert Meta Ads Agency Services in <span class="accent-word">Boston</span></h1>
+        <time class="publish-date" datetime="2026-03-21" style="display:none">Published: 2026-03-21</time>
                 <p class="hero-subtitle">Grow your Boston business with proven meta ads agency strategies</p>
                 <div class="hero-actions">
                     <a href="https://aivopa.com/contact" class="btn-primary">Get Free Performance Audit</a>
@@ -1797,6 +1804,7 @@
         </ul>
         <h4 style="margin-top:24px">Contact</h4>
         <div class="footer-contact-item"><span class="fc-text"><a href="tel:+16473701888">(647) 370-1888</a></span></div>
+        <div class="footer-contact-item"><span class="fc-text"><a href="https://maps.google.com/?q=Vora+Ads+New+York+NY" target="_blank" rel="noopener noreferrer" class="directions-link" aria-label="Get directions to Boston">Get Directions &rarr;</a></span></div>
         <div class="footer-contact-item"><span class="fc-text"><a href="mailto:hello@aivopa.com">hello@aivopa.com</a></span></div>
       </div>
     </div>
