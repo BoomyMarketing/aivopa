@@ -1,0 +1,31 @@
+{
+  "site": {
+    "name": "Vora Ads",
+    "domain": "aivopa.com",
+    "language": "en-US"
+  },
+  "contact": {
+    "email": "hello@aivopa.com",
+    "phone": ""
+  },
+  "brand": {
+    "primary_color": "#6C47FF",
+    "secondary_color": "#13023E"
+  },
+  "business": {
+    "niche": "auto",
+    "schema_type": "MarketingAgency",
+    "is_local": true,
+    "founded_year": 2023,
+    "target_city": "New York",
+    "target_state": "NY",
+    "target_country": "US"
+  },
+  "autodetect_niche": true,
+  "thresholds": {
+    "word_count": [800, 2500],
+    "faq_count": 5,
+    "h2_count": [3, 12],
+    "image_count": [2, 15]
+  }
+}
