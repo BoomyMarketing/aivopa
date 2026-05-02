@@ -59,6 +59,15 @@
           {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://aivopa.com/"},
           {"@type": "ListItem", "position": 2, "name": "About", "item": "https://aivopa.com/about"}
         ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {"@type": "Question", "name": "Who founded Vora and when?", "acceptedAnswer": {"@type": "Answer", "text": "Vora was founded in 2020 in New York City with a singular focus: accountable, ROAS-driven performance marketing. From day one, every engagement has been structured around measurable revenue outcomes."}},
+          {"@type": "Question", "name": "What makes Vora different from other performance marketing agencies?", "acceptedAnswer": {"@type": "Answer", "text": "ROAS accountability built into every retainer, full transparency with real-time dashboards, and a no-silo approach where Google Ads, Meta, and analytics teams work as one unit optimising the full revenue funnel — not channels in isolation."}},
+          {"@type": "Question", "name": "What industries does Vora specialise in?", "acceptedAnswer": {"@type": "Answer", "text": "Vora has deep experience in DTC e-commerce, SaaS, fintech, fashion, hospitality, and professional services. We've managed campaigns across competitive New York verticals and scaled brands from $1M to $50M+ in revenue."}},
+          {"@type": "Question", "name": "Does Vora work with businesses outside New York?", "acceptedAnswer": {"@type": "Answer", "text": "Yes — while Vora is headquartered in New York, we serve clients nationwide across Los Angeles, Chicago, Miami, Austin, San Francisco, and 20+ other US cities."}}
+        ]
       }
     ]
   }
@@ -208,7 +217,15 @@
       .story-grid { grid-template-columns: 1fr; gap: 3rem; }
       .footer { padding: 2rem 1.5rem; flex-direction: column; text-align: center; }
       .cta-band { padding: 4rem 1.5rem; }
+      .faq-grid { grid-template-columns: 1fr; }
     }
+    .faq-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0; border-top: 1px solid rgba(19,2,62,0.08); border-left: 1px solid rgba(19,2,62,0.08); }
+    .faq-item { border-right: 1px solid rgba(19,2,62,0.08); border-bottom: 1px solid rgba(19,2,62,0.08); }
+    .faq-item summary { list-style: none; display: flex; justify-content: space-between; align-items: flex-start; gap: 1rem; padding: 1.75rem 2rem; cursor: pointer; font-family: var(--font-heading); font-size: 1rem; color: var(--navy); line-height: 1.35; }
+    .faq-item summary::-webkit-details-marker { display: none; }
+    .faq-item summary::after { content: '+'; color: var(--primary); font-size: 1.5rem; font-weight: 300; line-height: 1; flex-shrink: 0; transition: transform 0.25s ease; }
+    .faq-item[open] summary::after { transform: rotate(45deg); }
+    .faq-item .faq-answer { padding: 0 2rem 1.75rem; font-size: 0.9rem; line-height: 1.75; color: rgba(19,2,62,0.65); }
   </style>
 <style>.social-link svg{width:18px;height:18px;fill:currentColor}.social-link{display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px}</style></head>
 <body>
@@ -364,6 +381,36 @@
             <div class="value-item__title">Results-Only</div>
             <p class="value-item__desc">We don't celebrate activity — we celebrate outcomes. Impressions don't count. Clicks don't count. Revenue counts. We structure our reporting and our retainers to ensure we're always accountable to what actually moves your business forward.</p>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section" aria-labelledby="about-faq-heading">
+      <div class="section__inner">
+        <span class="section-label">Common Questions</span>
+        <h2 class="section-title" id="about-faq-heading">About Vora — Answered</h2>
+        <div class="faq-grid">
+          <details class="faq-item">
+            <summary>Who founded Vora and when?</summary>
+            <div class="faq-answer">Vora was founded in 2020 in New York City with a singular focus: accountable, ROAS-driven performance marketing. The agency was built by practitioners who were frustrated with the industry's obsession with vanity metrics. From day one, every engagement has been structured around measurable revenue outcomes.</div>
+          </details>
+          <details class="faq-item">
+            <summary>What makes Vora different from other performance marketing agencies?</summary>
+            <div class="faq-answer">Three things: ROAS accountability built into every retainer structure, full transparency (real-time dashboards, not monthly PDF reports), and a no-silo approach where Google Ads, Meta, and analytics teams work as one unit. Most agencies optimise channels in isolation — we optimise the full revenue funnel.</div>
+          </details>
+          <details class="faq-item">
+            <summary>What industries does Vora specialise in?</summary>
+            <div class="faq-answer">Vora has deep experience in DTC e-commerce, SaaS, fintech, fashion, hospitality, and professional services. We've managed campaigns across competitive New York verticals and scaled brands from $1M to $50M+ in revenue. Our frameworks adapt to any industry with a measurable conversion event.</div>
+          </details>
+          <details class="faq-item">
+            <summary>How large is the Vora team?</summary>
+            <div class="faq-answer">Vora operates as a focused senior team rather than a large agency with junior staff. Every client works directly with certified specialists — no account managers acting as intermediaries between you and the people doing the actual work. Our team includes Google Premier Partner-certified practitioners and Meta Blueprint alumni.</div>
+          </details>
+          <details class="faq-item">
+            <summary>Does Vora work with businesses outside New York?</summary>
+            <div class="faq-answer">Yes — while Vora is headquartered in New York and has particular depth in NYC market dynamics, we serve clients nationwide. We currently manage campaigns for brands in Los Angeles, Chicago, Miami, Austin, San Francisco, and 20+ other US cities. Digital advertising has no geographic boundary for performance delivery.</div>
+          </details>
         </div>
       </div>
     </section>

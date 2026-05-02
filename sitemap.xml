@@ -3,6 +3,12 @@
 
   <!-- Core Pages -->
 <url>
+    <loc>https://aivopa.com/local</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-05-03</lastmod>
+  </url>
+<url>
     <loc>https://aivopa.com/</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
