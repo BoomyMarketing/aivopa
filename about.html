@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -29,15 +29,20 @@
     "@graph": [
       {
         "@type": "MarketingAgency",
+        "@id": "https://aivopa.com/#organization",
         "name": "Vora",
         "url": "https://aivopa.com",
-        "logo": "https://aivopa.com/logo.png",
+        "logo": "https://aivopa.com/logo.svg",
         "description": "New York performance marketing agency specializing in Google Ads, Meta Ads, PPC, and data-driven growth campaigns.",
         "foundingDate": "2020",
+        "telephone": "+16473701888",
+        "email": "hello@aivopa.com",
         "address": {
           "@type": "PostalAddress",
+          "streetAddress": "350 Fifth Avenue",
           "addressLocality": "New York",
           "addressRegion": "NY",
+          "postalCode": "10118",
           "addressCountry": "US"
         },
         "areaServed": ["New York", "United States"],
@@ -52,7 +57,7 @@
         "@type": "BreadcrumbList",
         "itemListElement": [
           {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://aivopa.com/"},
-          {"@type": "ListItem", "position": 2, "name": "About", "item": "https://aivopa.com/about.html"}
+          {"@type": "ListItem", "position": 2, "name": "About", "item": "https://aivopa.com/about"}
         ]
       }
     ]
@@ -62,11 +67,14 @@
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Inter:wght@300;400;500;600;700;900&display=swap" rel="stylesheet" />
+  <link rel="preload" href="https://fonts.gstatic.com/s/berkshireswash/v19/ptRRTi-cavZOGqCvnNJDl5m5XmNPrcQybX4pQA.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Inter:wght@300;400;500;600;700;900&display=swap" as="style" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Inter:wght@300;400;500;600;700;900&display=swap" media="print" onload="this.media='all'" />
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Inter:wght@300;400;500;600;700;900&display=swap" /></noscript>
 
   <!-- GSAP CDN -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
 
   <style>
     :root {
@@ -365,7 +373,7 @@
       <div class="cta-band__inner">
         <span class="cta-band__label">Ready to Scale?</span>
         <h2 class="cta-band__title" id="cta-heading">Let's Build Your Growth Engine</h2>
-        <a href="/vora/contact.html" class="btn-primary"><span>Get a Free Proposal</span></a>
+        <a href="contact.html" class="btn-primary"><span>Get a Free Proposal</span></a>
       </div>
     </section>
   </main>

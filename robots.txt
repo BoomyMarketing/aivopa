@@ -193,4 +193,10 @@ Allow: /
 User-agent: anthropic-ai
 Allow: /
 
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
 Sitemap: https://aivopa.com/sitemap.xml

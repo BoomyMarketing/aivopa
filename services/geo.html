@@ -20,7 +20,9 @@
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" as="style" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" media="print" onload="this.media='all'" />
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" /></noscript>
   <!-- Schema: Service -->
   <script type="application/ld+json">
   {
@@ -40,7 +42,7 @@
       }
     },
     "areaServed": "United States",
-    "url": "https://aivopa.com/services/geo.html"
+    "url": "https://aivopa.com/services/geo"
   }
   </script>
   <!-- Schema: BreadcrumbList -->
@@ -50,8 +52,8 @@
     "@type": "BreadcrumbList",
     "itemListElement": [
       {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://aivopa.com/"},
-      {"@type": "ListItem", "position": 2, "name": "Services", "item": "https://aivopa.com/services.html"},
-      {"@type": "ListItem", "position": 3, "name": "GEO Services", "item": "https://aivopa.com/services/geo.html"}
+      {"@type": "ListItem", "position": 2, "name": "Services", "item": "https://aivopa.com/services"},
+      {"@type": "ListItem", "position": 3, "name": "GEO Services", "item": "https://aivopa.com/services/geo"}
     ]
   }
   </script>

@@ -33,8 +33,8 @@
         "@type": "BreadcrumbList",
         "itemListElement": [
           {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://aivopa.com/"},
-          {"@type": "ListItem", "position": 2, "name": "Services", "item": "https://aivopa.com/services.html"},
-          {"@type": "ListItem", "position": 3, "name": "AI Marketing Automation", "item": "https://aivopa.com/services/ai-automations.html"}
+          {"@type": "ListItem", "position": 2, "name": "Services", "item": "https://aivopa.com/services"},
+          {"@type": "ListItem", "position": 3, "name": "AI Marketing Automation", "item": "https://aivopa.com/services/ai-automations"}
         ]
       },
       {
@@ -53,7 +53,9 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" as="style" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" media="print" onload="this.media='all'" />
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" /></noscript>
   <style>
     :root { --primary: #6C47FF; --dark: #0F0F1A; --bg: #FFFFFF; --bg-soft: #F5F3FF; --text: #1A1A2E; --accent: #FF4081; --font-heading: 'Space Grotesk', sans-serif; --font-body: 'Inter', sans-serif; --radius: 8px; --max-w: 1160px; --transition: 0.3s cubic-bezier(0.4,0,0.2,1); }
     *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }

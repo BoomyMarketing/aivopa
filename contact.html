@@ -24,18 +24,26 @@
     "@graph": [
       {
         "@type": "MarketingAgency",
+        "@id": "https://aivopa.com/#organization",
         "name": "Vora",
         "url": "https://aivopa.com",
+        "logo": "https://aivopa.com/logo.svg",
+        "telephone": "+16473701888",
         "email": "hello@aivopa.com",
-        "address": {"@type": "PostalAddress", "streetAddress": "New York", "addressLocality": "New York", "addressRegion": "NY", "addressCountry": "US"},
+        "address": {"@type": "PostalAddress", "streetAddress": "350 Fifth Avenue", "addressLocality": "New York", "addressRegion": "NY", "postalCode": "10118", "addressCountry": "US"},
         "contactPoint": {"@type": "ContactPoint", "contactType": "Sales", "email": "hello@aivopa.com", "availableLanguage": "English"},
-        "openingHoursSpecification": {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "09:00", "closes": "18:00"}
+        "openingHoursSpecification": {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "09:00", "closes": "18:00"},
+        "sameAs": [
+          "https://instagram.com/aivopa",
+          "https://linkedin.com/company/aivopa",
+          "https://twitter.com/aivopa"
+        ]
       },
       {
         "@type": "BreadcrumbList",
         "itemListElement": [
           {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://aivopa.com/"},
-          {"@type": "ListItem", "position": 2, "name": "Contact", "item": "https://aivopa.com/contact.html"}
+          {"@type": "ListItem", "position": 2, "name": "Contact", "item": "https://aivopa.com/contact"}
         ]
       }
     ]
@@ -44,7 +52,9 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" as="style" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" media="print" onload="this.media='all'" />
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" /></noscript>
 
   <style>
     :root {
