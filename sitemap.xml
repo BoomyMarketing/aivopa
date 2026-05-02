@@ -171,6 +171,37 @@
     <lastmod>2026-05-03</lastmod>
   </url>
 
+<url>
+    <loc>https://aivopa.com/services/programmatic-advertising</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-05-03</lastmod>
+  </url>
+<url>
+    <loc>https://aivopa.com/services/performance-creative</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-05-03</lastmod>
+  </url>
+<url>
+    <loc>https://aivopa.com/services/retargeting</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-05-03</lastmod>
+  </url>
+<url>
+    <loc>https://aivopa.com/services/affiliate-marketing</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-05-03</lastmod>
+  </url>
+<url>
+    <loc>https://aivopa.com/services/ugc-ads</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-05-03</lastmod>
+  </url>
+
   <!-- Published Local Pages -->
   <url>
     <loc>https://aivopa.com/local/albuquerque/digital-advertising-agency</loc>
