@@ -75,6 +75,11 @@ Allow: /local/cincinnati/ppc-agency
 Allow: /local/cleveland/digital-advertising-agency
 Allow: /local/cleveland/ecommerce-marketing-agency
 Allow: /local/cleveland/facebook-ads-agency
+Allow: /local/cleveland/google-ads-agency
+Allow: /local/cleveland/meta-ads-agency
+Allow: /local/cleveland/paid-search-agency
+Allow: /local/cleveland/performance-marketing-agency
+Allow: /local/cleveland/ppc-agency
 Allow: /local/dallas/digital-advertising-agency
 Allow: /local/dallas/ecommerce-marketing-agency
 Allow: /local/dallas/facebook-ads-agency

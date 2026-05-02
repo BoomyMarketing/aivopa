@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#13023E"/>
+  <rect x="0" y="0" width="6" height="630" fill="#D2085C"/>
+  <circle cx="950" cy="200" r="400" fill="none" stroke="#D2085C" stroke-width="1" opacity="0.15"/>
+  <circle cx="950" cy="200" r="280" fill="none" stroke="#D2085C" stroke-width="1" opacity="0.1"/>
+  <text x="80" y="260" font-family="Georgia, serif" font-size="88" font-weight="400" fill="#ffffff" letter-spacing="-2">Vora<tspan fill="#D2085C">.</tspan></text>
+  <text x="84" y="340" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="rgba(255,255,255,0.55)" letter-spacing="4">NEW YORK PERFORMANCE MARKETING AGENCY</text>
+  <rect x="84" y="378" width="120" height="2" fill="#D2085C"/>
+  <text x="84" y="430" font-family="Arial, sans-serif" font-size="18" fill="rgba(255,255,255,0.4)" letter-spacing="1">$100M+ Ad Spend</text>
+  <text x="84" y="460" font-family="Arial, sans-serif" font-size="18" fill="rgba(255,255,255,0.4)" letter-spacing="1">4.2x Average ROAS</text>
+  <text x="84" y="490" font-family="Arial, sans-serif" font-size="18" fill="rgba(255,255,255,0.4)" letter-spacing="1">300+ Brands Scaled</text>
+  <text x="84" y="570" font-family="Arial, sans-serif" font-size="16" fill="rgba(255,255,255,0.25)">aivopa.com</text>
+</svg>
