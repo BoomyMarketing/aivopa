@@ -251,6 +251,12 @@
 <url><loc>https://aivopa.com/industries/fitness</loc><changefreq>monthly</changefreq><priority>0.8</priority><lastmod>2026-05-04</lastmod></url>
 <url><loc>https://aivopa.com/industries/nonprofit</loc><changefreq>monthly</changefreq><priority>0.8</priority><lastmod>2026-05-04</lastmod></url>
 
+  <url><loc>https://aivopa.com/industries/insurance</loc><changefreq>monthly</changefreq><priority>0.8</priority><lastmod>2026-05-04</lastmod></url>
+  <url><loc>https://aivopa.com/industries/travel</loc><changefreq>monthly</changefreq><priority>0.8</priority><lastmod>2026-05-04</lastmod></url>
+  <url><loc>https://aivopa.com/industries/construction</loc><changefreq>monthly</changefreq><priority>0.8</priority><lastmod>2026-05-04</lastmod></url>
+  <url><loc>https://aivopa.com/industries/food-beverage</loc><changefreq>monthly</changefreq><priority>0.8</priority><lastmod>2026-05-04</lastmod></url>
+  <url><loc>https://aivopa.com/industries/luxury</loc><changefreq>monthly</changefreq><priority>0.8</priority><lastmod>2026-05-04</lastmod></url>
+
   <!-- Published Local Pages -->
   <url>
     <loc>https://aivopa.com/local/albuquerque/digital-advertising-agency</loc>
