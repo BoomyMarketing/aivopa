@@ -287,6 +287,12 @@
   <url><loc>https://aivopa.com/industries/plastic-surgery</loc><changefreq>monthly</changefreq><priority>0.8</priority><lastmod>2026-05-04</lastmod></url>
   <url><loc>https://aivopa.com/industries/catering</loc><changefreq>monthly</changefreq><priority>0.8</priority><lastmod>2026-05-04</lastmod></url>
 
+  <url><loc>https://aivopa.com/industries/chiropractic</loc><changefreq>monthly</changefreq><priority>0.8</priority><lastmod>2026-05-05</lastmod></url>
+  <url><loc>https://aivopa.com/industries/yoga-studio</loc><changefreq>monthly</changefreq><priority>0.8</priority><lastmod>2026-05-05</lastmod></url>
+  <url><loc>https://aivopa.com/industries/pest-control</loc><changefreq>monthly</changefreq><priority>0.8</priority><lastmod>2026-05-05</lastmod></url>
+  <url><loc>https://aivopa.com/industries/hvac</loc><changefreq>monthly</changefreq><priority>0.8</priority><lastmod>2026-05-05</lastmod></url>
+  <url><loc>https://aivopa.com/industries/florist</loc><changefreq>monthly</changefreq><priority>0.8</priority><lastmod>2026-05-05</lastmod></url>
+
   <!-- Published Local Pages -->
   <url>
     <loc>https://aivopa.com/local/albuquerque/digital-advertising-agency</loc>
