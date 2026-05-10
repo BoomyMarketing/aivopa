@@ -60,19 +60,19 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" as="style" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" media="print" onload="this.media='all'" />
-  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" /></noscript>
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=Inter:wght@300;400;500;600;700&display=swap" as="style" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=Inter:wght@300;400;500;600;700&display=swap" media="print" onload="this.media='all'" />
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=Inter:wght@300;400;500;600;700&display=swap" /></noscript>
 
   <style>
     :root {
       --primary: #7928CA;
       --dark: #0F0F1A;
-      --bg: #FFFFFF;
+      --bg: #0a0a0a;
       --bg-soft: #F5F3FF;
       --text: #1A1A2E;
       --accent: #FF4081;
-      --font-heading: 'Space Grotesk', sans-serif;
+      --font-heading: 'Syne', sans-serif;
       --font-body: 'Inter', sans-serif;
       --radius: 8px;
       --max-w: 1160px;
@@ -80,7 +80,7 @@
     }
     *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
     html { scroll-behavior: smooth; font-size: 16px; -webkit-font-smoothing: antialiased; }
-    body { font-family: var(--font-body); background: var(--bg); color: var(--text); overflow-x: hidden; }
+    body { font-family: var(--font-body); background: #0a0a0a; color: #fff; overflow-x: hidden; }
     a { color: inherit; text-decoration: none; }
     img { display: block; max-width: 100%; }
 
@@ -119,13 +119,13 @@
     .toggle-switch { position: relative; width: 52px; height: 28px; }
     .toggle-switch input { opacity: 0; width: 0; height: 0; }
     .toggle-slider { position: absolute; cursor: pointer; inset: 0; background: var(--primary); border-radius: 28px; transition: var(--transition); }
-    .toggle-slider::before { content: ''; position: absolute; height: 20px; width: 20px; left: 4px; bottom: 4px; background: #fff; border-radius: 50%; transition: var(--transition); }
+    .toggle-slider::before { content: ''; position: absolute; height: 20px; width: 20px; left: 4px; bottom: 4px; background: #111; border-radius: 50%; transition: var(--transition); }
     .toggle-switch input:checked + .toggle-slider::before { transform: translateX(24px); }
-    .save-badge { background: var(--accent); color: #fff; font-size: 0.7rem; font-weight: 700; padding: 0.2rem 0.55rem; border-radius: 20px; letter-spacing: 0.05em; }
+    .save-badge { background: #1a1a1a; color: #fff; font-size: 0.7rem; font-weight: 700; padding: 0.2rem 0.55rem; border-radius: 20px; letter-spacing: 0.05em; }
 
     /* PRICING CARDS */
     .pricing-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; margin-bottom: 4rem; }
-    .pricing-card { border: 1.5px solid rgba(108,71,255,0.15); border-radius: 12px; padding: 2.5rem 2rem; position: relative; transition: transform var(--transition), box-shadow var(--transition); background: var(--bg); }
+    .pricing-card { border: 1.5px solid rgba(108,71,255,0.15); border-radius: 12px; padding: 2.5rem 2rem; position: relative; transition: transform var(--transition), box-shadow var(--transition); background: #0a0a0a; }
     .pricing-card:hover { transform: translateY(-4px); box-shadow: 0 20px 60px rgba(108,71,255,0.12); }
     .pricing-card.featured { border-color: var(--primary); background: var(--dark); color: #fff; }
     .pricing-card.featured .plan-name { color: rgba(255,255,255,0.7); }
@@ -148,7 +148,7 @@
     .plan-cta--outline:hover { background: var(--primary); color: #fff; }
     .plan-cta--solid { background: var(--primary); color: #fff; }
     .plan-cta--solid:hover { background: #5535e0; }
-    .plan-cta--accent { background: var(--accent); color: #fff; }
+    .plan-cta--accent { background: #1a1a1a; color: #fff; }
     .plan-cta--accent:hover { background: #e0306a; }
 
     /* COMPARISON TABLE */
@@ -186,7 +186,7 @@
     .cta-band { background: var(--primary); border-radius: 16px; padding: 4rem 3rem; text-align: center; margin-bottom: 4rem; }
     .cta-band h2 { font-family: var(--font-heading); font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 700; color: #fff; letter-spacing: -0.02em; margin-bottom: 1rem; }
     .cta-band p { color: rgba(255,255,255,0.75); font-size: 1rem; margin-bottom: 2rem; }
-    .btn-white { display: inline-block; background: #fff; color: var(--primary); font-weight: 700; font-size: 0.95rem; padding: 0.9rem 2rem; border-radius: var(--radius); transition: var(--transition); }
+    .btn-white { display: inline-block; background: #111; color: var(--primary); font-weight: 700; font-size: 0.95rem; padding: 0.9rem 2rem; border-radius: var(--radius); transition: var(--transition); }
     .btn-white:hover { background: var(--bg-soft); transform: translateY(-2px); }
 
     /* FOOTER */

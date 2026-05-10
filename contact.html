@@ -52,19 +52,19 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" as="style" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" media="print" onload="this.media='all'" />
-  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" /></noscript>
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=Inter:wght@300;400;500;600;700&display=swap" as="style" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=Inter:wght@300;400;500;600;700&display=swap" media="print" onload="this.media='all'" />
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=Inter:wght@300;400;500;600;700&display=swap" /></noscript>
 
   <style>
     :root {
       --primary: #7928CA;
       --dark: #0F0F1A;
-      --bg: #FFFFFF;
+      --bg: #0a0a0a;
       --bg-soft: #F5F3FF;
       --text: #1A1A2E;
       --accent: #FF4081;
-      --font-heading: 'Space Grotesk', sans-serif;
+      --font-heading: 'Syne', sans-serif;
       --font-body: 'Inter', sans-serif;
       --radius: 8px;
       --max-w: 1160px;
@@ -72,7 +72,7 @@
     }
     *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
     html { scroll-behavior: smooth; font-size: 16px; -webkit-font-smoothing: antialiased; }
-    body { font-family: var(--font-body); background: var(--bg); color: var(--text); overflow-x: hidden; }
+    body { font-family: var(--font-body); background: #0a0a0a; color: #fff; overflow-x: hidden; }
     a { color: inherit; text-decoration: none; }
     img { display: block; max-width: 100%; }
 
@@ -126,7 +126,7 @@
     .form-group input, .form-group select, .form-group textarea {
       font-family: var(--font-body); font-size: 0.9rem; padding: 0.75rem 1rem;
       border: 1.5px solid rgba(108,71,255,0.2); border-radius: var(--radius);
-      background: #fff; color: var(--text); transition: border-color var(--transition);
+      background: #111; color: var(--text); transition: border-color var(--transition);
       outline: none; width: 100%;
     }
     .form-group input:focus, .form-group select:focus, .form-group textarea:focus { border-color: var(--primary); }
@@ -137,7 +137,7 @@
 
     /* TRUST STATS */
     .trust-bar { display: grid; grid-template-columns: repeat(3,1fr); gap: 1px; background: rgba(108,71,255,0.1); border-radius: 12px; overflow: hidden; margin-bottom: 4rem; }
-    .trust-stat { background: var(--bg); padding: 2rem; text-align: center; }
+    .trust-stat { background: #0a0a0a; padding: 2rem; text-align: center; }
     .trust-stat strong { display: block; font-family: var(--font-heading); font-size: 2rem; font-weight: 700; color: var(--primary); margin-bottom: 0.3rem; }
     .trust-stat span { font-size: 0.85rem; color: #666; }
 
