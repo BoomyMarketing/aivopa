@@ -1,5 +1,5 @@
 const SITE_LABEL = 'Aivopa';
-const FROM_EMAIL = 'Aivopa <onboarding@resend.dev>';
+const FROM_EMAIL = 'Aivopa <leads@boomymarketing.com>';
 const TO_EMAILS  = ['boomymarketing.com@gmail.com', 'evgeniygalyas@gmail.com'];
 const RESEND_URL = 'https://api.resend.com/emails';
 
@@ -17,7 +17,7 @@ module.exports = async (req, res) => {
     return res.status(400).json({ error: 'Name and valid email required' });
   }
 
-  const subject = `NEW LEAD [${SITE_LABEL}]${service ? ` — ${service}` : ''}${city ? ` in ${city}` : ''}`;
+  const subject = `🔥 NEW LEAD [${SITE_LABEL}]${service ? ` — ${service}` : ''}${city ? ` in ${city}` : ''}`;
   const text = [
     `NEW LEAD — ${SITE_LABEL}`,
     '='.repeat(40),

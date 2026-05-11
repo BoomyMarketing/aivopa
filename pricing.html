@@ -107,7 +107,7 @@
     .breadcrumb a:hover { color: var(--primary); }
     .breadcrumb .sep { color: #9CA3AF; }
     .breadcrumb .current { color: rgba(255,255,255,0.8); }
-    .page-hero h1 { font-family: var(--font-heading); font-size: clamp(2.2rem, 4vw, 3.4rem); font-weight: 700; color: #fff; letter-spacing: -0.03em; line-height: 1.1; margin-bottom: 1.2rem; }
+    .page-hero h1 { font-family: var(--font-heading); font-size: clamp(2rem, 4vw, 3.4rem); font-weight: 700; color: #fff; letter-spacing: -0.03em; line-height: 1.1; margin-bottom: 1.2rem; }
     .page-hero h1 em { color: var(--primary); font-style: normal; }
     .page-hero__sub { font-size: 1.15rem; color: #374151; max-width: 620px; line-height: 1.7; }
 
@@ -233,27 +233,25 @@
 <style>.social-link svg{width:18px;height:18px;fill:currentColor}.social-link{display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px}</style></head>
 <body>
 <nav class="navbar" id="navbar" role="navigation" aria-label="Main navigation">
-  <div class="nav-inner">
-    <a href="index.html" class="nav-logo" aria-label="Vora — Home">Vora<span>.</span></a>
-    <ul class="nav-links" role="menubar">
+    <a href="index.html" class="navbar__logo" aria-label="Vora — Home">Vora<span>.</span></a>
+    <ul class="navbar__links" role="menubar">
       <li role="none"><a href="services.html" role="menuitem">Services</a></li>
       <li role="none"><a href="about.html" role="menuitem">About</a></li>
       <li role="none"><a href="pricing.html" role="menuitem">Pricing</a></li>
       <li role="none"><a href="contact.html" role="menuitem">Contact</a></li>
-      <li role="none"><a href="contact.html" class="nav-cta" role="menuitem">Get Started</a></li>
+      <li role="none"><a href="contact.html" class="navbar__cta" role="menuitem">Free Audit</a></li>
     </ul>
     <button class="nav-hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
       <span></span><span></span><span></span>
     </button>
-  </div>
-  <div class="mobile-menu" id="mobile-menu" role="menu" aria-hidden="true">
-    <a href="services.html" role="menuitem">Services</a>
-    <a href="about.html" role="menuitem">About</a>
-    <a href="pricing.html" role="menuitem">Pricing</a>
-    <a href="contact.html" role="menuitem">Contact</a>
-    <a href="contact.html" role="menuitem">Get Started &rarr;</a>
-  </div>
-</nav>
+    <div class="mobile-menu" id="mobile-menu" role="menu" aria-hidden="true">
+      <a href="services.html" role="menuitem">Services</a>
+      <a href="about.html" role="menuitem">About</a>
+      <a href="pricing.html" role="menuitem">Pricing</a>
+      <a href="contact.html" role="menuitem">Contact</a>
+      <a href="contact.html" role="menuitem">Free Audit &rarr;</a>
+    </div>
+  </nav>
 
   
 
@@ -560,6 +558,15 @@
     window.addEventListener('scroll', () => {
       navbar.classList.toggle('scrolled', window.scrollY > 40);
     });
+    var hamburger = document.querySelector('.nav-hamburger');
+    var mobileMenu = document.querySelector('#mobile-menu');
+    if (hamburger && mobileMenu) {
+      hamburger.addEventListener('click', function () {
+        var isOpen = mobileMenu.classList.toggle('open');
+        hamburger.setAttribute('aria-expanded', isOpen);
+        mobileMenu.setAttribute('aria-hidden', !isOpen);
+      });
+    }
     document.querySelectorAll('.faq-question').forEach(q => {
       q.addEventListener('click', () => {
         const item = q.parentElement;

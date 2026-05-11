@@ -219,6 +219,9 @@
     .marquee-item__text { font-family: var(--font-heading); font-size: 1.05rem; color: #fff; letter-spacing: 0.05em; }
     .marquee-item__dot { width: 6px; height: 6px; border-radius: 50%; background: var(--primary); flex-shrink: 0; }
 
+    @media (max-width: 1024px) {
+      .footer-top { grid-template-columns: 1fr 1fr; gap: 2rem; }
+    }
     @media (max-width: 768px) {
       .navbar { padding: 1.2rem 1.5rem; }
       .navbar.scrolled { padding: 0.8rem 1.5rem; }
@@ -242,27 +245,25 @@
 <style>.social-link svg{width:18px;height:18px;fill:currentColor}.social-link{display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px}</style></head>
 <body>
 <nav class="navbar" id="navbar" role="navigation" aria-label="Main navigation">
-  <div class="nav-inner">
-    <a href="index.html" class="nav-logo" aria-label="Vora — Home">Vora<span>.</span></a>
-    <ul class="nav-links" role="menubar">
+    <a href="index.html" class="navbar__logo" aria-label="Vora — Home">Vora<span>.</span></a>
+    <ul class="navbar__links" role="menubar">
       <li role="none"><a href="services.html" role="menuitem">Services</a></li>
       <li role="none"><a href="about.html" role="menuitem">About</a></li>
       <li role="none"><a href="pricing.html" role="menuitem">Pricing</a></li>
       <li role="none"><a href="contact.html" role="menuitem">Contact</a></li>
-      <li role="none"><a href="contact.html" class="nav-cta" role="menuitem">Get Started</a></li>
+      <li role="none"><a href="contact.html" class="navbar__cta" role="menuitem">Free Audit</a></li>
     </ul>
     <button class="nav-hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
       <span></span><span></span><span></span>
     </button>
-  </div>
-  <div class="mobile-menu" id="mobile-menu" role="menu" aria-hidden="true">
-    <a href="services.html" role="menuitem">Services</a>
-    <a href="about.html" role="menuitem">About</a>
-    <a href="pricing.html" role="menuitem">Pricing</a>
-    <a href="contact.html" role="menuitem">Contact</a>
-    <a href="contact.html" role="menuitem">Get Started &rarr;</a>
-  </div>
-</nav>
+    <div class="mobile-menu" id="mobile-menu" role="menu" aria-hidden="true">
+      <a href="services.html" role="menuitem">Services</a>
+      <a href="about.html" role="menuitem">About</a>
+      <a href="pricing.html" role="menuitem">Pricing</a>
+      <a href="contact.html" role="menuitem">Contact</a>
+      <a href="contact.html" role="menuitem">Free Audit &rarr;</a>
+    </div>
+  </nav>
   <div id="cursor" aria-hidden="true"></div>
   <div id="cursor-dot" aria-hidden="true"></div>
   <div id="scroll-progress" role="progressbar" aria-label="Page scroll progress"></div>
@@ -526,6 +527,15 @@
     window.addEventListener('scroll', function () {
       navbar.classList.toggle('scrolled', window.scrollY > 80);
     }, { passive: true });
+    var hamburger = document.querySelector('.nav-hamburger');
+    var mobileMenu = document.querySelector('#mobile-menu');
+    if (hamburger && mobileMenu) {
+      hamburger.addEventListener('click', function () {
+        var isOpen = mobileMenu.classList.toggle('open');
+        hamburger.setAttribute('aria-expanded', isOpen);
+        mobileMenu.setAttribute('aria-hidden', !isOpen);
+      });
+    }
   })();
   </script>
 </body>
