@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git push *)",
+      "Bash(git checkout *)",
+      "Bash(git merge *)",
+      "Bash(git branch *)",
+      "Bash(npm install *)",
+      "Bash(python fix_industry_design.py)",
+      "Bash(python fix_service_pages.py)",
+      "Bash(python fix_old_html_pages.py)",
+      "Bash(python gen_tiktok.py)",
+      "Bash(python redesign_core.py)",
+      "Bash(vercel *)"
+    ]
+  }
+}
