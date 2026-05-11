@@ -105,7 +105,7 @@
             background: var(--bg);
             color: var(--text);
             line-height: 1.7;
-            overflow-x: clip;
+            overflow-x: hidden;
         }
 
         h1, h2, h3, h4 {
@@ -215,11 +215,16 @@
         .nav-cta {
             background: var(--primary) !important;
             color: #fff !important;
-            padding: 10px 22px;
+            padding: 10px 22px !important;
             border-radius: var(--radius-btn);
             font-weight: 600;
             font-size: 0.875rem;
             white-space: nowrap;
+            display: inline-flex !important;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            line-height: 1;
             transition: background var(--transition), transform var(--transition), box-shadow var(--transition) !important;
             box-shadow: var(--shadow-primary);
         }
@@ -236,9 +241,25 @@
             background: none;
             border: none;
             cursor: pointer;
-            padding: 4px;
-            color: var(--dark);
+            padding: 6px 4px;
+            flex-direction: column;
+            gap: 5px;
+            width: 36px;
+            height: 36px;
+            align-items: center;
+            justify-content: center;
         }
+        .nav-toggle span {
+            display: block;
+            width: 22px;
+            height: 2px;
+            background: var(--dark);
+            border-radius: 2px;
+            transition: transform 0.25s ease, opacity 0.25s ease;
+        }
+        .nav-toggle[aria-expanded="true"] span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+        .nav-toggle[aria-expanded="true"] span:nth-child(2) { opacity: 0; }
+        .nav-toggle[aria-expanded="true"] span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
 
         /* ── BREADCRUMB ─────────────────────────────────────────────── */
         .breadcrumb {
@@ -345,7 +366,7 @@
 
         .hero h1 {
             color: #fff;
-            font-size: clamp(3rem, 7vw, 5.5rem);
+            font-size: clamp(2.2rem, 4.5vw, 3.8rem);
             max-width: 720px;
             margin-bottom: 20px;
             letter-spacing: -0.03em;
@@ -447,8 +468,55 @@
             opacity: 1;
         }
 
-        /* ── STATS BAR ──────────────────────────────────────────────── */
+        /* ── STATS SIX ──────────────────────────────────────────────── */
+        .stats-six {
+            background: var(--bg-surface);
+            border-top: 1px solid var(--border-color);
+            border-bottom: 1px solid var(--border-color);
+        }
+        .stats-six .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+        }
+        .stat-six-item {
+            padding: 36px 24px;
+            border-right: 1px solid var(--border-color);
+            border-bottom: 1px solid var(--border-color);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            gap: 8px;
+        }
+        .stat-six-item:nth-child(3n) { border-right: none; }
+        .stat-six-item:nth-child(n+4) { border-bottom: none; }
+        .stat-six-num {
+            font-family: var(--font-heading);
+            font-size: clamp(2.4rem, 4vw, 3.4rem);
+            font-weight: 700;
+            color: var(--primary);
+            letter-spacing: -0.03em;
+            line-height: 1;
+        }
+        .stat-six-lbl {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            font-weight: 500;
+            line-height: 1.3;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+        @media (max-width: 640px) {
+            .stats-six .container { grid-template-columns: repeat(2, 1fr); }
+            .stat-six-item:nth-child(3n) { border-right: 1px solid var(--border-color); }
+            .stat-six-item:nth-child(2n) { border-right: none; }
+            .stat-six-item:nth-child(n+4) { border-bottom: 1px solid var(--border-color); }
+            .stat-six-item:nth-child(n+5) { border-bottom: none; }
+        }
+
+        /* ── STATS BAR (legacy, keep for counter JS) ─────────────────── */
         .stats-bar {
+            display: none;
             background: var(--primary);
             padding: 22px 0;
             position: relative;
@@ -1363,7 +1431,7 @@
                 gap: 16px;
             }
             .nav-toggle {
-                display: block;
+                display: flex;
             }
             .site-nav {
                 position: sticky;
@@ -1398,8 +1466,32 @@
                 text-align: center;
                 gap: 6px;
             }
+            /* Nav CTA full-width in open mobile menu */
+            .nav-links.open .nav-cta {
+                width: 100%;
+                display: flex !important;
+                justify-content: center;
+            }
+            /* Form name+email: stack on mobile */
+            #bookingForm div[style*="grid-template-columns:1fr 1fr"] {
+                grid-template-columns: 1fr !important;
+            }
+            /* Hero: don't force 100vh on small phones */
+            .hero { min-height: auto; padding: 72px 0 56px; }
         }
     
+        /* ── FORM PLACEHOLDERS ──────────────────────────────────────── */
+        #bookingForm input::placeholder,
+        #bookingForm textarea::placeholder {
+            color: rgba(255, 255, 255, 0.45);
+        }
+        #bookingForm input:-webkit-autofill,
+        #bookingForm input:-webkit-autofill:focus {
+            -webkit-text-fill-color: #fff;
+            -webkit-box-shadow: 0 0 0 1000px rgba(108,71,255,0.2) inset;
+            transition: background-color 5000s ease-in-out 0s;
+        }
+
         /* Footer social icons */
         .footer-socials { display: flex; gap: 12px; }
         .social-link { width: 40px; height: 40px; border-radius: 10px; background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.12); display: flex; align-items: center; justify-content: center; color: rgba(255,255,255,.7); text-decoration: none; transition: all .3s ease; }
@@ -1413,26 +1505,19 @@
     <div id="vora-scroll-progress" aria-hidden="true"></div>
 
     <!-- ── NAVIGATION ───────────────────────────────────────────────── -->
-    <nav class="navbar" id="navbar" role="navigation" aria-label="Main navigation">
+    <nav class="site-nav" id="site-nav" role="navigation" aria-label="Main navigation">
   <div class="nav-inner">
-    <a href="../../../index.html" class="nav-logo" aria-label="Vora — Home">Vora<span>.</span></a>
-    <ul class="nav-links" role="menubar">
-      <li role="none"><a href="../../../services.html" role="menuitem">Services</a></li>
-      <li role="none"><a href="../../../about.html" role="menuitem">About</a></li>
-      <li role="none"><a href="../../../pricing.html" role="menuitem">Pricing</a></li>
-      <li role="none"><a href="../../../contact.html" role="menuitem">Contact</a></li>
-      <li role="none"><a href="../../../contact.html" class="nav-cta" role="menuitem">Get Started</a></li>
+    <a href="https://aivopa.com/" class="nav-logo" aria-label="Vora — Home">Vora<span>.</span></a>
+    <ul class="nav-links" id="nav-links" role="menubar">
+      <li role="none"><a href="https://aivopa.com/services" role="menuitem">Services</a></li>
+      <li role="none"><a href="https://aivopa.com/about" role="menuitem">About</a></li>
+      <li role="none"><a href="https://aivopa.com/pricing" role="menuitem">Pricing</a></li>
+      <li role="none"><a href="https://aivopa.com/contact" role="menuitem">Contact</a></li>
+      <li role="none"><a href="https://aivopa.com/contact" class="nav-cta" role="menuitem">Get Started</a></li>
     </ul>
-    <button class="nav-hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
       <span></span><span></span><span></span>
     </button>
-  </div>
-  <div class="mobile-menu" id="mobile-menu" role="menu" aria-hidden="true">
-    <a href="../../../services.html" role="menuitem">Services</a>
-    <a href="../../../about.html" role="menuitem">About</a>
-    <a href="../../../pricing.html" role="menuitem">Pricing</a>
-    <a href="../../../contact.html" role="menuitem">Contact</a>
-    <a href="../../../contact.html" role="menuitem">Get Started &rarr;</a>
   </div>
 </nav>
 
@@ -1461,30 +1546,6 @@
             </div>
         </div>
 
-        <!-- Floating stat cards (desktop) -->
-        <div class="hero-float-cards" aria-hidden="true">
-            <div class="float-card">
-                <div class="float-icon fi-blue">📊</div>
-                <div>
-                    <div class="float-num">$100M+</div>
-                    <div class="float-lbl">in ad spend managed</div>
-                </div>
-            </div>
-            <div class="float-card">
-                <div class="float-icon fi-purple">📈</div>
-                <div>
-                    <div class="float-num p">300+</div>
-                    <div class="float-lbl">brands scaled</div>
-                </div>
-            </div>
-            <div class="float-card">
-                <div class="float-icon fi-cyan">★</div>
-                <div>
-                    <div class="float-num c">4.2x</div>
-                    <div class="float-lbl">Average ROAS</div>
-                </div>
-            </div>
-        </div>
     </section>
 
     <!-- Ticker strip -->
@@ -1505,28 +1566,6 @@
         </div>
     </div>
 
-    <!-- ── STATS BAR ─────────────────────────────────────────────────── -->
-    <div class="stats-bar" aria-label="Key performance statistics">
-        <div class="container">
-            <div class="stat-item">
-                <span class="stat-value" data-count-raw="$100M+ in ad spend managed">$100M+ in ad spend managed</span>
-                <span class="stat-label">$100M+ in ad spend managed</span>
-            </div>
-            <div class="stat-item">
-                <span class="stat-value" data-count-raw="300+ brands scaled">300+ brands scaled</span>
-                <span class="stat-label">300+ brands scaled</span>
-            </div>
-            <div class="stat-item">
-                <span class="stat-value" data-count-raw="4.2x average ROAS">4.2x average ROAS</span>
-                <span class="stat-label">4.2x average ROAS</span>
-            </div>
-            <div class="stat-item">
-                <span class="stat-value">New York</span>
-                <span class="stat-label">Service Area</span>
-            </div>
-        </div>
-    </div>
-
     <!-- ── INTRO ─────────────────────────────────────────────────────── -->
     <section class="section-intro" aria-labelledby="intro-heading">
         <div class="container">
@@ -1543,58 +1582,16 @@
                 <h3>Why New York Businesses Choose Vora</h3>
                 <ul class="feature-list">
                     <li>Proven track record in United States</li>
-<li>Dedicated account manager in your timezone</li>
-<li>Transparent monthly reporting</li>
-<li>No long-term lock-in contracts</li>
-<li>Results-focused — we track revenue, not just traffic</li>
-<li>$100M+ in ad spend managed</li>
-<li>300+ brands scaled</li>
+                    <li>Dedicated account manager in your timezone</li>
+                    <li>Transparent monthly reporting</li>
+                    <li>No long-term lock-in contracts</li>
+                    <li>Results-focused — we track revenue, not just traffic</li>
                     <li>$100M+ in ad spend managed</li>
                     <li>300+ brands scaled</li>
                     <li>4.2x average ROAS</li>
                     <li>Serving New York, United States &amp; beyond</li>
                 </ul>
             </aside>
-        </div>
-    </section>
-
-    <!-- ── PERFORMANCE METRICS ───────────────────────────────────────── -->
-    <div class="metrics-strip" aria-label="Agency performance metrics">
-        <div class="container">
-            <div class="metric-card reveal">
-                <div class="metric-number">4.2x</div>
-                <div class="metric-label">Average ROAS Delivered</div>
-            </div>
-            <div class="metric-card reveal reveal-delay-1">
-                <div class="metric-number">-42%</div>
-                <div class="metric-label">Average CAC Reduction</div>
-            </div>
-            <div class="metric-card reveal reveal-delay-2">
-                <div class="metric-number">90d</div>
-                <div class="metric-label">To Measurable Results</div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Results strip -->
-    <section class="section-results" aria-label="Key results">
-        <div class="results-grid">
-            <div class="result-item reveal">
-                <span class="result-num">$100M+</span>
-                <div class="result-label">in ad spend managed</div>
-            </div>
-            <div class="result-item reveal reveal-d1">
-                <span class="result-num p">300+</span>
-                <div class="result-label">brands scaled</div>
-            </div>
-            <div class="result-item reveal reveal-d2">
-                <span class="result-num c">4.2x</span>
-                <div class="result-label">average ROAS</div>
-            </div>
-            <div class="result-item reveal reveal-d3">
-                <span class="result-num">New York</span>
-                <div class="result-label">Service Area</div>
-            </div>
         </div>
     </section>
 
@@ -1607,32 +1604,29 @@
                 <p class="subtitle">Every channel, every metric — optimized for revenue. No vanity metrics, no bloated retainers.</p>
             </div>
             <div class="services-grid">
+                <div class="service-card"><div class="service-icon" aria-hidden="true">📢</div><h3>Google Ads</h3><p>Drive qualified leads from New York with precision-targeted search and display campaigns.</p><a href="https://aivopa.com/services/google-ads">Learn more →</a></div>
+                <div class="service-card"><div class="service-icon" aria-hidden="true">📱</div><h3>Meta Ads</h3><p>Reach your ideal New York audience on Facebook and Instagram with scroll-stopping ads.</p><a href="https://aivopa.com/services/meta-ads">Learn more →</a></div>
+                <div class="service-card"><div class="service-icon" aria-hidden="true">🎵</div><h3>TikTok Ads</h3><p>Capture New York's youngest, highest-intent buyers with creative-led TikTok campaigns built for performance.</p><a href="https://aivopa.com/services/tiktok-ads">Learn more →</a></div>
                 <div class="service-card"><div class="service-icon" aria-hidden="true">🔍</div><h3>SEO</h3><p>Rank higher on Google and capture New York customers actively searching for your services.</p><a href="https://aivopa.com/services/seo">Learn more →</a></div>
-<div class="service-card"><div class="service-icon" aria-hidden="true">🤖</div><h3>AI Automations</h3><p>Automate repetitive tasks and scale your operations without hiring more staff.</p><a href="https://aivopa.com/services/ai-automations">Learn more →</a></div>
-<div class="service-card"><div class="service-icon" aria-hidden="true">📢</div><h3>Google Ads</h3><p>Drive qualified leads from New York with precision-targeted search and display campaigns.</p><a href="https://aivopa.com/services/google-ads">Learn more →</a></div>
-<div class="service-card"><div class="service-icon" aria-hidden="true">📱</div><h3>Meta Ads</h3><p>Reach your ideal New York audience on Facebook and Instagram with scroll-stopping ads.</p><a href="https://aivopa.com/services/meta-ads">Learn more →</a></div>
-<div class="service-card"><div class="service-icon" aria-hidden="true">🌐</div><h3>Web Design</h3><p>Fast, conversion-focused websites that turn New York visitors into paying customers.</p><a href="https://aivopa.com/services/web-design">Learn more →</a></div>
-<div class="service-card"><div class="service-icon" aria-hidden="true">✉️</div><h3>Email Marketing</h3><p>Build relationships and drive repeat business from your New York customer base.</p><a href="https://aivopa.com/services/email-marketing">Learn more →</a></div>
+                <div class="service-card"><div class="service-icon" aria-hidden="true">📈</div><h3>CRO</h3><p>Turn more of your New York traffic into paying customers — without increasing ad spend.</p><a href="https://aivopa.com/services/conversion-rate-optimization">Learn more →</a></div>
+                <div class="service-card"><div class="service-icon" aria-hidden="true">✉️</div><h3>Email Marketing</h3><p>Build relationships and drive repeat business from your New York customer base.</p><a href="https://aivopa.com/services/email-marketing">Learn more →</a></div>
+                <div class="service-card"><div class="service-icon" aria-hidden="true">🌐</div><h3>Web Design</h3><p>Fast, conversion-focused websites that turn New York visitors into paying customers.</p><a href="https://aivopa.com/services/web-design">Learn more →</a></div>
+                <div class="service-card"><div class="service-icon" aria-hidden="true">🤖</div><h3>AI Automations</h3><p>Automate repetitive tasks and scale your New York operations without hiring more staff.</p><a href="https://aivopa.com/services/ai-automations">Learn more →</a></div>
             </div>
         </div>
     </section>
 
-    <!-- ── PRICING SECTION ───────────────────────────────────────────── -->
-    <section class="section-pricing" aria-labelledby="pricing-heading">
+    <!-- ── STATS SIX ─────────────────────────────────────────────────── -->
+    <div class="stats-six" aria-label="Key performance metrics">
         <div class="container">
-            <div class="section-header reveal">
-                <span class="section-label">Investment</span>
-                <h2 id="pricing-heading">Flat-Fee Pricing for New York Businesses</h2>
-                <p class="subtitle">No percentage-of-spend fees. No hidden costs. Every retainer is tied to your ROAS targets — not our activity level.</p>
-            </div>
-            <div class="pricing-cards">
-                <div class="price-card"><div class="price-name">Starter</div><div class="price-amount">$1,500/mo</div><div class="price-period">per month</div><a href="https://aivopa.com/contact" class="price-cta">Get Started</a></div><div class="price-card featured"><div class="price-name">Growth</div><div class="price-amount">$4,000/mo</div><div class="price-period">per month</div><a href="https://aivopa.com/contact" class="price-cta">Most Popular</a></div><div class="price-card"><div class="price-name">Scale</div><div class="price-amount">$8,000/mo</div><div class="price-period">per month</div><a href="https://aivopa.com/contact" class="price-cta">Let's Scale</a></div>
-            </div>
-            <div style="text-align:center;margin-top:32px;">
-                <a href="https://aivopa.com/pricing" class="btn-outline" style="border-color:rgba(255,255,255,0.25);color:rgba(255,255,255,0.75);">Compare All Features →</a>
-            </div>
+            <div class="stat-six-item"><span class="stat-six-num">4.2x</span><span class="stat-six-lbl">Average ROAS Delivered</span></div>
+            <div class="stat-six-item"><span class="stat-six-num">-42%</span><span class="stat-six-lbl">Average CAC Reduction</span></div>
+            <div class="stat-six-item"><span class="stat-six-num">90d</span><span class="stat-six-lbl">To Measurable Results</span></div>
+            <div class="stat-six-item"><span class="stat-six-num">$100M+</span><span class="stat-six-lbl">In Ad Spend Managed</span></div>
+            <div class="stat-six-item"><span class="stat-six-num">300+</span><span class="stat-six-lbl">Brands Scaled</span></div>
+            <div class="stat-six-item"><span class="stat-six-num">98%</span><span class="stat-six-lbl">Client Retention Rate</span></div>
         </div>
-    </section>
+    </div>
 
     <!-- ── FAQ SECTION ───────────────────────────────────────────────── -->
     <section class="section-faq" aria-labelledby="faq-heading">
@@ -1733,7 +1727,7 @@
                     <label style="display:block;font-size:0.75rem;color:rgba(255,255,255,0.6);margin-bottom:5px;text-transform:uppercase;letter-spacing:0.06em;">Tell us about your business</label>
                     <textarea name="message" rows="3" placeholder="What ROAS are you targeting? Current challenges?" style="width:100%;padding:11px 13px;background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.2);border-radius:8px;color:#fff;font-size:0.9rem;outline:none;resize:vertical;font-family:inherit;box-sizing:border-box;"></textarea>
                 </div>
-                <button type="submit" class="btn-white" style="width:100%;justify-content:center;font-size:0.98rem;padding:15px 24px;border:none;cursor:pointer;">
+                <button type="submit" class="btn-primary" style="width:100%;text-align:center;font-size:0.98rem;padding:15px 24px;border:none;cursor:pointer;">
                     Book Free Online Consultation →
                 </button>
                 <div id="formSuccess" style="display:none;margin-top:14px;padding:12px;background:rgba(46,213,115,0.12);border:1px solid rgba(46,213,115,0.3);border-radius:8px;color:#2ed573;text-align:center;font-size:0.92rem;">
@@ -1743,18 +1737,18 @@
 
             <div class="cta-group">
                 <a href="https://aivopa.com/pricing" class="btn-ghost-white">See Pricing</a>
-                <a href="tel:(647) 370-1888" class="btn-ghost-white" style="opacity:0.65;">&#x1F4DE; (647) 370-1888</a>
+                <a href="tel:(647) 370-1888" class="btn-ghost-white">📞 (647) 370-1888</a>
             </div>
         </div>
     </section>
 
     <!-- ── FOOTER ─────────────────────────────────────────────────────── -->
-    <footer class="footer" role="contentinfo">
+    <footer class="site-footer" role="contentinfo">
   <div class="footer-inner">
-    <div class="footer-top">
+    <div class="footer-grid">
       <div class="footer-brand">
-        <a href="../../../index.html" class="footer-logo" aria-label="Vora home">Vora<span>.</span></a>
-        <p class="footer-tagline">New York's performance marketing agency. Google Ads, Meta Ads &amp; programmatic advertising engineered for ROAS.</p>
+        <a href="https://aivopa.com/" class="footer-logo" aria-label="Vora home">Vora<span>.</span></a>
+        <p>New York's performance marketing agency. Google Ads, Meta Ads &amp; programmatic advertising engineered for ROAS.</p>
         <div class="footer-socials">
           <a href="https://instagram.com/aivopa" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Vora on Instagram">&#9679;</a>
           <a href="https://linkedin.com/company/aivopa" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Vora on LinkedIn">in</a>
@@ -1763,48 +1757,50 @@
       </div>
       <div class="footer-col">
         <h4>Services</h4>
-        <ul>
-          <li><a href="../../../services/google-ads.html">Google Ads</a></li>
-          <li><a href="../../../services/meta-ads.html">Meta Ads</a></li>
-          <li><a href="../../../services/ppc.html">PPC Management</a></li>
-          <li><a href="../../../services/seo.html">SEO &amp; Content</a></li>
-          <li><a href="../../../services/social-media.html">Social Media</a></li>
-          <li><a href="../../../services/web-design.html">Web Design</a></li>
-          <li><a href="../../../services/email-marketing.html">Email Marketing</a></li>
-          <li><a href="../../../services/ai-development.html">AI Development</a></li>
+        <ul class="footer-links">
+          <li><a href="https://aivopa.com/services/google-ads">Google Ads</a></li>
+          <li><a href="https://aivopa.com/services/meta-ads">Meta Ads</a></li>
+          <li><a href="https://aivopa.com/services/ppc">PPC Management</a></li>
+          <li><a href="https://aivopa.com/services/seo">SEO &amp; Content</a></li>
+          <li><a href="https://aivopa.com/services/social-media">Social Media</a></li>
+          <li><a href="https://aivopa.com/services/web-design">Web Design</a></li>
+          <li><a href="https://aivopa.com/services/email-marketing">Email Marketing</a></li>
+          <li><a href="https://aivopa.com/services/ai-development">AI Development</a></li>
         </ul>
       </div>
       <div class="footer-col">
         <h4>Top Locations</h4>
-        <ul>
-          <li><a href="../../../local/new-york/google-ads-agency/index.html">Google Ads New York</a></li>
-          <li><a href="../../../local/new-york/ppc-agency/index.html">PPC Agency New York</a></li>
-          <li><a href="../../../local/new-york/performance-marketing-agency/index.html">Performance Marketing New York</a></li>
-          <li><a href="../../../local/los-angeles/google-ads-agency/index.html">Google Ads Los Angeles</a></li>
-          <li><a href="../../../local/chicago/google-ads-agency/index.html">Google Ads Chicago</a></li>
-          <li><a href="../../../local/miami/google-ads-agency/index.html">Google Ads Miami</a></li>
-          <li><a href="../../../local/houston/google-ads-agency/index.html">Google Ads Houston</a></li>
-          <li><a href="../../../local/dallas/google-ads-agency/index.html">Google Ads Dallas</a></li>
+        <ul class="footer-links">
+          <li><a href="https://aivopa.com/local/new-york/google-ads-agency">Google Ads New York</a></li>
+          <li><a href="https://aivopa.com/local/new-york/ppc-agency">PPC Agency New York</a></li>
+          <li><a href="https://aivopa.com/local/new-york/performance-marketing-agency">Performance Marketing New York</a></li>
+          <li><a href="https://aivopa.com/local/los-angeles/google-ads-agency">Google Ads Los Angeles</a></li>
+          <li><a href="https://aivopa.com/local/chicago/google-ads-agency">Google Ads Chicago</a></li>
+          <li><a href="https://aivopa.com/local/miami/google-ads-agency">Google Ads Miami</a></li>
+          <li><a href="https://aivopa.com/local/houston/google-ads-agency">Google Ads Houston</a></li>
+          <li><a href="https://aivopa.com/local/dallas/google-ads-agency">Google Ads Dallas</a></li>
         </ul>
       </div>
       <div class="footer-col">
         <h4>Company</h4>
-        <ul>
-          <li><a href="../../../about.html">About Us</a></li>
-          <li><a href="../../../services.html">All Services</a></li>
-          <li><a href="../../../pricing.html">Pricing</a></li>
-          <li><a href="../../../contact.html">Contact</a></li>
+        <ul class="footer-links">
+          <li><a href="https://aivopa.com/about">About Us</a></li>
+          <li><a href="https://aivopa.com/services">All Services</a></li>
+          <li><a href="https://aivopa.com/pricing">Pricing</a></li>
+          <li><a href="https://aivopa.com/contact">Contact</a></li>
         </ul>
         <h4 style="margin-top:24px">Contact</h4>
-        <div class="footer-contact-item"><span class="fc-text"><a href="tel:+16473701888">(647) 370-1888</a></span></div>
-        <div class="footer-contact-item"><span class="fc-text"><a href="mailto:hello@aivopa.com">hello@aivopa.com</a></span></div>
+        <ul class="footer-links">
+          <li><a href="tel:+16473701888">(647) 370-1888</a></li>
+          <li><a href="mailto:hello@aivopa.com">hello@aivopa.com</a></li>
+        </ul>
       </div>
     </div>
     <div class="footer-bottom">
       <span class="footer-copy">&copy; 2026 Vora. All rights reserved.</span>
       <div class="footer-bl">
-        <a href="../../../contact.html">Privacy Policy</a>
-        <a href="../../../contact.html">Terms of Service</a>
+        <a href="https://aivopa.com/privacy-policy">Privacy Policy</a>
+        <a href="https://aivopa.com/terms">Terms of Service</a>
       </div>
     </div>
   </div>
@@ -1954,12 +1950,25 @@
             }
         }
 
+        /* ── Mobile nav: hamburger toggle ── */
+        var navToggle = document.querySelector('.nav-toggle');
+        if (navToggle) {
+            navToggle.addEventListener('click', function () {
+                var navLinks = document.getElementById('nav-links');
+                var isOpen = navLinks && navLinks.classList.contains('open');
+                if (navLinks) navLinks.classList.toggle('open', !isOpen);
+                this.setAttribute('aria-expanded', String(!isOpen));
+            });
+        }
+
         /* ── Mobile nav: close on outside click ── */
         document.addEventListener('click', function (e) {
             var navLinks = document.getElementById('nav-links');
             if (navLinks && navLinks.classList.contains('open')) {
                 if (!navLinks.contains(e.target) && !e.target.closest('.nav-toggle')) {
                     navLinks.classList.remove('open');
+                    var t = document.querySelector('.nav-toggle');
+                    if (t) t.setAttribute('aria-expanded', 'false');
                 }
             }
         });
