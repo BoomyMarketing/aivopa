@@ -64,6 +64,7 @@ Allow: /local/chicago/meta-ads-agency
 Allow: /local/chicago/paid-search-agency
 Allow: /local/chicago/performance-marketing-agency
 Allow: /local/chicago/ppc-agency
+Allow: /local/chicago/tiktok-ads-agency
 Allow: /local/cincinnati/digital-advertising-agency
 Allow: /local/cincinnati/ecommerce-marketing-agency
 Allow: /local/cincinnati/facebook-ads-agency
@@ -104,6 +105,7 @@ Allow: /local/houston/meta-ads-agency
 Allow: /local/houston/paid-search-agency
 Allow: /local/houston/performance-marketing-agency
 Allow: /local/houston/ppc-agency
+Allow: /local/houston/tiktok-ads-agency
 Allow: /local/los-angeles/digital-advertising-agency
 Allow: /local/los-angeles/ecommerce-marketing-agency
 Allow: /local/los-angeles/facebook-ads-agency
@@ -112,6 +114,7 @@ Allow: /local/los-angeles/meta-ads-agency
 Allow: /local/los-angeles/paid-search-agency
 Allow: /local/los-angeles/performance-marketing-agency
 Allow: /local/los-angeles/ppc-agency
+Allow: /local/los-angeles/tiktok-ads-agency
 Allow: /local/miami/digital-advertising-agency
 Allow: /local/miami/ecommerce-marketing-agency
 Allow: /local/miami/facebook-ads-agency
@@ -120,6 +123,7 @@ Allow: /local/miami/meta-ads-agency
 Allow: /local/miami/paid-search-agency
 Allow: /local/miami/performance-marketing-agency
 Allow: /local/miami/ppc-agency
+Allow: /local/miami/tiktok-ads-agency
 Allow: /local/nashville/digital-advertising-agency
 Allow: /local/nashville/ecommerce-marketing-agency
 Allow: /local/nashville/facebook-ads-agency
@@ -136,6 +140,7 @@ Allow: /local/new-york/meta-ads-agency
 Allow: /local/new-york/paid-search-agency
 Allow: /local/new-york/performance-marketing-agency
 Allow: /local/new-york/ppc-agency
+Allow: /local/new-york/tiktok-ads-agency
 Allow: /local/phoenix/digital-advertising-agency
 Allow: /local/phoenix/ecommerce-marketing-agency
 Allow: /local/phoenix/facebook-ads-agency
@@ -177,8 +182,7 @@ Allow: /local/seattle/paid-search-agency
 Allow: /local/seattle/performance-marketing-agency
 Allow: /local/seattle/ppc-agency
 
-# Block unpublished local pages — hub index is allowed
-Allow: /local/index.html
+# Block unpublished local pages
 Disallow: /local/
 Disallow: /admin/
 Disallow: /private/
@@ -197,12 +201,6 @@ User-agent: PerplexityBot
 Allow: /
 
 User-agent: anthropic-ai
-Allow: /
-
-User-agent: OAI-SearchBot
-Allow: /
-
-User-agent: Applebot-Extended
 Allow: /
 
 Sitemap: https://aivopa.com/sitemap.xml
