@@ -591,7 +591,7 @@
             var pct = docHeight > 0 ? (scrollTop / docHeight) * 100 : 0;
             if (progressBar) progressBar.style.width = pct + '%';
         }
-        var nav = document.getElementById('site-nav');
+        var nav = document.getElementById('navbar');
         function updateNav() {
             if (nav) nav.classList.toggle('scrolled', window.scrollY > 40);
         }
