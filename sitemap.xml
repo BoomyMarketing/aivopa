@@ -145,6 +145,12 @@
 <url><loc>https://aivopa.com/industries/lash-studio</loc><changefreq>monthly</changefreq><priority>0.75</priority><lastmod>2026-05-08</lastmod></url>
 <url><loc>https://aivopa.com/industries/commercial-cleaning</loc><changefreq>monthly</changefreq><priority>0.75</priority><lastmod>2026-05-08</lastmod></url>
 <url><loc>https://aivopa.com/industries/auto-body-shop</loc><changefreq>monthly</changefreq><priority>0.75</priority><lastmod>2026-05-08</lastmod></url>
+<url>
+    <loc>https://aivopa.com/local</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-03-26</lastmod>
+  </url>
 
   <!-- Published Local Pages -->
   <url>
