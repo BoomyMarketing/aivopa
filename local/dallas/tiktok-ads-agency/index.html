@@ -643,5 +643,55 @@
         }
     })();
     </script>
+<!-- booking-handler-injected -->
+<script>
+(function () {
+  var f = document.getElementById('bookingForm');
+  if (!f) return;
+  function setBtn(btn, label, disabled) {
+    if (!btn) return;
+    if (btn.tagName === 'BUTTON') btn.textContent = label; else btn.value = label;
+    btn.disabled = !!disabled;
+  }
+  function renderSuccess() {
+    while (f.firstChild) f.removeChild(f.firstChild);
+    var wrap = document.createElement('div');
+    wrap.style.cssText = 'text-align:center;padding:40px 20px';
+    var icon = document.createElement('div');
+    icon.style.cssText = 'font-size:2.5rem;margin-bottom:12px';
+    icon.textContent = '\u2705';
+    var h = document.createElement('h3');
+    h.style.cssText = 'margin:0 0 8px;font-size:1.4rem';
+    h.textContent = 'Thank you!';
+    var p = document.createElement('p');
+    p.style.cssText = 'margin:0;opacity:.8';
+    p.textContent = 'We will be in touch within 1 business day.';
+    wrap.appendChild(icon);
+    wrap.appendChild(h);
+    wrap.appendChild(p);
+    f.appendChild(wrap);
+  }
+  f.addEventListener('submit', async function (e) {
+    e.preventDefault();
+    var btn = f.querySelector('button[type="submit"]') || f.querySelector('input[type="submit"]');
+    setBtn(btn, 'Sending...', true);
+    var data = {};
+    new FormData(f).forEach(function (v, k) { data[k] = v; });
+    data.source = location.pathname;
+    try {
+      var r = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(data)
+      });
+      if (r.ok) renderSuccess();
+      else setBtn(btn, 'Error \u2014 try again', false);
+    } catch (err) {
+      setBtn(btn, 'Error \u2014 try again', false);
+    }
+  });
+})();
+</script>
+
 </body>
 </html>
