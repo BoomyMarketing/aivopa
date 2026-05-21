@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="ai-content-description" href="/llms.txt">
   <title>Marketing Automation — AI-Powered Workflows | Vora</title>
   <meta name="description" content="Vora builds AI-powered marketing automations that reduce manual work by 60%+ while improving campaign performance. Bid management, lead scoring, CRM workflows. New York." />
   <meta name="robots" content="index, follow" />
@@ -25,9 +26,9 @@
     "@context": "https://schema.org",
     "@graph": [
       {
-        "@type": "Service",
+        "@type": "Service", "serviceType": "AI Automations",
         "name": "AI Marketing Automation",
-        "provider": {"@type": "MarketingAgency", "name": "Vora", "url": "https://aivopa.com", "address": {"@type": "PostalAddress", "addressLocality": "New York", "addressRegion": "NY", "addressCountry": "US"}},
+        "provider": {"@id": "https://aivopa.com/#organization"},
         "description": "Custom AI-powered marketing automation workflows for bid management, lead scoring, CRM triggers, reporting, and audience segmentation.",
         "areaServed": {"@type": "Country", "name": "US"}
       },

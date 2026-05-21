@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="ai-content-description" href="/llms.txt">
   <title>PPC Agency — Paid Media That Drives Revenue | Vora</title>
   <meta name="description" content="Vora is a PPC agency managing Google, Meta, Bing, LinkedIn, and YouTube with a 4.2x average ROAS. Multi-platform paid media built around revenue, not clicks. New York." />
   <meta name="robots" content="index, follow" />
@@ -25,9 +26,9 @@
     "@context": "https://schema.org",
     "@graph": [
       {
-        "@type": "Service",
+        "@type": "Service", "serviceType": "PPC Management",
         "name": "PPC Management",
-        "provider": {"@type": "MarketingAgency", "name": "Vora", "url": "https://aivopa.com", "address": {"@type": "PostalAddress", "addressLocality": "New York", "addressRegion": "NY", "addressCountry": "US"}},
+        "provider": {"@id": "https://aivopa.com/#organization"},
         "description": "Full-service PPC management across Google Ads, Meta Ads, Microsoft Advertising, LinkedIn, and YouTube. Every campaign is tied to revenue metrics, not vanity clicks.",
         "areaServed": {"@type": "Country", "name": "US"}
       },

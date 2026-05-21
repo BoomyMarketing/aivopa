@@ -52,15 +52,54 @@ USA-wide with focus on New York, Los Angeles, Chicago, Miami, Dallas, Atlanta, a
 - https://aivopa.com/services — Full service list: Google Ads, Meta Ads, PPC, SEO, GEO, AI, and more
 - https://aivopa.com/contact — Contact page: free paid media audit request and proposal form
 - https://aivopa.com/pricing — Pricing: Starter ($1,500/mo), Growth ($4,000/mo), Scale ($8,000/mo) packages
-- https://aivopa.com/services/google-ads — Google Ads management: Search, Shopping, Performance Max, Display
-- https://aivopa.com/services/meta-ads — Meta Ads: Facebook and Instagram campaigns for DTC and ecommerce
-- https://aivopa.com/services/ppc — PPC management: full-funnel paid search strategy and execution
-- https://aivopa.com/services/seo — SEO services: technical SEO, content strategy, and organic growth
-- https://aivopa.com/services/geo — GEO: Generative Engine Optimisation for AI search visibility
+- https://aivopa.com/services/google-ads — Google Ads management: Search, Shopping, Performance Max, Display. Avg 4.2x ROAS, 38% CPC reduction
+- https://aivopa.com/services/meta-ads — Meta Ads: Facebook and Instagram campaigns for DTC and ecommerce. CAPI attribution, creative testing
+- https://aivopa.com/services/ppc — PPC management: full-funnel paid search strategy across Google and Bing
+- https://aivopa.com/services/seo — SEO services: technical SEO, E-E-A-T content, link building. Avg 60%+ organic traffic growth in 12 months
+- https://aivopa.com/services/geo — GEO: Generative Engine Optimisation for Google AI Overviews, ChatGPT, Perplexity visibility
+- https://aivopa.com/services/tiktok-ads — TikTok Ads: short-form video performance advertising
+- https://aivopa.com/services/youtube-ads — YouTube Ads: TrueView, Demand Gen, Shorts for awareness and retargeting
+- https://aivopa.com/services/amazon-ads — Amazon Ads: Sponsored Products, Brands, and Display
+- https://aivopa.com/services/linkedin-ads — LinkedIn Ads: B2B demand generation and lead gen
 - https://aivopa.com/services/ai-automations — AI marketing automation: workflow automation and AI-powered ad ops
+- https://aivopa.com/services/ai-development — AI Development: custom AI tools and marketing integrations
+- https://aivopa.com/services/ai-outbound — AI Outbound: AI-powered prospecting and outreach automation
+- https://aivopa.com/services/voice-ai — Voice AI: voice-enabled marketing automation
 - https://aivopa.com/services/content-marketing — Content marketing: strategy, creation, and distribution
 - https://aivopa.com/services/email-marketing — Email marketing: lifecycle campaigns, flows, and list growth
 - https://aivopa.com/services/social-media — Social media management: organic growth and community building
+- https://aivopa.com/services/cro — CRO: conversion rate optimization, landing page testing, funnel improvement
+- https://aivopa.com/services/web-design — Web Design: fast, conversion-focused websites
+- https://aivopa.com/services/b2b-marketing — B2B marketing: full-funnel demand generation for B2B brands
+- https://aivopa.com/services/dtc-marketing — DTC marketing: direct-to-consumer growth programs
+- https://aivopa.com/services/ecommerce-marketing — E-commerce marketing: multichannel growth stack
+- https://aivopa.com/services/performance-creative — Performance Creative: ad creative production and systematic testing
+- https://aivopa.com/services/retargeting — Retargeting: multi-channel retargeting sequences
+- https://aivopa.com/services/shopify-marketing — Shopify Marketing: Shopify-specific growth stack
+- https://aivopa.com/services/saas-products — SaaS Marketing: pipeline and trial growth for SaaS companies
+- https://aivopa.com/services/programmatic-advertising — Programmatic Advertising: automated display and video buying
+- https://aivopa.com/services/ugc-ads — UGC Ads: user-generated content ad production
+- https://aivopa.com/services/influencer-marketing — Influencer Marketing: performance-based influencer campaigns
+- https://aivopa.com/services/affiliate-marketing — Affiliate Marketing: affiliate program setup and management
+
+## Local Pages (key markets)
+
+- https://aivopa.com/local/new-york/google-ads-agency — Google Ads Agency New York
+- https://aivopa.com/local/new-york/performance-marketing-agency — Performance Marketing Agency New York
+- https://aivopa.com/local/los-angeles/google-ads-agency — Google Ads Agency Los Angeles
+- https://aivopa.com/local/chicago/google-ads-agency — Google Ads Agency Chicago
+- https://aivopa.com/local/miami/google-ads-agency — Google Ads Agency Miami
+- https://aivopa.com/local/houston/google-ads-agency — Google Ads Agency Houston
+- https://aivopa.com/local/dallas/google-ads-agency — Google Ads Agency Dallas
+- https://aivopa.com/local/atlanta/google-ads-agency — Google Ads Agency Atlanta
+- https://aivopa.com/local/san-francisco/google-ads-agency — Google Ads Agency San Francisco
+- https://aivopa.com/local/boston/google-ads-agency — Google Ads Agency Boston
+- https://aivopa.com/local/seattle/google-ads-agency — Google Ads Agency Seattle
+- https://aivopa.com/local/austin/google-ads-agency — Google Ads Agency Austin
+
+## Full Content
+
+- https://aivopa.com/llms-full.txt — Complete prose content: company overview, all service descriptions with benchmarks, full pricing, FAQ answers, team bios
 
 ## Contact
 
