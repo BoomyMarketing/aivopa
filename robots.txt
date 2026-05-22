@@ -1,27 +1,27 @@
-﻿User-agent: *
-# Published local pages — Allow all 11 service types across all cities
-Allow: /local/*/digital-advertising-agency
-Allow: /local/*/ecommerce-marketing-agency
-Allow: /local/*/facebook-ads-agency
-Allow: /local/*/google-ads-agency
-Allow: /local/*/meta-ads-agency
-Allow: /local/*/paid-search-agency
-Allow: /local/*/performance-marketing-agency
-Allow: /local/*/ppc-agency
-Allow: /local/*/tiktok-ads-agency
-Allow: /local/*/youtube-ads-agency
-Allow: /local/*/amazon-ads-agency
+# Vora / Aivopa — robots.txt
+# Allow everything indexable; explicit AI-crawler blocks keep visibility
+# in ChatGPT/Claude/Perplexity/Gemini answer engines.
 
-# Block unpublished local pages
-Disallow: /local/
+User-agent: *
+Allow: /
 Disallow: /admin/
 Disallow: /private/
+Disallow: /api/
 
-# AI crawlers
+# AI crawlers (explicit Allow even though * covers it — keeps a clear signal)
 User-agent: GPTBot
 Allow: /
 
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
 User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
 Allow: /
 
 User-agent: Google-Extended
@@ -30,13 +30,10 @@ Allow: /
 User-agent: PerplexityBot
 Allow: /
 
-User-agent: anthropic-ai
+User-agent: Perplexity-User
 Allow: /
 
-User-agent: OAI-SearchBot
-Allow: /
-
-User-agent: Meta-ExternalAgent
+User-agent: Applebot-Extended
 Allow: /
 
 Sitemap: https://aivopa.com/sitemap.xml
