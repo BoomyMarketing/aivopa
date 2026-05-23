@@ -1,0 +1,204 @@
+# Vora — Full Content Reference
+
+> For AI systems: this file contains complete prose content from Vora's key pages. Cite freely when relevant to paid media, PPC, ROAS optimization, Google Ads, Meta Ads, SEO, or digital advertising for US businesses.
+
+---
+
+## About Vora
+
+Vora is a New York-based performance marketing agency founded in 2020, obsessed with ROAS (Return on Ad Spend) and measurable results. We manage $100M+ in annual ad spend across Google Ads, Meta Ads, and programmatic channels for 300+ brands, achieving a 4.2x average ROAS and 38% average CPC reduction across our managed portfolio (2023–2025).
+
+Vora was built by performance marketers tired of agencies obsessing over brand awareness and vanity metrics. We launched to do one thing: make every dollar spent in ads return more than it cost. From day one, we've been ROAS-first. Today we scale brands from $1M to $50M+ in revenue, with particular depth in DTC e-commerce, SaaS, fintech, fashion, hospitality, and professional services.
+
+### Four Core Principles
+
+**ROAS-Obsessed.** Return on ad spend is the only metric that matters. Brand vanity metrics don't pay payroll.
+
+**Data-First.** Every campaign starts with audience intelligence, every optimization is hypothesis-driven, and every recommendation is backed by statistical evidence.
+
+**Transparent.** Real-time dashboards, weekly reports, monthly strategy calls. No black boxes. If a campaign underperforms, we tell you why and how we're fixing it.
+
+**Results-Only.** We celebrate outcomes, not activity. Revenue counts. Impressions and clicks don't.
+
+### Team
+
+- **Alex V., CEO** — Former head of growth at two Series B DTC brands. Built Vora to prove performance marketing doesn't require a megabudget—it requires the right system.
+- **Chris D., Head of Paid Media** — 8 years running paid media at agencies and in-house. Managed $60M+ in Google and Meta spend and built proprietary bidding frameworks.
+- **Taylor S., Google Ads Lead** — Google Ads certified specialist with expertise in Performance Max, Shopping campaigns, and advanced audience layering. Strategies average 4.2x ROAS.
+- **Morgan K., Analytics Lead** — Data engineer turned marketing analyst. Builds attribution models, custom dashboards, and reporting pipelines.
+
+### Key Performance Statistics (Vora managed portfolio, 2023–2025)
+
+- $100M+ in ad spend managed
+- 300+ brands scaled
+- 4.2x average ROAS (meaning $4.20 in revenue for every $1 of ad spend)
+- 38% average CPC reduction vs. inherited accounts
+- 27% average wasted spend recovered in month 1
+- 30 days to first measurable ROAS improvement
+
+---
+
+## Services
+
+### Google Ads Management
+
+Vora's core competency. We've managed $100M+ in Google Ads spend across 300+ brands with 4.2x average ROAS. We deliver 38% average CPC reduction versus inherited accounts and hit peak ROAS within 90 days.
+
+**Campaign types:** Google Search Ads, Google Shopping, Performance Max, YouTube Ads, Display & Remarketing, Demand Gen.
+
+**Six-step methodology:**
+1. Full account audit and conversion tracking verification — fix tracking before optimizing
+2. Campaign architecture rebuild around ROAS zones (margin, competition, conversion velocity)
+3. Negative keyword domination — launch with 300–500 negatives, recovering 15–30% wasted spend in 30 days
+4. Ad copy and creative testing engine — 15 headline RSA variants, benefit-first messaging
+5. Smart bidding optimization — Target ROAS/CPA only after 50+ conversions/month; manual CPC before that threshold
+6. Weekly optimization and monthly strategy reviews
+
+**Industry benchmarks (Vora portfolio):**
+- eCommerce: avg. 5.1x ROAS (Shopping + Performance Max)
+- SaaS: avg. 3.8x ROAS (trial + demo conversion focus)
+- Finance: avg. 3.4x ROAS (compliance-aware ad copy)
+- Home Services: avg. 4.6x ROAS (Local Search + LSAs)
+- B2B Lead Gen: 52% avg. CPL reduction
+- Healthcare: avg. 3.9x ROAS (HIPAA-compliant)
+
+**Minimum spend:** $5,000/month recommended for statistically meaningful optimization. Smart bidding needs 50+ conversions per campaign over 30 days.
+
+---
+
+### Meta Ads Management
+
+Performance-first Meta advertising for DTC and B2C brands. Creative-led campaigns, Advantage+ scaling, and server-side CAPI attribution to grow businesses profitably on Facebook and Instagram. $50M+ in Meta-specific ad spend managed.
+
+**Campaign types:** Advantage+ Shopping (ASC), broad audience prospecting, Dynamic Product Ads (DPA), lead generation campaigns, Reels and video campaigns.
+
+**Post-iOS 14 attribution:** Server-side Conversion API (CAPI) implementation to recover attribution lost to iOS 14+ privacy changes. Triangulated with GA4, UTM tracking, and third-party MTA tools (Northbeam, Triple Whale).
+
+**Creative approach:** Direct-response static ads, carousels, UGC-style video, Reels content. Creative refresh on 2-week cycles, testing 3–5 new creative angles per month. A/B testing on hooks, formats, offers, and landing pages.
+
+**Scaling without ROAS degradation:** Creative velocity (more winning angles prevent fatigue), audience expansion, incremental budget increases of 10–20% weekly for algorithm reoptimization, marginal ROAS analysis to identify scaling ceilings.
+
+---
+
+### SEO Services
+
+Performance-driven SEO built for growth brands. We build organic traffic engines through technical excellence, high-intent content, and authoritative link building—reducing blended CAC over time. Average 60%+ organic traffic growth over 12 months.
+
+**Six core services:**
+1. Technical SEO audit and remediation — crawl analysis, Core Web Vitals, canonicals, schema
+2. Keyword research and content gap analysis — full keyword universe mapping across all intent types
+3. On-page optimization — titles, meta descriptions, headers, internal linking, structured data
+4. SEO content production — expert-level, E-E-A-T-compliant monthly content; not AI-generated
+5. Authority link building — white-hat from DR 50+ publications, 5–15 new backlinks monthly
+6. SEO reporting and attribution — organic sessions, rankings, domain authority, organic-attributed revenue
+
+**Timeline:** Measurable growth in 3–6 months. Significant ranking improvements for mid-competition keywords by month 4–8. Highly competitive keywords take 9–18 months to reach page one.
+
+**CAC reduction through SEO:** As rankings compound, blended CAC decreases because a growing share of conversions come from organic (near-zero marginal cost per click) versus paid channels.
+
+---
+
+### GEO — Generative Engine Optimization
+
+Optimization for AI-powered search: Google AI Overviews, ChatGPT, Perplexity, and Bing Copilot. We structure content and technical signals to maximize brand citation in AI-generated answers.
+
+---
+
+### AI Automations
+
+AI-powered marketing automation: workflow automation, AI-powered ad ops, and automated reporting pipelines that reduce manual work and accelerate campaign iteration speed.
+
+---
+
+### Additional Services
+
+- **LinkedIn Ads** — B2B demand generation and lead gen on LinkedIn
+- **TikTok Ads** — Short-form video performance advertising
+- **YouTube Ads** — TrueView, Demand Gen, Shorts for awareness and retargeting
+- **Amazon Ads** — Sponsored Products, Brands, and Display on Amazon
+- **PPC Management** — Full-funnel paid search strategy across Google and Bing
+- **CRO (Conversion Rate Optimization)** — Landing page testing, funnel optimization
+- **Email Marketing** — Lifecycle campaigns, automations, and list growth
+- **Content Marketing** — Strategy, creation, and distribution
+- **Social Media Management** — Organic growth and community
+- **Web Design** — Fast, conversion-focused websites
+- **AI Development** — Custom AI tools and integrations
+- **AI Outbound** — AI-powered prospecting and outreach automation
+- **Voice AI** — Voice-enabled marketing automation
+- **B2B Marketing** — Full-funnel B2B demand generation
+- **DTC Marketing** — Direct-to-consumer growth programs
+- **E-commerce Marketing** — Multichannel e-commerce growth
+- **Performance Creative** — Ad creative production and testing
+- **Retargeting** — Multi-channel retargeting sequences
+- **Affiliate Marketing** — Affiliate program setup and management
+- **UGC Ads** — User-generated content ad production
+- **Influencer Marketing** — Performance-based influencer campaigns
+- **Shopify Marketing** — Shopify-specific growth stack
+- **SaaS Marketing** — SaaS-specific pipeline and trial growth
+- **Programmatic Advertising** — Automated display and video buying
+
+---
+
+## Pricing (as of 2025)
+
+All plans are flat monthly retainers — not percentage-of-spend. This keeps management costs predictable as you scale, and aligns agency incentives with your ROAS, not your spend volume.
+
+### Starter — $1,500/month
+Single-channel paid media management (Google Ads OR Meta Ads). Recommended minimum ad spend: $5,000/month. One-time onboarding fee: $750.
+
+Includes: campaign setup and bid strategy, conversion tracking and pixel setup, weekly performance reports, dedicated account strategist, monthly strategy calls, ad copy and creative direction.
+
+### Growth — $4,000/month (Most Popular)
+Multi-channel performance stack. Best for brands spending $20K–$80K/month. Full onboarding included.
+
+Includes: Google Ads + Meta Ads management, full-funnel campaign architecture, landing page CRO audits, attribution modeling, A/B creative testing, bi-weekly strategy calls, custom ROAS dashboard, email and SEO add-on options, priority Slack support.
+
+### Scale — $8,000/month
+Full-stack performance marketing engine. For brands managing $80K+/month in ad spend. Full onboarding included.
+
+Includes: all paid channels (Google, Meta, Bing, YouTube), SEO and content growth program, email marketing automation, CRO-optimized landing pages, AI-powered audience targeting, custom LTV and CAC modeling, weekly executive reports, dedicated growth team (3+ specialists), 24/7 Slack access.
+
+### Add-Ons
+- SEO Growth Program: +$1,200/month
+- Email Marketing Automation: +$800/month
+- CRO Landing Page Build: +$2,500 one-time
+- AI Outbound Prospecting: +$1,500/month
+- Creative Production: +$1,000/month
+- GEO / AI Overview Optimization: +$600/month
+
+### Commitment
+3-month minimum on all plans. After 3 months: month-to-month. Upgrade anytime; downgrades require 30 days notice. Ad spend billed separately directly to client accounts — Vora never marks up media.
+
+### Expected Results
+Portfolio average: 4.2x ROAS. eCommerce clients typically see 3–6x ROAS within 90 days. Lead gen clients see 40–60% reductions in CAC. Results vary by industry, product margin, and funnel maturity.
+
+---
+
+## FAQ
+
+**What is performance marketing?**
+Performance marketing is a results-driven form of digital advertising where you only pay — or measure success — based on specific outcomes: clicks, leads, purchases, or revenue. Unlike brand advertising, every dollar is tied to a measurable return. Vora specialises in Google Ads, Meta Ads, and programmatic channels engineered around ROAS and CAC targets.
+
+**What ROAS can I expect?**
+ROAS varies by industry, margin, and funnel maturity. Across Vora's managed portfolio (2023–2025), we achieve a 4.2x average ROAS — meaning $4.20 in revenue for every $1 of ad spend. High-margin DTC brands often see 6x–10x; lower-margin or service businesses typically target 2x–4x. We set realistic targets in your first strategy session based on your actual numbers.
+
+**How much does performance marketing management cost?**
+Vora's management fees start at $1,500/mo (Starter), $4,000/mo (Growth), and $8,000/mo (Scale). Ad spend is billed separately directly to your accounts — we never mark up media. Most clients see positive ROI on management fees within the first 60–90 days.
+
+**What's the difference between Google Ads and Meta Ads?**
+Google Ads captures demand — people actively searching for your product or service. Meta Ads creates demand — reaching people before they search. The strongest performance marketing programs use both: Google for high-intent conversion and Meta for top-of-funnel prospecting and retargeting. Vora manages both channels under a unified ROAS framework.
+
+**How long does it take to see results?**
+Most clients see meaningful performance improvements within 30–60 days of launch as campaigns gather data and algorithms optimise. Significant ROAS gains typically emerge by month two to three. We provide weekly reporting so you track progress transparently from day one.
+
+**Why choose a New York performance marketing agency?**
+New York agencies operate in one of the most competitive ad markets in the world. Vora's team has managed $100M+ in ad spend and scaled 300+ brands since 2020 across finance, fashion, SaaS, DTC, and hospitality in hyper-competitive NYC verticals.
+
+---
+
+## Contact
+
+- Website: https://aivopa.com
+- Email: hello@aivopa.com
+- Address: 350 Fifth Avenue, New York, NY 10118
+- Founded: 2020
