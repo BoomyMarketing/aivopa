@@ -1,4 +1,1241 @@
 {
   "cleanUrls": true,
-  "trailingSlash": false
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/local/albuquerque/amazon-ads-agency",
+      "destination": "/amazon-ads-agency/albuquerque",
+      "permanent": true
+    },
+    {
+      "source": "/local/albuquerque/digital-advertising-agency",
+      "destination": "/digital-advertising-agency/albuquerque",
+      "permanent": true
+    },
+    {
+      "source": "/local/albuquerque/ecommerce-marketing-agency",
+      "destination": "/ecommerce-marketing-agency/albuquerque",
+      "permanent": true
+    },
+    {
+      "source": "/local/albuquerque/facebook-ads-agency",
+      "destination": "/facebook-ads-agency/albuquerque",
+      "permanent": true
+    },
+    {
+      "source": "/local/albuquerque/google-ads-agency",
+      "destination": "/google-ads-agency/albuquerque",
+      "permanent": true
+    },
+    {
+      "source": "/local/albuquerque/meta-ads-agency",
+      "destination": "/meta-ads-agency/albuquerque",
+      "permanent": true
+    },
+    {
+      "source": "/local/albuquerque/paid-search-agency",
+      "destination": "/paid-search-agency/albuquerque",
+      "permanent": true
+    },
+    {
+      "source": "/local/albuquerque/performance-marketing-agency",
+      "destination": "/performance-marketing-agency/albuquerque",
+      "permanent": true
+    },
+    {
+      "source": "/local/albuquerque/ppc-agency",
+      "destination": "/ppc-agency/albuquerque",
+      "permanent": true
+    },
+    {
+      "source": "/local/albuquerque/tiktok-ads-agency",
+      "destination": "/tiktok-ads-agency/albuquerque",
+      "permanent": true
+    },
+    {
+      "source": "/local/albuquerque/youtube-ads-agency",
+      "destination": "/youtube-ads-agency/albuquerque",
+      "permanent": true
+    },
+    {
+      "source": "/local/arlington/amazon-ads-agency",
+      "destination": "/amazon-ads-agency/arlington",
+      "permanent": true
+    },
+    {
+      "source": "/local/arlington/digital-advertising-agency",
+      "destination": "/digital-advertising-agency/arlington",
+      "permanent": true
+    },
+    {
+      "source": "/local/arlington/ecommerce-marketing-agency",
+      "destination": "/ecommerce-marketing-agency/arlington",
+      "permanent": true
+    },
+    {
+      "source": "/local/arlington/facebook-ads-agency",
+      "destination": "/facebook-ads-agency/arlington",
+      "permanent": true
+    },
+    {
+      "source": "/local/arlington/google-ads-agency",
+      "destination": "/google-ads-agency/arlington",
+      "permanent": true
+    },
+    {
+      "source": "/local/arlington/meta-ads-agency",
+      "destination": "/meta-ads-agency/arlington",
+      "permanent": true
+    },
+    {
+      "source": "/local/arlington/paid-search-agency",
+      "destination": "/paid-search-agency/arlington",
+      "permanent": true
+    },
+    {
+      "source": "/local/arlington/performance-marketing-agency",
+      "destination": "/performance-marketing-agency/arlington",
+      "permanent": true
+    },
+    {
+      "source": "/local/arlington/ppc-agency",
+      "destination": "/ppc-agency/arlington",
+      "permanent": true
+    },
+    {
+      "source": "/local/arlington/tiktok-ads-agency",
+      "destination": "/tiktok-ads-agency/arlington",
+      "permanent": true
+    },
+    {
+      "source": "/local/arlington/youtube-ads-agency",
+      "destination": "/youtube-ads-agency/arlington",
+      "permanent": true
+    },
+    {
+      "source": "/local/atlanta/amazon-ads-agency",
+      "destination": "/amazon-ads-agency/atlanta",
+      "permanent": true
+    },
+    {
+      "source": "/local/atlanta/digital-advertising-agency",
+      "destination": "/digital-advertising-agency/atlanta",
+      "permanent": true
+    },
+    {
+      "source": "/local/atlanta/ecommerce-marketing-agency",
+      "destination": "/ecommerce-marketing-agency/atlanta",
+      "permanent": true
+    },
+    {
+      "source": "/local/atlanta/facebook-ads-agency",
+      "destination": "/facebook-ads-agency/atlanta",
+      "permanent": true
+    },
+    {
+      "source": "/local/atlanta/google-ads-agency",
+      "destination": "/google-ads-agency/atlanta",
+      "permanent": true
+    },
+    {
+      "source": "/local/atlanta/meta-ads-agency",
+      "destination": "/meta-ads-agency/atlanta",
+      "permanent": true
+    },
+    {
+      "source": "/local/atlanta/paid-search-agency",
+      "destination": "/paid-search-agency/atlanta",
+      "permanent": true
+    },
+    {
+      "source": "/local/atlanta/performance-marketing-agency",
+      "destination": "/performance-marketing-agency/atlanta",
+      "permanent": true
+    },
+    {
+      "source": "/local/atlanta/ppc-agency",
+      "destination": "/ppc-agency/atlanta",
+      "permanent": true
+    },
+    {
+      "source": "/local/atlanta/tiktok-ads-agency",
+      "destination": "/tiktok-ads-agency/atlanta",
+      "permanent": true
+    },
+    {
+      "source": "/local/atlanta/youtube-ads-agency",
+      "destination": "/youtube-ads-agency/atlanta",
+      "permanent": true
+    },
+    {
+      "source": "/local/austin/amazon-ads-agency",
+      "destination": "/amazon-ads-agency/austin",
+      "permanent": true
+    },
+    {
+      "source": "/local/austin/digital-advertising-agency",
+      "destination": "/digital-advertising-agency/austin",
+      "permanent": true
+    },
+    {
+      "source": "/local/austin/ecommerce-marketing-agency",
+      "destination": "/ecommerce-marketing-agency/austin",
+      "permanent": true
+    },
+    {
+      "source": "/local/austin/facebook-ads-agency",
+      "destination": "/facebook-ads-agency/austin",
+      "permanent": true
+    },
+    {
+      "source": "/local/austin/google-ads-agency",
+      "destination": "/google-ads-agency/austin",
+      "permanent": true
+    },
+    {
+      "source": "/local/austin/meta-ads-agency",
+      "destination": "/meta-ads-agency/austin",
+      "permanent": true
+    },
+    {
+      "source": "/local/austin/paid-search-agency",
+      "destination": "/paid-search-agency/austin",
+      "permanent": true
+    },
+    {
+      "source": "/local/austin/performance-marketing-agency",
+      "destination": "/performance-marketing-agency/austin",
+      "permanent": true
+    },
+    {
+      "source": "/local/austin/ppc-agency",
+      "destination": "/ppc-agency/austin",
+      "permanent": true
+    },
+    {
+      "source": "/local/austin/tiktok-ads-agency",
+      "destination": "/tiktok-ads-agency/austin",
+      "permanent": true
+    },
+    {
+      "source": "/local/austin/youtube-ads-agency",
+      "destination": "/youtube-ads-agency/austin",
+      "permanent": true
+    },
+    {
+      "source": "/local/bakersfield/amazon-ads-agency",
+      "destination": "/amazon-ads-agency/bakersfield",
+      "permanent": true
+    },
+    {
+      "source": "/local/bakersfield/digital-advertising-agency",
+      "destination": "/digital-advertising-agency/bakersfield",
+      "permanent": true
+    },
+    {
+      "source": "/local/bakersfield/ecommerce-marketing-agency",
+      "destination": "/ecommerce-marketing-agency/bakersfield",
+      "permanent": true
+    },
+    {
+      "source": "/local/bakersfield/facebook-ads-agency",
+      "destination": "/facebook-ads-agency/bakersfield",
+      "permanent": true
+    },
+    {
+      "source": "/local/bakersfield/google-ads-agency",
+      "destination": "/google-ads-agency/bakersfield",
+      "permanent": true
+    },
+    {
+      "source": "/local/bakersfield/meta-ads-agency",
+      "destination": "/meta-ads-agency/bakersfield",
+      "permanent": true
+    },
+    {
+      "source": "/local/bakersfield/paid-search-agency",
+      "destination": "/paid-search-agency/bakersfield",
+      "permanent": true
+    },
+    {
+      "source": "/local/bakersfield/performance-marketing-agency",
+      "destination": "/performance-marketing-agency/bakersfield",
+      "permanent": true
+    },
+    {
+      "source": "/local/bakersfield/ppc-agency",
+      "destination": "/ppc-agency/bakersfield",
+      "permanent": true
+    },
+    {
+      "source": "/local/bakersfield/tiktok-ads-agency",
+      "destination": "/tiktok-ads-agency/bakersfield",
+      "permanent": true
+    },
+    {
+      "source": "/local/bakersfield/youtube-ads-agency",
+      "destination": "/youtube-ads-agency/bakersfield",
+      "permanent": true
+    },
+    {
+      "source": "/local/boston/amazon-ads-agency",
+      "destination": "/amazon-ads-agency/boston",
+      "permanent": true
+    },
+    {
+      "source": "/local/boston/digital-advertising-agency",
+      "destination": "/digital-advertising-agency/boston",
+      "permanent": true
+    },
+    {
+      "source": "/local/boston/ecommerce-marketing-agency",
+      "destination": "/ecommerce-marketing-agency/boston",
+      "permanent": true
+    },
+    {
+      "source": "/local/boston/facebook-ads-agency",
+      "destination": "/facebook-ads-agency/boston",
+      "permanent": true
+    },
+    {
+      "source": "/local/boston/google-ads-agency",
+      "destination": "/google-ads-agency/boston",
+      "permanent": true
+    },
+    {
+      "source": "/local/boston/meta-ads-agency",
+      "destination": "/meta-ads-agency/boston",
+      "permanent": true
+    },
+    {
+      "source": "/local/boston/paid-search-agency",
+      "destination": "/paid-search-agency/boston",
+      "permanent": true
+    },
+    {
+      "source": "/local/boston/performance-marketing-agency",
+      "destination": "/performance-marketing-agency/boston",
+      "permanent": true
+    },
+    {
+      "source": "/local/boston/ppc-agency",
+      "destination": "/ppc-agency/boston",
+      "permanent": true
+    },
+    {
+      "source": "/local/boston/tiktok-ads-agency",
+      "destination": "/tiktok-ads-agency/boston",
+      "permanent": true
+    },
+    {
+      "source": "/local/boston/youtube-ads-agency",
+      "destination": "/youtube-ads-agency/boston",
+      "permanent": true
+    },
+    {
+      "source": "/local/charlotte/amazon-ads-agency",
+      "destination": "/amazon-ads-agency/charlotte",
+      "permanent": true
+    },
+    {
+      "source": "/local/charlotte/digital-advertising-agency",
+      "destination": "/digital-advertising-agency/charlotte",
+      "permanent": true
+    },
+    {
+      "source": "/local/charlotte/ecommerce-marketing-agency",
+      "destination": "/ecommerce-marketing-agency/charlotte",
+      "permanent": true
+    },
+    {
+      "source": "/local/charlotte/facebook-ads-agency",
+      "destination": "/facebook-ads-agency/charlotte",
+      "permanent": true
+    },
+    {
+      "source": "/local/charlotte/google-ads-agency",
+      "destination": "/google-ads-agency/charlotte",
+      "permanent": true
+    },
+    {
+      "source": "/local/charlotte/meta-ads-agency",
+      "destination": "/meta-ads-agency/charlotte",
+      "permanent": true
+    },
+    {
+      "source": "/local/charlotte/paid-search-agency",
+      "destination": "/paid-search-agency/charlotte",
+      "permanent": true
+    },
+    {
+      "source": "/local/charlotte/performance-marketing-agency",
+      "destination": "/performance-marketing-agency/charlotte",
+      "permanent": true
+    },
+    {
+      "source": "/local/charlotte/ppc-agency",
+      "destination": "/ppc-agency/charlotte",
+      "permanent": true
+    },
+    {
+      "source": "/local/charlotte/tiktok-ads-agency",
+      "destination": "/tiktok-ads-agency/charlotte",
+      "permanent": true
+    },
+    {
+      "source": "/local/charlotte/youtube-ads-agency",
+      "destination": "/youtube-ads-agency/charlotte",
+      "permanent": true
+    },
+    {
+      "source": "/local/chicago/amazon-ads-agency",
+      "destination": "/amazon-ads-agency/chicago",
+      "permanent": true
+    },
+    {
+      "source": "/local/chicago/digital-advertising-agency",
+      "destination": "/digital-advertising-agency/chicago",
+      "permanent": true
+    },
+    {
+      "source": "/local/chicago/ecommerce-marketing-agency",
+      "destination": "/ecommerce-marketing-agency/chicago",
+      "permanent": true
+    },
+    {
+      "source": "/local/chicago/facebook-ads-agency",
+      "destination": "/facebook-ads-agency/chicago",
+      "permanent": true
+    },
+    {
+      "source": "/local/chicago/google-ads-agency",
+      "destination": "/google-ads-agency/chicago",
+      "permanent": true
+    },
+    {
+      "source": "/local/chicago/meta-ads-agency",
+      "destination": "/meta-ads-agency/chicago",
+      "permanent": true
+    },
+    {
+      "source": "/local/chicago/paid-search-agency",
+      "destination": "/paid-search-agency/chicago",
+      "permanent": true
+    },
+    {
+      "source": "/local/chicago/performance-marketing-agency",
+      "destination": "/performance-marketing-agency/chicago",
+      "permanent": true
+    },
+    {
+      "source": "/local/chicago/ppc-agency",
+      "destination": "/ppc-agency/chicago",
+      "permanent": true
+    },
+    {
+      "source": "/local/chicago/tiktok-ads-agency",
+      "destination": "/tiktok-ads-agency/chicago",
+      "permanent": true
+    },
+    {
+      "source": "/local/chicago/youtube-ads-agency",
+      "destination": "/youtube-ads-agency/chicago",
+      "permanent": true
+    },
+    {
+      "source": "/local/cincinnati/amazon-ads-agency",
+      "destination": "/amazon-ads-agency/cincinnati",
+      "permanent": true
+    },
+    {
+      "source": "/local/cincinnati/digital-advertising-agency",
+      "destination": "/digital-advertising-agency/cincinnati",
+      "permanent": true
+    },
+    {
+      "source": "/local/cincinnati/ecommerce-marketing-agency",
+      "destination": "/ecommerce-marketing-agency/cincinnati",
+      "permanent": true
+    },
+    {
+      "source": "/local/cincinnati/facebook-ads-agency",
+      "destination": "/facebook-ads-agency/cincinnati",
+      "permanent": true
+    },
+    {
+      "source": "/local/cincinnati/google-ads-agency",
+      "destination": "/google-ads-agency/cincinnati",
+      "permanent": true
+    },
+    {
+      "source": "/local/cincinnati/meta-ads-agency",
+      "destination": "/meta-ads-agency/cincinnati",
+      "permanent": true
+    },
+    {
+      "source": "/local/cincinnati/paid-search-agency",
+      "destination": "/paid-search-agency/cincinnati",
+      "permanent": true
+    },
+    {
+      "source": "/local/cincinnati/performance-marketing-agency",
+      "destination": "/performance-marketing-agency/cincinnati",
+      "permanent": true
+    },
+    {
+      "source": "/local/cincinnati/ppc-agency",
+      "destination": "/ppc-agency/cincinnati",
+      "permanent": true
+    },
+    {
+      "source": "/local/cincinnati/tiktok-ads-agency",
+      "destination": "/tiktok-ads-agency/cincinnati",
+      "permanent": true
+    },
+    {
+      "source": "/local/cincinnati/youtube-ads-agency",
+      "destination": "/youtube-ads-agency/cincinnati",
+      "permanent": true
+    },
+    {
+      "source": "/local/cleveland/amazon-ads-agency",
+      "destination": "/amazon-ads-agency/cleveland",
+      "permanent": true
+    },
+    {
+      "source": "/local/cleveland/digital-advertising-agency",
+      "destination": "/digital-advertising-agency/cleveland",
+      "permanent": true
+    },
+    {
+      "source": "/local/cleveland/ecommerce-marketing-agency",
+      "destination": "/ecommerce-marketing-agency/cleveland",
+      "permanent": true
+    },
+    {
+      "source": "/local/cleveland/facebook-ads-agency",
+      "destination": "/facebook-ads-agency/cleveland",
+      "permanent": true
+    },
+    {
+      "source": "/local/cleveland/google-ads-agency",
+      "destination": "/google-ads-agency/cleveland",
+      "permanent": true
+    },
+    {
+      "source": "/local/cleveland/meta-ads-agency",
+      "destination": "/meta-ads-agency/cleveland",
+      "permanent": true
+    },
+    {
+      "source": "/local/cleveland/paid-search-agency",
+      "destination": "/paid-search-agency/cleveland",
+      "permanent": true
+    },
+    {
+      "source": "/local/cleveland/performance-marketing-agency",
+      "destination": "/performance-marketing-agency/cleveland",
+      "permanent": true
+    },
+    {
+      "source": "/local/cleveland/ppc-agency",
+      "destination": "/ppc-agency/cleveland",
+      "permanent": true
+    },
+    {
+      "source": "/local/cleveland/tiktok-ads-agency",
+      "destination": "/tiktok-ads-agency/cleveland",
+      "permanent": true
+    },
+    {
+      "source": "/local/cleveland/youtube-ads-agency",
+      "destination": "/youtube-ads-agency/cleveland",
+      "permanent": true
+    },
+    {
+      "source": "/local/columbus/digital-advertising-agency",
+      "destination": "/digital-advertising-agency/columbus",
+      "permanent": true
+    },
+    {
+      "source": "/local/columbus/ecommerce-marketing-agency",
+      "destination": "/ecommerce-marketing-agency/columbus",
+      "permanent": true
+    },
+    {
+      "source": "/local/columbus/facebook-ads-agency",
+      "destination": "/facebook-ads-agency/columbus",
+      "permanent": true
+    },
+    {
+      "source": "/local/columbus/google-ads-agency",
+      "destination": "/google-ads-agency/columbus",
+      "permanent": true
+    },
+    {
+      "source": "/local/columbus/meta-ads-agency",
+      "destination": "/meta-ads-agency/columbus",
+      "permanent": true
+    },
+    {
+      "source": "/local/dallas/amazon-ads-agency",
+      "destination": "/amazon-ads-agency/dallas",
+      "permanent": true
+    },
+    {
+      "source": "/local/dallas/digital-advertising-agency",
+      "destination": "/digital-advertising-agency/dallas",
+      "permanent": true
+    },
+    {
+      "source": "/local/dallas/ecommerce-marketing-agency",
+      "destination": "/ecommerce-marketing-agency/dallas",
+      "permanent": true
+    },
+    {
+      "source": "/local/dallas/facebook-ads-agency",
+      "destination": "/facebook-ads-agency/dallas",
+      "permanent": true
+    },
+    {
+      "source": "/local/dallas/google-ads-agency",
+      "destination": "/google-ads-agency/dallas",
+      "permanent": true
+    },
+    {
+      "source": "/local/dallas/meta-ads-agency",
+      "destination": "/meta-ads-agency/dallas",
+      "permanent": true
+    },
+    {
+      "source": "/local/dallas/paid-search-agency",
+      "destination": "/paid-search-agency/dallas",
+      "permanent": true
+    },
+    {
+      "source": "/local/dallas/performance-marketing-agency",
+      "destination": "/performance-marketing-agency/dallas",
+      "permanent": true
+    },
+    {
+      "source": "/local/dallas/ppc-agency",
+      "destination": "/ppc-agency/dallas",
+      "permanent": true
+    },
+    {
+      "source": "/local/dallas/tiktok-ads-agency",
+      "destination": "/tiktok-ads-agency/dallas",
+      "permanent": true
+    },
+    {
+      "source": "/local/dallas/youtube-ads-agency",
+      "destination": "/youtube-ads-agency/dallas",
+      "permanent": true
+    },
+    {
+      "source": "/local/denver/amazon-ads-agency",
+      "destination": "/amazon-ads-agency/denver",
+      "permanent": true
+    },
+    {
+      "source": "/local/denver/digital-advertising-agency",
+      "destination": "/digital-advertising-agency/denver",
+      "permanent": true
+    },
+    {
+      "source": "/local/denver/ecommerce-marketing-agency",
+      "destination": "/ecommerce-marketing-agency/denver",
+      "permanent": true
+    },
+    {
+      "source": "/local/denver/facebook-ads-agency",
+      "destination": "/facebook-ads-agency/denver",
+      "permanent": true
+    },
+    {
+      "source": "/local/denver/google-ads-agency",
+      "destination": "/google-ads-agency/denver",
+      "permanent": true
+    },
+    {
+      "source": "/local/denver/meta-ads-agency",
+      "destination": "/meta-ads-agency/denver",
+      "permanent": true
+    },
+    {
+      "source": "/local/denver/paid-search-agency",
+      "destination": "/paid-search-agency/denver",
+      "permanent": true
+    },
+    {
+      "source": "/local/denver/performance-marketing-agency",
+      "destination": "/performance-marketing-agency/denver",
+      "permanent": true
+    },
+    {
+      "source": "/local/denver/ppc-agency",
+      "destination": "/ppc-agency/denver",
+      "permanent": true
+    },
+    {
+      "source": "/local/denver/tiktok-ads-agency",
+      "destination": "/tiktok-ads-agency/denver",
+      "permanent": true
+    },
+    {
+      "source": "/local/denver/youtube-ads-agency",
+      "destination": "/youtube-ads-agency/denver",
+      "permanent": true
+    },
+    {
+      "source": "/local/houston/amazon-ads-agency",
+      "destination": "/amazon-ads-agency/houston",
+      "permanent": true
+    },
+    {
+      "source": "/local/houston/digital-advertising-agency",
+      "destination": "/digital-advertising-agency/houston",
+      "permanent": true
+    },
+    {
+      "source": "/local/houston/ecommerce-marketing-agency",
+      "destination": "/ecommerce-marketing-agency/houston",
+      "permanent": true
+    },
+    {
+      "source": "/local/houston/facebook-ads-agency",
+      "destination": "/facebook-ads-agency/houston",
+      "permanent": true
+    },
+    {
+      "source": "/local/houston/google-ads-agency",
+      "destination": "/google-ads-agency/houston",
+      "permanent": true
+    },
+    {
+      "source": "/local/houston/meta-ads-agency",
+      "destination": "/meta-ads-agency/houston",
+      "permanent": true
+    },
+    {
+      "source": "/local/houston/paid-search-agency",
+      "destination": "/paid-search-agency/houston",
+      "permanent": true
+    },
+    {
+      "source": "/local/houston/performance-marketing-agency",
+      "destination": "/performance-marketing-agency/houston",
+      "permanent": true
+    },
+    {
+      "source": "/local/houston/ppc-agency",
+      "destination": "/ppc-agency/houston",
+      "permanent": true
+    },
+    {
+      "source": "/local/houston/tiktok-ads-agency",
+      "destination": "/tiktok-ads-agency/houston",
+      "permanent": true
+    },
+    {
+      "source": "/local/houston/youtube-ads-agency",
+      "destination": "/youtube-ads-agency/houston",
+      "permanent": true
+    },
+    {
+      "source": "/local/los-angeles/amazon-ads-agency",
+      "destination": "/amazon-ads-agency/los-angeles",
+      "permanent": true
+    },
+    {
+      "source": "/local/los-angeles/digital-advertising-agency",
+      "destination": "/digital-advertising-agency/los-angeles",
+      "permanent": true
+    },
+    {
+      "source": "/local/los-angeles/ecommerce-marketing-agency",
+      "destination": "/ecommerce-marketing-agency/los-angeles",
+      "permanent": true
+    },
+    {
+      "source": "/local/los-angeles/facebook-ads-agency",
+      "destination": "/facebook-ads-agency/los-angeles",
+      "permanent": true
+    },
+    {
+      "source": "/local/los-angeles/google-ads-agency",
+      "destination": "/google-ads-agency/los-angeles",
+      "permanent": true
+    },
+    {
+      "source": "/local/los-angeles/meta-ads-agency",
+      "destination": "/meta-ads-agency/los-angeles",
+      "permanent": true
+    },
+    {
+      "source": "/local/los-angeles/paid-search-agency",
+      "destination": "/paid-search-agency/los-angeles",
+      "permanent": true
+    },
+    {
+      "source": "/local/los-angeles/performance-marketing-agency",
+      "destination": "/performance-marketing-agency/los-angeles",
+      "permanent": true
+    },
+    {
+      "source": "/local/los-angeles/ppc-agency",
+      "destination": "/ppc-agency/los-angeles",
+      "permanent": true
+    },
+    {
+      "source": "/local/los-angeles/tiktok-ads-agency",
+      "destination": "/tiktok-ads-agency/los-angeles",
+      "permanent": true
+    },
+    {
+      "source": "/local/los-angeles/youtube-ads-agency",
+      "destination": "/youtube-ads-agency/los-angeles",
+      "permanent": true
+    },
+    {
+      "source": "/local/miami/amazon-ads-agency",
+      "destination": "/amazon-ads-agency/miami",
+      "permanent": true
+    },
+    {
+      "source": "/local/miami/digital-advertising-agency",
+      "destination": "/digital-advertising-agency/miami",
+      "permanent": true
+    },
+    {
+      "source": "/local/miami/ecommerce-marketing-agency",
+      "destination": "/ecommerce-marketing-agency/miami",
+      "permanent": true
+    },
+    {
+      "source": "/local/miami/facebook-ads-agency",
+      "destination": "/facebook-ads-agency/miami",
+      "permanent": true
+    },
+    {
+      "source": "/local/miami/google-ads-agency",
+      "destination": "/google-ads-agency/miami",
+      "permanent": true
+    },
+    {
+      "source": "/local/miami/meta-ads-agency",
+      "destination": "/meta-ads-agency/miami",
+      "permanent": true
+    },
+    {
+      "source": "/local/miami/paid-search-agency",
+      "destination": "/paid-search-agency/miami",
+      "permanent": true
+    },
+    {
+      "source": "/local/miami/performance-marketing-agency",
+      "destination": "/performance-marketing-agency/miami",
+      "permanent": true
+    },
+    {
+      "source": "/local/miami/ppc-agency",
+      "destination": "/ppc-agency/miami",
+      "permanent": true
+    },
+    {
+      "source": "/local/miami/tiktok-ads-agency",
+      "destination": "/tiktok-ads-agency/miami",
+      "permanent": true
+    },
+    {
+      "source": "/local/miami/youtube-ads-agency",
+      "destination": "/youtube-ads-agency/miami",
+      "permanent": true
+    },
+    {
+      "source": "/local/nashville/amazon-ads-agency",
+      "destination": "/amazon-ads-agency/nashville",
+      "permanent": true
+    },
+    {
+      "source": "/local/nashville/digital-advertising-agency",
+      "destination": "/digital-advertising-agency/nashville",
+      "permanent": true
+    },
+    {
+      "source": "/local/nashville/ecommerce-marketing-agency",
+      "destination": "/ecommerce-marketing-agency/nashville",
+      "permanent": true
+    },
+    {
+      "source": "/local/nashville/facebook-ads-agency",
+      "destination": "/facebook-ads-agency/nashville",
+      "permanent": true
+    },
+    {
+      "source": "/local/nashville/google-ads-agency",
+      "destination": "/google-ads-agency/nashville",
+      "permanent": true
+    },
+    {
+      "source": "/local/nashville/meta-ads-agency",
+      "destination": "/meta-ads-agency/nashville",
+      "permanent": true
+    },
+    {
+      "source": "/local/nashville/paid-search-agency",
+      "destination": "/paid-search-agency/nashville",
+      "permanent": true
+    },
+    {
+      "source": "/local/nashville/performance-marketing-agency",
+      "destination": "/performance-marketing-agency/nashville",
+      "permanent": true
+    },
+    {
+      "source": "/local/nashville/ppc-agency",
+      "destination": "/ppc-agency/nashville",
+      "permanent": true
+    },
+    {
+      "source": "/local/nashville/tiktok-ads-agency",
+      "destination": "/tiktok-ads-agency/nashville",
+      "permanent": true
+    },
+    {
+      "source": "/local/nashville/youtube-ads-agency",
+      "destination": "/youtube-ads-agency/nashville",
+      "permanent": true
+    },
+    {
+      "source": "/local/new-york/amazon-ads-agency",
+      "destination": "/amazon-ads-agency/new-york",
+      "permanent": true
+    },
+    {
+      "source": "/local/new-york/digital-advertising-agency",
+      "destination": "/digital-advertising-agency/new-york",
+      "permanent": true
+    },
+    {
+      "source": "/local/new-york/ecommerce-marketing-agency",
+      "destination": "/ecommerce-marketing-agency/new-york",
+      "permanent": true
+    },
+    {
+      "source": "/local/new-york/facebook-ads-agency",
+      "destination": "/facebook-ads-agency/new-york",
+      "permanent": true
+    },
+    {
+      "source": "/local/new-york/google-ads-agency",
+      "destination": "/google-ads-agency/new-york",
+      "permanent": true
+    },
+    {
+      "source": "/local/new-york/meta-ads-agency",
+      "destination": "/meta-ads-agency/new-york",
+      "permanent": true
+    },
+    {
+      "source": "/local/new-york/paid-search-agency",
+      "destination": "/paid-search-agency/new-york",
+      "permanent": true
+    },
+    {
+      "source": "/local/new-york/performance-marketing-agency",
+      "destination": "/performance-marketing-agency/new-york",
+      "permanent": true
+    },
+    {
+      "source": "/local/new-york/ppc-agency",
+      "destination": "/ppc-agency/new-york",
+      "permanent": true
+    },
+    {
+      "source": "/local/new-york/tiktok-ads-agency",
+      "destination": "/tiktok-ads-agency/new-york",
+      "permanent": true
+    },
+    {
+      "source": "/local/new-york/youtube-ads-agency",
+      "destination": "/youtube-ads-agency/new-york",
+      "permanent": true
+    },
+    {
+      "source": "/local/phoenix/amazon-ads-agency",
+      "destination": "/amazon-ads-agency/phoenix",
+      "permanent": true
+    },
+    {
+      "source": "/local/phoenix/digital-advertising-agency",
+      "destination": "/digital-advertising-agency/phoenix",
+      "permanent": true
+    },
+    {
+      "source": "/local/phoenix/ecommerce-marketing-agency",
+      "destination": "/ecommerce-marketing-agency/phoenix",
+      "permanent": true
+    },
+    {
+      "source": "/local/phoenix/facebook-ads-agency",
+      "destination": "/facebook-ads-agency/phoenix",
+      "permanent": true
+    },
+    {
+      "source": "/local/phoenix/google-ads-agency",
+      "destination": "/google-ads-agency/phoenix",
+      "permanent": true
+    },
+    {
+      "source": "/local/phoenix/meta-ads-agency",
+      "destination": "/meta-ads-agency/phoenix",
+      "permanent": true
+    },
+    {
+      "source": "/local/phoenix/paid-search-agency",
+      "destination": "/paid-search-agency/phoenix",
+      "permanent": true
+    },
+    {
+      "source": "/local/phoenix/performance-marketing-agency",
+      "destination": "/performance-marketing-agency/phoenix",
+      "permanent": true
+    },
+    {
+      "source": "/local/phoenix/ppc-agency",
+      "destination": "/ppc-agency/phoenix",
+      "permanent": true
+    },
+    {
+      "source": "/local/phoenix/tiktok-ads-agency",
+      "destination": "/tiktok-ads-agency/phoenix",
+      "permanent": true
+    },
+    {
+      "source": "/local/phoenix/youtube-ads-agency",
+      "destination": "/youtube-ads-agency/phoenix",
+      "permanent": true
+    },
+    {
+      "source": "/local/portland/amazon-ads-agency",
+      "destination": "/amazon-ads-agency/portland",
+      "permanent": true
+    },
+    {
+      "source": "/local/portland/digital-advertising-agency",
+      "destination": "/digital-advertising-agency/portland",
+      "permanent": true
+    },
+    {
+      "source": "/local/portland/ecommerce-marketing-agency",
+      "destination": "/ecommerce-marketing-agency/portland",
+      "permanent": true
+    },
+    {
+      "source": "/local/portland/facebook-ads-agency",
+      "destination": "/facebook-ads-agency/portland",
+      "permanent": true
+    },
+    {
+      "source": "/local/portland/google-ads-agency",
+      "destination": "/google-ads-agency/portland",
+      "permanent": true
+    },
+    {
+      "source": "/local/portland/meta-ads-agency",
+      "destination": "/meta-ads-agency/portland",
+      "permanent": true
+    },
+    {
+      "source": "/local/portland/paid-search-agency",
+      "destination": "/paid-search-agency/portland",
+      "permanent": true
+    },
+    {
+      "source": "/local/portland/performance-marketing-agency",
+      "destination": "/performance-marketing-agency/portland",
+      "permanent": true
+    },
+    {
+      "source": "/local/portland/ppc-agency",
+      "destination": "/ppc-agency/portland",
+      "permanent": true
+    },
+    {
+      "source": "/local/portland/tiktok-ads-agency",
+      "destination": "/tiktok-ads-agency/portland",
+      "permanent": true
+    },
+    {
+      "source": "/local/portland/youtube-ads-agency",
+      "destination": "/youtube-ads-agency/portland",
+      "permanent": true
+    },
+    {
+      "source": "/local/san-diego/amazon-ads-agency",
+      "destination": "/amazon-ads-agency/san-diego",
+      "permanent": true
+    },
+    {
+      "source": "/local/san-diego/digital-advertising-agency",
+      "destination": "/digital-advertising-agency/san-diego",
+      "permanent": true
+    },
+    {
+      "source": "/local/san-diego/ecommerce-marketing-agency",
+      "destination": "/ecommerce-marketing-agency/san-diego",
+      "permanent": true
+    },
+    {
+      "source": "/local/san-diego/facebook-ads-agency",
+      "destination": "/facebook-ads-agency/san-diego",
+      "permanent": true
+    },
+    {
+      "source": "/local/san-diego/google-ads-agency",
+      "destination": "/google-ads-agency/san-diego",
+      "permanent": true
+    },
+    {
+      "source": "/local/san-diego/meta-ads-agency",
+      "destination": "/meta-ads-agency/san-diego",
+      "permanent": true
+    },
+    {
+      "source": "/local/san-diego/paid-search-agency",
+      "destination": "/paid-search-agency/san-diego",
+      "permanent": true
+    },
+    {
+      "source": "/local/san-diego/performance-marketing-agency",
+      "destination": "/performance-marketing-agency/san-diego",
+      "permanent": true
+    },
+    {
+      "source": "/local/san-diego/ppc-agency",
+      "destination": "/ppc-agency/san-diego",
+      "permanent": true
+    },
+    {
+      "source": "/local/san-diego/tiktok-ads-agency",
+      "destination": "/tiktok-ads-agency/san-diego",
+      "permanent": true
+    },
+    {
+      "source": "/local/san-diego/youtube-ads-agency",
+      "destination": "/youtube-ads-agency/san-diego",
+      "permanent": true
+    },
+    {
+      "source": "/local/san-francisco/amazon-ads-agency",
+      "destination": "/amazon-ads-agency/san-francisco",
+      "permanent": true
+    },
+    {
+      "source": "/local/san-francisco/digital-advertising-agency",
+      "destination": "/digital-advertising-agency/san-francisco",
+      "permanent": true
+    },
+    {
+      "source": "/local/san-francisco/ecommerce-marketing-agency",
+      "destination": "/ecommerce-marketing-agency/san-francisco",
+      "permanent": true
+    },
+    {
+      "source": "/local/san-francisco/facebook-ads-agency",
+      "destination": "/facebook-ads-agency/san-francisco",
+      "permanent": true
+    },
+    {
+      "source": "/local/san-francisco/google-ads-agency",
+      "destination": "/google-ads-agency/san-francisco",
+      "permanent": true
+    },
+    {
+      "source": "/local/san-francisco/meta-ads-agency",
+      "destination": "/meta-ads-agency/san-francisco",
+      "permanent": true
+    },
+    {
+      "source": "/local/san-francisco/paid-search-agency",
+      "destination": "/paid-search-agency/san-francisco",
+      "permanent": true
+    },
+    {
+      "source": "/local/san-francisco/performance-marketing-agency",
+      "destination": "/performance-marketing-agency/san-francisco",
+      "permanent": true
+    },
+    {
+      "source": "/local/san-francisco/ppc-agency",
+      "destination": "/ppc-agency/san-francisco",
+      "permanent": true
+    },
+    {
+      "source": "/local/san-francisco/tiktok-ads-agency",
+      "destination": "/tiktok-ads-agency/san-francisco",
+      "permanent": true
+    },
+    {
+      "source": "/local/san-francisco/youtube-ads-agency",
+      "destination": "/youtube-ads-agency/san-francisco",
+      "permanent": true
+    },
+    {
+      "source": "/local/seattle/amazon-ads-agency",
+      "destination": "/amazon-ads-agency/seattle",
+      "permanent": true
+    },
+    {
+      "source": "/local/seattle/digital-advertising-agency",
+      "destination": "/digital-advertising-agency/seattle",
+      "permanent": true
+    },
+    {
+      "source": "/local/seattle/ecommerce-marketing-agency",
+      "destination": "/ecommerce-marketing-agency/seattle",
+      "permanent": true
+    },
+    {
+      "source": "/local/seattle/facebook-ads-agency",
+      "destination": "/facebook-ads-agency/seattle",
+      "permanent": true
+    },
+    {
+      "source": "/local/seattle/google-ads-agency",
+      "destination": "/google-ads-agency/seattle",
+      "permanent": true
+    },
+    {
+      "source": "/local/seattle/meta-ads-agency",
+      "destination": "/meta-ads-agency/seattle",
+      "permanent": true
+    },
+    {
+      "source": "/local/seattle/paid-search-agency",
+      "destination": "/paid-search-agency/seattle",
+      "permanent": true
+    },
+    {
+      "source": "/local/seattle/performance-marketing-agency",
+      "destination": "/performance-marketing-agency/seattle",
+      "permanent": true
+    },
+    {
+      "source": "/local/seattle/ppc-agency",
+      "destination": "/ppc-agency/seattle",
+      "permanent": true
+    },
+    {
+      "source": "/local/seattle/tiktok-ads-agency",
+      "destination": "/tiktok-ads-agency/seattle",
+      "permanent": true
+    },
+    {
+      "source": "/local/seattle/youtube-ads-agency",
+      "destination": "/youtube-ads-agency/seattle",
+      "permanent": true
+    }
+  ]
 }
