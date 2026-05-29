@@ -6,26 +6,109 @@
   },
   "contact": {
     "email": "hello@aivopa.com",
-    "phone": "+16473701888"
+    "phone": "+1-212-500-0100",
+    "address": "New York, NY, USA",
+    "city": "New York"
   },
   "brand": {
     "primary_color": "#6C47FF",
     "secondary_color": "#13023E"
   },
   "business": {
-    "niche": "auto",
+    "niche": "marketing-agency",
     "schema_type": "MarketingAgency",
     "is_local": true,
     "founded_year": 2023,
     "target_city": "New York",
     "target_state": "NY",
-    "target_country": "US"
+    "target_country": "US",
+    "team_size": 12,
+    "rating": 4.9,
+    "review_count": 47
   },
   "autodetect_niche": true,
   "thresholds": {
-    "word_count": [800, 2500],
+    "word_count": [
+      800,
+      2500
+    ],
     "faq_count": 5,
-    "h2_count": [3, 12],
-    "image_count": [2, 15]
+    "h2_count": [
+      3,
+      14
+    ],
+    "image_count": [
+      2,
+      15
+    ],
+    "meta_desc_length": [
+      120,
+      165
+    ],
+    "images_min": 1
+  },
+  "keywords": {
+    "primary": "performance marketing agency",
+    "secondary": [
+      "performance marketing company",
+      "performance marketing services"
+    ],
+    "supporting": [
+      "digital marketing",
+      "online marketing",
+      "marketing strategy"
+    ],
+    "density_primary": [
+      0.5,
+      2.5
+    ],
+    "density_secondary": [
+      0.3,
+      1.2
+    ]
+  },
+  "rules": {
+    "required_schemas": [
+      "Organization",
+      "Service",
+      "FAQPage",
+      "BreadcrumbList"
+    ],
+    "required_mentions_in_h1_or_first_paragraph": [
+      "Vora"
+    ],
+    "no_cross_link_domains": [],
+    "no_fake_urgency_phrases": []
+  },
+  "niche_overrides": {
+    "niche": "marketing-agency",
+    "schema_type": "Organization",
+    "is_local": true,
+    "required_schemas": [
+      "Organization",
+      "FAQPage",
+      "BreadcrumbList"
+    ],
+    "required_cta_types": [
+      "contact_form",
+      "consultation",
+      "phone"
+    ],
+    "required_trust_signals": [
+      "testimonials",
+      "case_studies",
+      "client_logos",
+      "team"
+    ],
+    "psychology_focus": [
+      "authority",
+      "social_proof",
+      "trust"
+    ],
+    "forbidden_psychology": [
+      "fake_scarcity",
+      "fake_countdown",
+      "false_urgency"
+    ]
   }
 }
