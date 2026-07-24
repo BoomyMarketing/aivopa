@@ -2,7 +2,8 @@
   "site": {
     "name": "Vora Ads",
     "domain": "aivopa.com",
-    "language": "en-US"
+    "language": "en-US",
+    "country": "US"
   },
   "contact": {
     "email": "hello@aivopa.com",
