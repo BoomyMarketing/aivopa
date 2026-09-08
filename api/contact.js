@@ -1,6 +1,6 @@
 const SITE_LABEL = 'Aivopa';
 const FROM_EMAIL = 'Aivopa <leads@boomymarketing.com>';
-const TO_EMAILS  = ['boomymarketing.com@gmail.com', 'evgeniygalyas@gmail.com'];
+const TO_EMAILS  = ['boomymarketing.com@gmail.com'];
 const RESEND_URL = 'https://api.resend.com/emails';
 const RECAPTCHA_ACTION = 'contact';
 const RECAPTCHA_MIN_SCORE = 0.3;
