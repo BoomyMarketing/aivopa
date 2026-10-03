@@ -1741,7 +1741,8 @@
             <p style="font-size:0.9rem;color:rgba(255,255,255,0.55);margin-bottom:32px;">&#x1F4AC; Prefer to message? Fill the form below — we reply within a few hours.</p>
 
             <!-- Booking Form -->
-            <form id="bookingForm" action="/api/submit.php" method="POST" style="background:rgba(108,71,255,0.12);border:1px solid rgba(108,71,255,0.3);border-radius:16px;padding:32px;text-align:left;max-width:560px;margin:0 auto 28px;">
+            <form id="bookingForm" action="https://api.web3forms.com/submit" method="POST" style="background:rgba(108,71,255,0.12);border:1px solid rgba(108,71,255,0.3);border-radius:16px;padding:32px;text-align:left;max-width:560px;margin:0 auto 28px;">
+                <input type="hidden" name="access_key" value="f5609866-4cfc-4217-9e56-e29d98497c3a">
                 <input type="hidden" name="subject" value="NEW BOOMY LEAD — ecommerce marketing agency in Columbus">
                 <input type="hidden" name="service" value="ecommerce marketing agency">
                 <input type="hidden" name="city" value="Columbus">
@@ -1766,6 +1767,9 @@
                 <button type="submit" class="btn-white" style="width:100%;justify-content:center;font-size:0.98rem;padding:15px 24px;border:none;cursor:pointer;">
                     Book Free Online Consultation →
                 </button>
+                <div id="formError" role="alert" style="display:none;margin-top:14px;padding:12px;background:#fff2f2;border:1px solid #b42318;border-radius:8px;color:#8a1c13;text-align:center;font-size:0.92rem;">
+                    We couldn't send your request. Please try again.
+                </div>
                 <div id="formSuccess" style="display:none;margin-top:14px;padding:12px;background:rgba(46,213,115,0.12);border:1px solid rgba(46,213,115,0.3);border-radius:8px;color:#2ed573;text-align:center;font-size:0.92rem;">
                     ✅ Thank you! We'll be in touch within a few hours.
                 </div>
@@ -2003,6 +2007,8 @@
             e.preventDefault();
             var btn = bookingForm.querySelector('button[type="submit"]');
             var success = document.getElementById('formSuccess');
+            var error = document.getElementById('formError');
+            error.style.display = 'none';
             btn.disabled = true;
             btn.textContent = 'Sending…';
             fetch('https://api.web3forms.com/submit', {
@@ -2014,10 +2020,12 @@
                     bookingForm.reset();
                     btn.textContent = 'Sent!';
                 } else {
+                    error.style.display = 'block';
                     btn.disabled = false;
                     btn.textContent = 'Book Free Online Consultation →';
                 }
             }).catch(function() {
+                error.style.display = 'block';
                 btn.disabled = false;
                 btn.textContent = 'Book Free Online Consultation →';
             });
